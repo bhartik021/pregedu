@@ -20,6 +20,6 @@ There are also external factors that can impact pregnant women, such as access t
 
 ## Future plans
 ## Team members
-1. [Bharti Kumaro](https://github.com/bhartik021)
+1. [Bharti Kumari](https://github.com/bhartik021)
 2. [Diya Vijay](https://github.com/DiyaVj)
 3. [Shubhanshu Sharma](https://github.com/Shubhanshu1566)
