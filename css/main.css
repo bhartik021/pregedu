@@ -265,7 +265,24 @@ select:focus {
   margin: 0 auto;
 }
 
-@media (max-width: 768px) {
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  nav {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  nav ul li {
+    padding: 0 4px;
+  }
+
+  .nav-links {
+    font-size: 18px;
+    margin: 10px;
+  }
+
   .contact-container {
     padding: 30px;
     border-radius: 30px;
@@ -297,3 +314,17 @@ select:focus {
     padding: 8px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  nav ul li {
+    padding: 0 2px;
+  }
+
+  .nav-links {
+    font-size: 16px;
+    margin: 8px;
+  }
+}
+
+
+ 
