@@ -139,7 +139,7 @@ nav ul:first-child li img {
   background-color: #ffffff;
   color: #9555ea;
   padding: 10px 20px;
-  border: 4px solid #9555EA;
+  border: 4px solid #9555ea;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -149,7 +149,6 @@ nav ul:first-child li img {
   font-size: 24px;
   line-height: 29px;
 }
-
 
 .card-button:hover {
   position: absolute;
@@ -173,3 +172,128 @@ nav ul:first-child li img {
 }
 
 /* Landing Page Card CSS Ending*/
+
+/* Contact Page CSS Starting */
+.contact-container {
+  background-color: #ffffff;
+  padding: 50px;
+  /* box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  border-radius: 50px; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.contact-page-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-page-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page-label {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.btn-send-message {
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: #9555ea;
+  cursor: pointer;
+  /* font-size: 1.2rem; */
+  /* box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff; */
+  /* border-radius: 40px; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  width: 250px;
+  height: 83px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-send-message:hover {
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  background-color: #9555ea;
+  color: #ffffff;
+  cursor: pointer;
+  /* box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #ffffff; */
+  /* border-radius: 10px;
+  font-size: 1.2rem; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  width: 250px;
+  height: 83px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px #d9d9d9, -10px -10px 30px #ffffff;
+  }
+
+  .contact-page-heading {
+    font-size: 2rem;
+  }
+
+  input,
+  textarea {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  .btn-send-message {
+    font-size: 1rem;
+    padding: 8px;
+  }
+}
