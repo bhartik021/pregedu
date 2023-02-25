@@ -9,6 +9,7 @@ There are also external factors that can impact pregnant women, such as access t
 ## Our Solution
 
 ## Unique points
+1. This Solution Covers United Nation Sustainable Development Goals
 
 ## Technical Details
 
