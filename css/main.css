@@ -274,7 +274,99 @@ select:focus {
 
 /* Explore Page CSS Ending */
 
+/* Default styles */
+.main-heading-tip-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.disclaimer-tip-card {
+  font-size: 18px;
+  color: red;
+  margin-top: 50px;
+}
+
+.tip-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tip-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.tip-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #f0f0f0; */
+  background-color: #ffffff;
+  padding: 30px;
+  /* border-radius: 20px;
+  box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px #ffffff; */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.tip-card-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+#tip-text {
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+#tip-button {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: #9555ea;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  border: 2px solid #9555ea;
+  display: block;
+  margin: 0 30px auto;
+  background: transparent;
+  margin-bottom: 40px;
+}
+
+#tip-button:hover{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #9555ea;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
 /* Media Queries */
+
+/* Responsive styles for screens larger than 768px */
 @media screen and (max-width: 768px) {
   nav {
     margin-top: 30px;
@@ -333,6 +425,77 @@ select:focus {
 
   .explore-button {
     margin-top: 1rem;
+  }
+
+  .disclaimer-tip-card {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+
+  .tip-card {
+    padding: 50px;
+  }
+
+  .tip-card-content {
+    padding: 30px;
+    max-width: 800px;
+  }
+
+  .tip-card-heading {
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  #tip-text {
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  #tip-button {
+    font-size: 20px;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+  }
+}
+
+/* Responsive styles for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+  .tip-card {
+    padding: 30px;
+  }
+
+  .tip-card-content {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
+    max-width: 400px;
+  }
+
+  .disclaimer-tip-card {
+    font-size: 16px;
+  }
+
+  .tip-card-heading {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  #tip-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  #tip-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
 
