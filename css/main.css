@@ -57,7 +57,7 @@ nav ul:first-child li img {
   color: #9555ea;
 }
 
-.nav-links:first-child.active {
+.active {
   color: #9555ea;
 }
 /* Navbar CSS Ending*/
