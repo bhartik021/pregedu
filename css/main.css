@@ -154,6 +154,66 @@ nav ul:first-child li img {
 
 /* Landing Page Card CSS Ending*/
 
+/* FAQ Page CSS Starting */
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  /*   background: #e0e5ec;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #bfc7d4, -5px -5px 10px #ffffff; */
+}
+
+.accordion {
+  margin: 10px 0;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 56px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /*   box-shadow: inset 5px 5px 10px #bfc7d4, inset -5px -5px 10px #ffffff; */
+}
+
+.accordion-header:hover {
+  box-shadow: inset 2px 2px 5px #bfc7d4, inset -2px -2px 5px #ffffff;
+}
+
+.accordion-toggle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2d3c4f;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  transition: max-height 0.3s ease;
+}
+
+.accordion.active .accordion-body {
+  max-height: 500px;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+/* FAQ Page CSS Ending */
+
 /* Contact Page CSS Starting */
 .contact-container {
   background-color: #ffffff;
@@ -356,7 +416,7 @@ select:focus {
   margin-bottom: 40px;
 }
 
-#tip-button:hover{
+#tip-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #9555ea;
