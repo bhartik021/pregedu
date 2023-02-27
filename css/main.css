@@ -424,6 +424,50 @@ select:focus {
   transform: translateY(-3px);
 }
 
+/* community page css start */
+
+.community-container .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.community-container .row .image{
+
+  padding: 1rem 6rem;
+  margin-left: 20rem;
+}
+
+.community-container .row .content{
+  flex: 1 1 45rem;
+}
+
+.community-container .row .content h3{
+  font-size: 2rem;
+}
+
+.community-container .row .content p{
+  font-size: 1.5rem;
+  padding: 1rem 0;
+  line-height: 2;
+  text-align: justify;
+  margin-right: 11rem;
+}
+
+.community-container .row .content .buttons-container
+{
+  justify-content: left;
+}
+
+/* community page css ending */
+
+
+
+
+
+
+
 /* Media Queries */
 
 /* Responsive styles for screens larger than 768px */
@@ -591,6 +635,7 @@ select:focus {
   }
   
 }
+
 
 /* Responsive styles for screens smaller than 768px */
 @media screen and (max-width: 767px) {
