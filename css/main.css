@@ -633,7 +633,7 @@ select:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    max-width: 300px;
+    max-width: 400px;
     margin: 0 auto;
     margin-top: 80px;
   }
@@ -702,8 +702,82 @@ select:focus {
     padding: 0 2px;
   }
 
-  .nav-links {
-    font-size: 16px;
-    margin: 8px;
+  nav ul:first-child li img {
+    width: 50x;
+    height: 50px;
   }
+
+  .nav-links {
+    font-size: 12px;
+    margin: 6px;
+  }
+
+  .contact-container {
+    background-color: #ffffff;
+    padding: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  
+  .contact-page-heading {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-page-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-page-label {
+    font-size: 1rem;
+    margin-top: 4px;
+  }
+  
+  input,
+  textarea {
+    padding: 4px;
+    margin: 6px 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+    width: 100%;
+  }
+  
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+  
+  .btn-send-message {
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: #9555ea;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    width: 130px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn-send-message:hover {
+    background-color: #9555ea;
+    color: #ffffff;
+  }
+
 }
