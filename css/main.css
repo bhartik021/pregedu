@@ -594,6 +594,20 @@ select:focus {
 
 /* Responsive styles for screens smaller than 768px */
 @media screen and (max-width: 767px) {
+  nav ul li {
+    padding: 0 10px;
+  }
+
+  nav ul:first-child li img {
+    width: 100x;
+    height: 100px;
+  }
+
+  .nav-links {
+    font-size: 18px;
+    margin: 6px;
+  }
+
   .tip-card {
     padding: 30px;
   }
