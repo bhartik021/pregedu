@@ -443,6 +443,12 @@ select:focus {
     margin: 10px;
   }
 
+  .content-heading {
+    font-size: 28px;
+    font-weight: bold;
+    /* margin-bottom: 0px; */
+  }
+
   .contact-container {
     padding: 30px;
     border-radius: 30px;
