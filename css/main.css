@@ -639,7 +639,30 @@ select:focus {
     background-color: #9555ea;
     color: #ffffff;
   }
-  
+/* community  */
+  .row {
+    flex-direction: column;
+  }
+  .content {
+    margin-top: 20px;
+  }
+  .image {
+    margin-bottom: 20px;
+  }
+  .buttons-container {
+    flex-direction: column;
+  }
+  .explore-button {
+    margin-bottom: 10px;
+  }
+  .community-container .row .content{
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+  .community-container .row .content p{
+    margin: 0 0 0 0;
+  }
+
 }
 
 /* 767 screen  */
