@@ -313,8 +313,8 @@ select:focus {
   font-size: 24px;
   line-height: 29px;
   border: 4px solid #9555ea;
-  display: block;
-  margin: 0 30px auto;
+  height: 83px;
+  margin-left: 2rem;
 }
 
 .explore-button:hover {
@@ -445,8 +445,7 @@ select:focus {
 }
 
 .community-container .row .content h3{
-  font-size: 1.5rem;
-  color: #9555ea;
+  font-size: 2.5rem;
 }
 
 .community-container .row .content p{
@@ -478,6 +477,7 @@ select:focus {
   border: 3px solid #9555ea;
   justify-content: left;
   margin-right: 4rem;
+  height: 70px;
 }
 .community-container .row .content .community-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
@@ -540,6 +540,7 @@ select:focus {
   line-height: 29px;
   border: 3px solid #9555ea;
   justify-content: left;
+  height: 70px;
 }
 
 .start-container .row .content .start-button:hover {
