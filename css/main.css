@@ -655,11 +655,20 @@ select:focus {
     margin-bottom: 10px;
   }
   .community-container .row .content{
-    margin-right: 4rem;
-    margin-left: 4rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .community-container .row .content h3{
+    font-size: 1.5rem;
+    margin: 0 0 0 0;
   }
   .community-container .row .content p{
     margin: 0 0 0 0;
+  }
+  .community-container .row .image{
+
+    padding: 1rem 1rem;
+    margin-left: 10rem;
   }
 
 }
@@ -687,6 +696,7 @@ select:focus {
     font-weight: bold;
     padding-top: 0px;
     padding-bottom: 0px;
+    
     /* margin-bottom: 0px; */
   }
 
