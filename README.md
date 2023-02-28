@@ -15,8 +15,12 @@ There are also external factors that can impact pregnant women, such as access t
 
 ### Technologies Used
 
-* **Frontend** - HTML, CSS, JavaScript
+* **Frontend** - HTML, CSS, JavaScript, JQuery
+* **Database** - Firestore
+* **Database Querying** - NoSQL
+* **DevOps** - GitHub
 * **Developer Tooling** - ESLint, Prettier
+* **Services** - SMTPJS
 
 ## Future plans
 ## Team members
