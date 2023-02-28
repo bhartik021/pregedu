@@ -428,8 +428,9 @@ select:focus {
 .community-container .row{
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 1.5rem;
+  margin-top: 8rem;
 }
 
 .community-container .row .image{
@@ -459,6 +460,30 @@ select:focus {
   justify-content: left;
 }
 
+.community-container .row .content .buttons-container .community-button{
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 40px;
+  color: #9555ea;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  border: 3px solid #9555ea;
+  justify-content: left;
+  margin-right: 4rem;
+}
+.community-container .row .content .community-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #9555ea;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
 /* community page css ending */
 
 
@@ -520,8 +545,7 @@ select:focus {
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: #9555ea;
   color: #ffffff;
-  transform: translateY(-2px);
-  
+  transform: translateY(-3px);
 }
 /* start css ending */
 
