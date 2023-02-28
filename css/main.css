@@ -313,8 +313,8 @@ select:focus {
   font-size: 24px;
   line-height: 29px;
   border: 4px solid #9555ea;
-  display: block;
-  margin: 0 30px auto;
+  height: 83px;
+  margin-left: 2rem;
 }
 
 .explore-button:hover {
@@ -428,8 +428,9 @@ select:focus {
 .community-container .row{
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 1.5rem;
+  margin-top: 8rem;
 }
 
 .community-container .row .image{
@@ -444,7 +445,11 @@ select:focus {
 }
 
 .community-container .row .content h3{
+<<<<<<< HEAD
   font-size: 1.5rem;
+=======
+  font-size: 2.5rem;
+>>>>>>> afad569b85673bb8d8b2ceda1ef6796417e0b6ce
 }
 
 .community-container .row .content p{
@@ -460,10 +465,96 @@ select:focus {
   justify-content: left;
 }
 
+.community-container .row .content .buttons-container .community-button{
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 40px;
+  color: #9555ea;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  border: 3px solid #9555ea;
+  justify-content: left;
+  margin-right: 4rem;
+  height: 70px;
+}
+.community-container .row .content .community-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #9555ea;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
 /* community page css ending */
 
 
+/* start css :start */
+.start-container .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  margin-top: 5rem;
+}
 
+
+.start-container .row .start-image{
+
+  padding: 1rem 2rem;
+  margin-left: 10rem;
+}
+
+.start-container .row .content{
+  flex: 1 1 45rem;
+}
+
+
+.start-container .row .content h3{
+  font-size: 2.5rem;
+}
+
+.start-container .row .content p{
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  line-height: 2;
+  text-align: justify;
+  margin-right: 10rem;
+}
+.start-container .row .content .buttons-container{
+  justify-content: left;
+}
+
+.start-container .row .content .start-button{
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 40px;
+  color: #9555ea;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  border: 3px solid #9555ea;
+  justify-content: left;
+  height: 70px;
+}
+
+.start-container .row .content .start-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #9555ea;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+/* start css ending */
 
 
 
