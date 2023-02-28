@@ -642,6 +642,7 @@ select:focus {
   
 }
 
+/* 767 screen  */
 
 /* Responsive styles for screens smaller than 768px */
 @media screen and (max-width: 767px) {
@@ -767,7 +768,7 @@ select:focus {
   }
 
 }
-
+/* 480 screen  */
 @media screen and (max-width: 480px) {
   nav ul li {
     padding: 0 2px;
