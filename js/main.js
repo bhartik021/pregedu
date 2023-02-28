@@ -34,47 +34,33 @@ $(document).ready(function () {
 });
 // Random Health Tip Card JavaScript for Random Health Tip Card Page (Inside Explore) Ending
 
-// Accordian JavaScript For FAQ Page Starting
-const accordions = document.querySelectorAll(".accordion");
+function sendEmail() {
+  var name = $("#name").val;
+  var email = $("#email").val;
+  var subject = $("#subject").val;
+  var message = $("#message").val;
 
-accordions.forEach((accordion) => {
-  const header = accordion.querySelector(".accordion-header");
-  const body = accordion.querySelector(".accordion-body");
+  var Body =
+    "Name: " +
+    name +
+    "<br/>Email: " +
+    email +
+    "<br/>Subject: " +
+    subject +
+    "<br/>Message: " +
+    message;
 
-  header.addEventListener("click", () => {
-    accordion.classList.toggle("active");
-    if (accordion.classList.contains("active")) {
-      body.style.maxHeight = body.scrollHeight + "px";
+  Email.send({
+    SecureToken: "3b44b1b4-22d0-42b8-a2a3-2b837b25c1d5",
+    To: "education.preg@gmail.com",
+    From: document.getElementById("email").value,
+    Subject: "This is the subject" + name,
+    Body: Body,
+  }).then((message) => {
+    if (message == "OK") {
+      alert("Your message has been sent successfully!");
     } else {
-      body.style.maxHeight = 0;
+      alert("There is error at sending message!");
     }
   });
-});
-// Accordian JavaScript For FAQ Page Ending
-
-function sendEmail() {
-
-    var name = $('#name').val;
-    var email = $('#email').val;
-    var subject = $('#subject').val;
-    var message = $('#message').val;
-
-    var Body = 'Name: '+ name + '<br/>Email: '+ email +'<br/>Subject: '+subject+'<br/>Message: '+message;
-
-    Email.send({
-        SecureToken: "3b44b1b4-22d0-42b8-a2a3-2b837b25c1d5",
-        To : 'education.preg@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "This is the subject" + name,
-        Body : Body
-    }).then(
-      message => {
-        if(message == 'OK') {
-            alert("Your message has been sent successfully!")
-        } else {
-            alert("There is error at sending message!")
-        }
-      }
-    );
 }
-
