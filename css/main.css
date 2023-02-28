@@ -437,6 +437,7 @@ select:focus {
 
   padding: 1rem 2rem;
   margin-left: 10rem;
+  
 }
 
 .community-container .row .content{
@@ -444,7 +445,8 @@ select:focus {
 }
 
 .community-container .row .content h3{
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #9555ea;
 }
 
 .community-container .row .content p{
