@@ -445,11 +445,8 @@ select:focus {
 }
 
 .community-container .row .content h3{
-<<<<<<< HEAD
   font-size: 1.5rem;
-=======
   font-size: 2.5rem;
->>>>>>> afad569b85673bb8d8b2ceda1ef6796417e0b6ce
 }
 
 .community-container .row .content p{

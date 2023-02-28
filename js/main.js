@@ -34,11 +34,12 @@ $(document).ready(function () {
 });
 // Random Health Tip Card JavaScript for Random Health Tip Card Page (Inside Explore) Ending
 
+//SMTP JS
 function sendEmail() {
-  var name = $("#name").val;
-  var email = $("#email").val;
-  var subject = $("#subject").val;
-  var message = $("#message").val;
+  var name = $("#name").val();
+  var email = $("#email").val();
+  var subject = $("#subject").val();
+  var message = $("#message").val();
 
   var Body =
     "Name: " +
