@@ -48,6 +48,8 @@
     <!-- External JS -->
     <script src="js/main.js" async></script>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
     <!-- Head Closing -->
   </head>
 
@@ -80,26 +82,27 @@
     <!-- Header Closing -->
 
     <!-- Main Starting-->
-    <main class="main-heading">
-      <h1 class="content-heading">Learning</h1>
+    <main class="main-heading-tip-card">
+      <h1 class="content-heading">Random Health Tip Card</h1>
+      <p align="justify" class="disclaimer-tip-card">
+        <strong> Disclaimer: </strong>
+        Please note that the health tips provided are general in nature and
+        should not replace the advice of a qualified healthcare professional.
+        Every pregnancy is unique, and individualized care is important for
+        ensuring the health and safety of both the mother and baby. Always
+        consult with your healthcare provider before making any changes to your
+        diet, exercise routine, or medication regimen during pregnancy.
+      </p>
     </main>
     <!-- Main Closing-->
-    <div class="learning-container">
-      <div class="buttons-container">
-        <button
-          onclick="window.location.href = 'health-tip.html';"
-          class="explore-button"
-        >
-          Random Health Tip
-        </button>
-        <button
-          onclick="window.location.href = 'month-journey.html';"
-          class="explore-button"
-        >
-          9 Month Journey
-        </button>
+    <div class="tip-card-container">
+      <div class="tip-card">
+        <div class="tip-card-content">
+          <h2 class="tip-card-heading">Get Random Health Tips</h2>
+          <p id="tip-text">Click the button below to get a new tip</p>
+          <button id="tip-button">Get New Tip</button>
+        </div>
       </div>
-      <img src="assets/explore.png" alt="explore" class="explore-image" />
     </div>
 
     <!-- Body Closing   -->
