@@ -1,7 +1,61 @@
 
 # PregEdu
 
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+     <li>
+      <a href="#project-structure">Project Structure</a>
+    </li>
+      <li>
+      <a href="#problem-statement">Problem Statement</a>
+    </li>
+    <li>
+      <a href="#our-solution">Our Solution</a>
+      <ul>
+        <li><a href="#">Pregnancy Month Blogs</a></li>
+        <li><a href="#">Health Check</a></li>
+        <li><a href="#">Community</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#target-audience">Target Audience</a>
+    </li>
+    <li><a href="#unique-points">Unique points</a></li>
+    <li><a href="#technologies-used">Technologies Used</a></li>
+     <li><a href="#future-plans">Future Plans</a></li>
+      <li><a href="#team-members">Team Members</a></li>
+  </ol>
+</details>
 
+## Project Structure
+```
+root
+|
+|
+|____workflows
+|____assets
+     |_____explore.png
+     |_____female doctor with clipboard.png
+     |_____female doctor with stethoscope.png
+     |_____health-test.png
+     |_____join-the-community.png
+     |_____learn-about-the-journey.png
+     |_____logo.png
+|____css
+     |_____main.css
+|____js
+     |_____main.js
+|____README.md
+|____community.html
+|____contact.html
+|____explore.html
+|____faq.html
+|____health-tip.html
+|____index.html
+|____start.html
+
+ ```                               
 
 ## Problem Statement
 Pregnant women face a variety of challenges that can affect their health and the health of their developing baby. These challenges can range from physical discomforts such as morning sickness and fatigue to more serious health issues such as gestational diabetes and pre-eclampsia. In addition, pregnant women may also face emotional and psychological challenges such as anxiety, depression, and stress.
@@ -41,8 +95,6 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 ***Community support:*** PregEdu provides a supportive and inclusive community for expecting mothers to connect with each other, share their experiences and knowledge, and receive support from healthcare professionals.
 
 ***Accessibility:*** PregEdu is committed to making pregnancy education accessible to all expecting mothers, regardless of their socio-economic background or location. This is achieved through the use of digital platforms, such as the PregEdu app, which can be accessed from anywhere in the world.
-
-## Technical Details
 
 ### Technologies Used
 
