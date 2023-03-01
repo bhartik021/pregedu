@@ -1016,7 +1016,7 @@ select:focus {
     left: 0;
   } */
   .content-heading {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
   }
 
@@ -1159,7 +1159,7 @@ select:focus {
     /* margin-bottom: 20px; */
     /* margin-left: 3.5rem;
     margin-right: 3.5rem; */
-    margin: 10px 1.5rem;
+    margin: 10px 2rem;
   }
 
   .community-container .row .content h3 {
