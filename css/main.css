@@ -1163,12 +1163,12 @@ select:focus {
 
   .community-container .row .content h3 {
     font-size: 1.6rem;
-    margin: 0 1rem 0 1rem;
+    margin: 0 2rem 0 2rem;
   }
 
   .community-container .row .content p {
     font-size: 14px;
-    margin: 0 1rem 0 1rem;
+    margin: 0 2rem 0 2rem;
     font-weight: 600;
     color: dimgray;
   }
