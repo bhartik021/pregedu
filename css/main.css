@@ -1004,9 +1004,9 @@ select:focus {
     color: #4b67e9;
   }
 
-  #check:checked ~ ul {
+  /* #check:checked ~ ul {
     left: 0;
-  }
+  } */
   .content-heading {
     font-size: 20px;
     font-weight: bold;
