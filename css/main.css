@@ -976,7 +976,7 @@ select:focus {
   }
   .nav-item {
     position: fixed;
-    width: 50%;
+    width: 30%;
     height: 100vh;
     top: 80px;
     /* left: -100%; */
