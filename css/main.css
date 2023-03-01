@@ -1156,13 +1156,14 @@ select:focus {
   }
   .community-button {
     width: 250px;
-    margin-bottom: 20px;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    /* margin-bottom: 20px; */
+    /* margin-left: 3.5rem;
+    margin-right: 3.5rem; */
+    margin: 10px auto;
   }
 
   .community-container .row .content h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin: 0 2rem 0 2rem;
   }
 
