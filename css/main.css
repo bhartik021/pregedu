@@ -971,12 +971,20 @@ select:focus {
 }
 /* 480 screen  */
 @media screen and (max-width: 480px) {
+  label.logo {
+    color: white;
+    font-size: 26px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: 700;
+  }
+
   .checkbtn {
     display: block;
   }
   .nav-item {
     position: fixed;
-    width: 30%;
+    width: 50%;
     height: 100vh;
     top: 80px;
     /* left: -100%; */
@@ -994,7 +1002,7 @@ select:focus {
   }
 
   nav ul li a {
-    font-size: 20px;
+    font-size: 18px;
     transition: color 0.5s, border-bottom 4s;
   }
 
@@ -1008,25 +1016,25 @@ select:focus {
     left: 0;
   } */
   .content-heading {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
   }
 
   .contact-container {
     background-color: #ffffff;
-    padding: 16px;
+    padding: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    max-width: 250px;
+    max-width: 300px;
     margin: 0 auto;
     margin-top: 80px;
   }
 
   .contact-page-heading {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .contact-page-form {
@@ -1069,7 +1077,7 @@ select:focus {
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 12px;
     width: 130px;
     height: 40px;
     display: block;
