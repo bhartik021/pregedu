@@ -34,6 +34,14 @@
       rel="stylesheet"
     />
 
+    <!-- Fontawesome Icon -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- External CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 
@@ -50,22 +58,20 @@
     <header>
       <!-- Navbar Starts-->
       <nav>
-        <!-- Navbar Logo -->
-        <ul>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo active">PregEdu</label>
+        <ul class="nav-item">
           <li>
-            <img src="assets/logo.png" alt="PregEdu" />
+            <a href="index.html">Home</a>
           </li>
-        </ul>
-        <!-- Nav Links -->
-        <ul>
-          <li class="nav-item">
-            <a href="index.html" class="nav-links">Home</a>
+          <li>
+            <a href="faq.html">FAQ</a>
           </li>
-          <li class="nav-item">
-            <a href="faq.html" class="nav-links">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-links">Contact</a>
+          <li>
+            <a href="contact.html">Contact</a>
           </li>
         </ul>
       </nav>
@@ -75,27 +81,42 @@
 
     <!-- test container start -->
     <section class="start-container">
-
-        <div class="row">
-            <div class="start-image">
-                <img src="./assets/female doctor with stethoscope.png" alt="">
-            </div>
-      
-            <div class="content">
-                <h3>Take Health Test</h3>
-                <p>Welcome to the PregEdu community! We're so glad that you're interested in joining our community of expecting mothers who are passionate about healthy and sustainable pregnancies. Our community is dedicated to providing valuable education, resources, and support to help you throughout your pregnancy journey.</p>
-                <p>By joining the PregEdu community, you'll have access to a wealth of knowledge and experience from other expecting mothers, as well as expert resources from healthcare professionals. You'll be able to connect with other members who are going through similar experiences and share your own knowledge and insights.</p>
-                <p>We believe that every expecting mother deserves access to the information, resources, and support she needs to have a healthy and sustainable pregnancy. By joining the PregEdu community, you'll be joining a community of like-minded individuals who are all dedicated to this mission. We can't wait to welcome you to our community!</p>
-                <div class="buttons-container">
-                  <button
-                    onclick="window.location.href = '#';"
-                    class="start-button"
-                  >
-                    Start Test
-                  </button>
-                </div>
-            </div>
+      <div class="row">
+        <div class="start-image">
+          <img src="./assets/female doctor with stethoscope.png" alt="" />
         </div>
+
+        <div class="content">
+          <h3>Take Health Test</h3>
+          <p>
+            Welcome to the PregEdu community! We're so glad that you're
+            interested in joining our community of expecting mothers who are
+            passionate about healthy and sustainable pregnancies. Our community
+            is dedicated to providing valuable education, resources, and support
+            to help you throughout your pregnancy journey.
+          </p>
+          <p>
+            By joining the PregEdu community, you'll have access to a wealth of
+            knowledge and experience from other expecting mothers, as well as
+            expert resources from healthcare professionals. You'll be able to
+            connect with other members who are going through similar experiences
+            and share your own knowledge and insights.
+          </p>
+          <p>
+            We believe that every expecting mother deserves access to the
+            information, resources, and support she needs to have a healthy and
+            sustainable pregnancy. By joining the PregEdu community, you'll be
+            joining a community of like-minded individuals who are all dedicated
+            to this mission. We can't wait to welcome you to our community!
+          </p>
+          <div class="buttons-container">
+            <button onclick="window.location.href = '#';" class="start-button">
+              Start Test
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- test container ending -->
   </body>
+</html>

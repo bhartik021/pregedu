@@ -4,62 +4,69 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style: none;
 }
 /* Universal Selector CSS Ending*/
 
 /* Body CSS Starting*/
 body {
-  min-height: 80vh;
+  min-height: 100vh;
   background-color: #ffffff;
 }
 /* Body CSS Ending */
 
 /* Navbar CSS Starting*/
 nav {
-  height: 65px;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 8px;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  background-color: #4B67E9;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+label.logo {
+  color: white;
+  font-size: 36px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: 700;
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  list-style-type: none;
+  float: right;
+  margin-right: 20px;
 }
 
 nav ul li {
-  padding: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 26px;
+  font-weight: bold;
 }
 
-nav ul:first-child li img {
-  display: flex;
-  align-items: center;
-  height: 100px;
+nav ul li a {
+  color: #ffffff;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-transform: uppercase;
 }
 
-.nav-links {
-  text-decoration: none;
-  color: #000000;
-  font-weight: 700;
-  font-size: 24px;
-  padding: 0 8px;
-  transition: all 0.2s ease-in-out;
-  margin: 20px;
+a.active,a:hover{
+  transition: .5s;
 }
 
-.nav-links:hover {
-  color: #9555ea;
+.checkbtn {
+  font-size: 30px;
+  color: #ffffff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
 
-.active {
-  color: #9555ea;
+#check {
+  display: none;
 }
 /* Navbar CSS Ending*/
 
@@ -135,9 +142,9 @@ nav ul:first-child li img {
   left: 50%;
   transform: translateX(-50%);
   background-color: #ffffff;
-  color: #9555ea;
+  color: #4B67E9;
   padding: 10px 20px;
-  border: 4px solid #9555ea;
+  border: 4px solid #4B67E9;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -149,7 +156,7 @@ nav ul:first-child li img {
 }
 
 .card-button:hover {
-  background-color: #9555ea;
+  background-color: #4B67E9;
   color: #ffffff;
 }
 
@@ -262,7 +269,7 @@ select:focus {
   padding: 10px;
   border: none;
   background-color: #ffffff;
-  color: #9555ea;
+  color: #4B67E9;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -278,7 +285,7 @@ select:focus {
 }
 
 .btn-send-message:hover {
-  background-color: #9555ea;
+  background-color: #4B67E9;
   color: #ffffff;
 }
 
@@ -303,7 +310,7 @@ select:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
-  color: #9555ea;
+  color: #4B67E9;
   cursor: pointer;
   padding: 10px 20px;
   outline: none;
@@ -312,7 +319,7 @@ select:focus {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
-  border: 4px solid #9555ea;
+  border: 4px solid #4B67E9;
   height: 83px;
   margin-left: 2rem;
 }
@@ -320,7 +327,7 @@ select:focus {
 .explore-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #9555ea;
+  background-color: #4B67E9;
   color: #ffffff;
   transform: translateY(-3px);
 }
@@ -399,7 +406,7 @@ select:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
-  color: #9555ea;
+  color: #4B67E9;
   cursor: pointer;
   padding: 10px 20px;
   outline: none;
@@ -408,7 +415,7 @@ select:focus {
   font-weight: 700;
   font-size: 18px;
   line-height: 29px;
-  border: 2px solid #9555ea;
+  border: 2px solid #4B67E9;
   display: block;
   margin: 0 30px auto;
   background: transparent;
@@ -418,7 +425,7 @@ select:focus {
 #tip-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #9555ea;
+  background-color: #4B67E9;
   color: #ffffff;
   transform: translateY(-3px);
 }
@@ -466,7 +473,7 @@ select:focus {
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 40px;
-  color: #9555ea;
+  color: #4B67E9;
   cursor: pointer;
   padding: 10px 20px;
   outline: none;
@@ -475,7 +482,7 @@ select:focus {
   font-weight: 700;
   font-size: 20px;
   line-height: 29px;
-  border: 3px solid #9555ea;
+  border: 3px solid #4B67E9;
   justify-content: left;
   margin-right: 4rem;
   height: 70px;
@@ -483,7 +490,7 @@ select:focus {
 .community-container .row .content .community-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #9555ea;
+  background-color: #4B67E9;
   color: #ffffff;
   transform: translateY(-3px);
 }
@@ -530,7 +537,7 @@ select:focus {
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 40px;
-  color: #9555ea;
+  color: #4B67E9;
   cursor: pointer;
   padding: 10px 20px;
   outline: none;
@@ -539,7 +546,7 @@ select:focus {
   font-weight: 700;
   font-size: 20px;
   line-height: 29px;
-  border: 3px solid #9555ea;
+  border: 3px solid #4B67E9;
   justify-content: left;
   height: 70px;
 }
@@ -547,7 +554,7 @@ select:focus {
 .start-container .row .content .start-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #9555ea;
+  background-color: #4B67E9;
   color: #ffffff;
   transform: translateY(-3px);
 }
@@ -557,24 +564,58 @@ select:focus {
 
 
 /* Media Queries */
+@media screen and (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
 
-/* Responsive styles for screens larger than 768px */
-@media screen and (max-width: 768px) {
-  nav {
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+  nav ul li a {
+    font-size: 16px;
+
+  }
+}
+
+@media screen and (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+  .nav-item {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
   }
 
   nav ul li {
-    padding: 0 4px;
+    display: block;
+    margin: 50px;
+    line-height: 30px;
   }
 
-  .nav-links {
-    font-size: 22px;
-    margin: 10px;
+  nav ul li a {
+    font-size: 20px;
   }
 
+  nav ul li a:hover,a.active {
+    background: none;
+    color: #4B67E9;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+}
+
+/* Responsive styles for screens larger than 768px */
+@media screen and (max-width: 768px) {
   .content-heading {
     font-size: 30px;
     font-weight: bold;
@@ -708,7 +749,7 @@ select:focus {
     padding: 10px;
     border: none;
     background-color: #ffffff;
-    color: #9555ea;
+    color: #4B67E9;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -724,7 +765,7 @@ select:focus {
   }
   
   .btn-send-message:hover {
-    background-color: #9555ea;
+    background-color: #4B67E9;
     color: #ffffff;
   }
 /* community  */
@@ -766,20 +807,6 @@ select:focus {
 
 /* Responsive styles for screens smaller than 768px */
 @media screen and (max-width: 767px) {
-  nav ul li {
-    padding: 0 10px;
-  }
-
-  nav ul:first-child li img {
-    width: 100x;
-    height: 100px;
-  }
-
-  .nav-links {
-    font-size: 20px;
-    margin: 6px;
-  }
-
   .content-heading {
     font-size: 34px;
     font-weight: bold;
@@ -927,7 +954,7 @@ select:focus {
     padding: 10px;
     border: none;
     background-color: #ffffff;
-    color: #9555ea;
+    color: #4B67E9;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -943,27 +970,13 @@ select:focus {
   }
   
   .btn-send-message:hover {
-    background-color: #9555ea;
+    background-color: #4B67E9;
     color: #ffffff;
   }
 
 }
 /* 480 screen  */
 @media screen and (max-width: 480px) {
-  nav ul li {
-    padding: 0 2px;
-  }
-
-  nav ul:first-child li img {
-    width: 70x;
-    height: 70px;
-  }
-
-  .nav-links {
-    font-size: 16px;
-    margin: 6px;
-  }
-
   .content-heading {
     font-size: 20px;
     font-weight: bold;
@@ -1017,7 +1030,7 @@ select:focus {
     padding: 10px;
     border: none;
     background-color: #ffffff;
-    color: #9555ea;
+    color: #4B67E9;
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1033,7 +1046,7 @@ select:focus {
   }
   
   .btn-send-message:hover {
-    background-color: #9555ea;
+    background-color: #4B67E9;
     color: #ffffff;
   }
 
