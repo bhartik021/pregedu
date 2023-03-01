@@ -104,6 +104,9 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 * **DevOps** - GitHub
 * **Developer Tooling** - ESLint, Prettier
 * **Services** - SMTPJS
+* **Design Tool** - Figma
+* **Project Management** - Notion
+* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, Google Search
 
 ## Future plans
 
