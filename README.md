@@ -10,8 +10,8 @@ There are also external factors that can impact pregnant women, such as access t
 ## Our Solution
 
 ## Target Audience
-* **Expecting Mothers
-* **Single Mothers
+* **Expecting Mothers**
+* **Single Mothers**
 
 
 ## Unique points
