@@ -1143,4 +1143,33 @@ select:focus {
     padding: 8px;
     padding-left: 20px;
   }
+
+  .image img {
+    height: 280px;
+    display: block;
+    /* padding: 1rem 0rem; */
+  margin-right: 5rem;
+  }
+
+  .buttons-container {
+    flex-direction: column;
+  }
+  .community-button {
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .community-container .row .content h3 {
+    font-size: 1.6rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .community-container .row .content p {
+    font-size: 14px;
+    margin: 0 1rem 0 1rem;
+    font-weight: 600;
+    color: dimgray;
+  }
 }
