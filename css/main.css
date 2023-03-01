@@ -1159,7 +1159,7 @@ select:focus {
     /* margin-bottom: 20px; */
     /* margin-left: 3.5rem;
     margin-right: 3.5rem; */
-    margin: 10px auto;
+    margin: 10px 1rem;
   }
 
   .community-container .row .content h3 {
