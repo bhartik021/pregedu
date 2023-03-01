@@ -1113,7 +1113,7 @@ select:focus {
     padding: 26px;
     cursor: pointer;
     transition: all 0.3s ease;
-    height: 50px;
+    height: 60px;
   }
 
   .accordion-header:hover {
@@ -1136,6 +1136,7 @@ select:focus {
     padding: 0 10px;
     transition: max-height 0.3s ease;
     color: dimgray;
+    font-size: 10px;
   }
 
   .accordion.active .accordion-body {
