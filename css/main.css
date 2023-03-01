@@ -575,6 +575,7 @@ select:focus {
 
   nav ul li a {
     font-size: 16px;
+    transition: color 0.5s, border-bottom 4s;
 
   }
 }
@@ -604,6 +605,7 @@ select:focus {
 
   nav ul li a {
     font-size: 20px;
+    transition: color 0.5s, border-bottom 4s;
   }
 
   nav ul li a:hover,a.active {
