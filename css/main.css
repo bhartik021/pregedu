@@ -1157,12 +1157,12 @@ select:focus {
   .community-button {
     width: 250px;
     margin-bottom: 20px;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
 
   .community-container .row .content h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0 2rem 0 2rem;
   }
 
