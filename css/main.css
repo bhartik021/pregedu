@@ -18,10 +18,11 @@ body {
 
 /* Navbar CSS Starting*/
 nav {
-  background-color: #4B67E9;
+  background-color: #4b67e9;
   height: 80px;
   width: 100%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 label.logo {
@@ -52,8 +53,9 @@ nav ul li a {
   transition: color 0.5s, border-bottom 4s;
 }
 
-a.active,a:hover{
-  transition: .5s;
+a.active,
+a:hover {
+  transition: 0.5s;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -144,9 +146,9 @@ a.active,a:hover{
   left: 50%;
   transform: translateX(-50%);
   background-color: #ffffff;
-  color: #4B67E9;
+  color: #4b67e9;
   padding: 10px 20px;
-  border: 4px solid #4B67E9;
+  border: 4px solid #4b67e9;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -158,7 +160,7 @@ a.active,a:hover{
 }
 
 .card-button:hover {
-  background-color: #4B67E9;
+  background-color: #4b67e9;
   color: #ffffff;
 }
 
@@ -271,9 +273,9 @@ select:focus {
   padding: 10px;
   border: none;
   background-color: #ffffff;
-  color: #4B67E9;
+  color: #4b67e9;
   cursor: pointer;
-  border: 4px solid #4B67E9;
+  border: 4px solid #4b67e9;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
@@ -288,7 +290,7 @@ select:focus {
 }
 
 .btn-send-message:hover {
-  background-color: #4B67E9;
+  background-color: #4b67e9;
   color: #ffffff;
 }
 
@@ -313,7 +315,7 @@ select:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
-  color: #4B67E9;
+  color: #4b67e9;
   cursor: pointer;
   padding: 10px 20px;
   outline: none;
@@ -322,7 +324,7 @@ select:focus {
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
-  border: 4px solid #4B67E9;
+  border: 4px solid #4b67e9;
   height: 83px;
   margin-left: 2rem;
 }
@@ -330,7 +332,7 @@ select:focus {
 .explore-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4B67E9;
+  background-color: #4b67e9;
   color: #ffffff;
   transform: translateY(-3px);
 }
@@ -409,7 +411,7 @@ select:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 40px;
-  color: #4B67E9;
+  color: #4b67e9;
   cursor: pointer;
   padding: 10px 20px;
   outline: none;
@@ -418,7 +420,7 @@ select:focus {
   font-weight: 700;
   font-size: 18px;
   line-height: 29px;
-  border: 2px solid #4B67E9;
+  border: 2px solid #4b67e9;
   display: block;
   margin: 0 30px auto;
   background: transparent;
@@ -428,14 +430,14 @@ select:focus {
 #tip-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4B67E9;
+  background-color: #4b67e9;
   color: #ffffff;
   transform: translateY(-3px);
 }
 
 /* community page css start */
 
-.community-container .row{
+.community-container .row {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -443,23 +445,21 @@ select:focus {
   margin-top: 8rem;
 }
 
-.community-container .row .image{
-
+.community-container .row .image {
   padding: 1rem 2rem;
   margin-left: 10rem;
-  
 }
 
-.community-container .row .content{
+.community-container .row .content {
   flex: 1 1 45rem;
 }
 
-.community-container .row .content h3{
+.community-container .row .content h3 {
   font-size: 1.5rem;
   font-size: 2.5rem;
 }
 
-.community-container .row .content p{
+.community-container .row .content p {
   font-size: 1.2rem;
   padding: 1rem 0;
   line-height: 2;
@@ -467,16 +467,15 @@ select:focus {
   margin-right: 10rem;
 }
 
-.community-container .row .content .buttons-container
-{
+.community-container .row .content .buttons-container {
   justify-content: left;
 }
 
-.community-container .row .content .buttons-container .community-button{
+.community-container .row .content .buttons-container .community-button {
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 40px;
-  color: #4B67E9;
+  color: #4b67e9;
   cursor: pointer;
   padding: 10px 20px;
   outline: none;
@@ -485,7 +484,7 @@ select:focus {
   font-weight: 700;
   font-size: 20px;
   line-height: 29px;
-  border: 3px solid #4B67E9;
+  border: 3px solid #4b67e9;
   justify-content: left;
   margin-right: 4rem;
   height: 70px;
@@ -493,15 +492,14 @@ select:focus {
 .community-container .row .content .community-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4B67E9;
+  background-color: #4b67e9;
   color: #ffffff;
   transform: translateY(-3px);
 }
 /* community page css ending */
 
-
 /* start css :start */
-.start-container .row{
+.start-container .row {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -509,38 +507,35 @@ select:focus {
   margin-top: 5rem;
 }
 
-
-.start-container .row .start-image{
-
+.start-container .row .start-image {
   padding: 1rem 2rem;
   margin-left: 10rem;
 }
 
-.start-container .row .content{
+.start-container .row .content {
   flex: 1 1 45rem;
 }
 
-
-.start-container .row .content h3{
+.start-container .row .content h3 {
   font-size: 2.5rem;
 }
 
-.start-container .row .content p{
+.start-container .row .content p {
   font-size: 1.2rem;
   padding: 1rem 0;
   line-height: 2;
   text-align: justify;
   margin-right: 10rem;
 }
-.start-container .row .content .buttons-container{
+.start-container .row .content .buttons-container {
   justify-content: left;
 }
 
-.start-container .row .content .start-button{
+.start-container .row .content .start-button {
   background-color: #ffffff;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(0 0 0 / 25%);
   border-radius: 40px;
-  color: #4B67E9;
+  color: #4b67e9;
   cursor: pointer;
   padding: 10px 20px;
   outline: none;
@@ -549,7 +544,7 @@ select:focus {
   font-weight: 700;
   font-size: 20px;
   line-height: 29px;
-  border: 3px solid #4B67E9;
+  border: 3px solid #4b67e9;
   justify-content: left;
   height: 70px;
 }
@@ -557,14 +552,11 @@ select:focus {
 .start-container .row .content .start-button:hover {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4B67E9;
+  background-color: #4b67e9;
   color: #ffffff;
   transform: translateY(-3px);
 }
 /* start css ending */
-
-
-
 
 /* Media Queries */
 @media screen and (max-width: 952px) {
@@ -576,7 +568,6 @@ select:focus {
   nav ul li a {
     font-size: 16px;
     transition: color 0.5s, border-bottom 4s;
-
   }
 }
 
@@ -591,9 +582,9 @@ select:focus {
     top: 80px;
     left: -100%;
     text-align: center;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
     transition: 0.5s;
   }
 
@@ -608,15 +599,15 @@ select:focus {
     transition: color 0.5s, border-bottom 4s;
   }
 
-  nav ul li a:hover,a.active {
+  nav ul li a:hover,
+  a.active {
     background: none;
-    color: #4B67E9;
+    color: #4b67e9;
   }
 
   #check:checked ~ ul {
     left: 0;
   }
-
 }
 
 /* Responsive styles for screens larger than 768px */
@@ -716,23 +707,23 @@ select:focus {
     margin: 0 auto;
     margin-top: 80px;
   }
-  
+
   .contact-page-heading {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 40px;
   }
-  
+
   .contact-page-form {
     display: flex;
     flex-direction: column;
   }
-  
+
   .contact-page-label {
     font-size: 1.2rem;
     margin-top: 10px;
   }
-  
+
   input,
   textarea {
     padding: 10px;
@@ -742,21 +733,21 @@ select:focus {
     box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
     width: 100%;
   }
-  
+
   input:focus,
   textarea:focus,
   select:focus {
     outline: none;
   }
-  
+
   .btn-send-message {
     margin-top: 30px;
     padding: 10px;
     border: none;
     background-color: #ffffff;
-    color: #4B67E9;
+    color: #4b67e9;
     cursor: pointer;
-    border: 4px solid #4B67E9;
+    border: 4px solid #4b67e9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
@@ -769,12 +760,12 @@ select:focus {
     display: block;
     margin: 0 auto;
   }
-  
+
   .btn-send-message:hover {
-    background-color: #4B67E9;
+    background-color: #4b67e9;
     color: #ffffff;
   }
-/* community  */
+  /* community  */
   .row {
     flex-direction: column;
   }
@@ -790,23 +781,21 @@ select:focus {
   .explore-button {
     margin-bottom: 10px;
   }
-  .community-container .row .content{
+  .community-container .row .content {
     margin-right: 2rem;
     margin-left: 2rem;
   }
-  .community-container .row .content h3{
+  .community-container .row .content h3 {
     font-size: 1.5rem;
     margin: 0 0 0 0;
   }
-  .community-container .row .content p{
+  .community-container .row .content p {
     margin: 0 0 0 0;
   }
-  .community-container .row .image{
-
+  .community-container .row .image {
     padding: 1rem 1rem;
     margin-left: 10rem;
   }
-
 }
 
 /* 767 screen  */
@@ -818,7 +807,7 @@ select:focus {
     font-weight: bold;
     padding-top: 0px;
     padding-bottom: 0px;
-    
+
     /* margin-bottom: 0px; */
   }
 
@@ -863,11 +852,11 @@ select:focus {
     margin: 0 auto;
     padding: 20px;
   }
-  
+
   .accordion {
     margin: 10px 0;
   }
-  
+
   .accordion-header {
     display: flex;
     justify-content: space-between;
@@ -882,11 +871,11 @@ select:focus {
     height: 50px;
     /*   box-shadow: inset 5px 5px 10px #bfc7d4, inset -5px -5px 10px #ffffff; */
   }
-  
+
   .accordion-header:hover {
     box-shadow: inset 2px 2px 5px #bfc7d4, inset -2px -2px 5px #ffffff;
   }
-  
+
   .accordion-toggle {
     font-size: 1rem;
     font-weight: bold;
@@ -896,7 +885,7 @@ select:focus {
     outline: none;
     cursor: pointer;
   }
-  
+
   .accordion-body {
     max-height: 0;
     overflow: hidden;
@@ -904,13 +893,12 @@ select:focus {
     transition: max-height 0.3s ease;
     color: #000000;
   }
-  
+
   .accordion.active .accordion-body {
     max-height: 400px;
     padding: 8px;
     padding-left: 20px;
   }
-  
 
   .contact-container {
     background-color: #ffffff;
@@ -922,23 +910,23 @@ select:focus {
     margin: 0 auto;
     margin-top: 80px;
   }
-  
+
   .contact-page-heading {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 40px;
   }
-  
+
   .contact-page-form {
     display: flex;
     flex-direction: column;
   }
-  
+
   .contact-page-label {
     font-size: 1.2rem;
     margin-top: 10px;
   }
-  
+
   input,
   textarea {
     padding: 10px;
@@ -948,21 +936,21 @@ select:focus {
     box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
     width: 100%;
   }
-  
+
   input:focus,
   textarea:focus,
   select:focus {
     outline: none;
   }
-  
+
   .btn-send-message {
     margin-top: 30px;
     padding: 10px;
     border: none;
     background-color: #ffffff;
-    color: #4B67E9;
+    color: #4b67e9;
     cursor: pointer;
-    border: 4px solid #4B67E9;
+    border: 4px solid #4b67e9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
@@ -975,15 +963,50 @@ select:focus {
     display: block;
     margin: 0 auto;
   }
-  
+
   .btn-send-message:hover {
-    background-color: #4B67E9;
+    background-color: #4b67e9;
     color: #ffffff;
   }
-
 }
 /* 480 screen  */
 @media screen and (max-width: 480px) {
+  .checkbtn {
+    display: block;
+  }
+  .nav-item {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    top: 80px;
+    /* left: -100%; */
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    transition: color 0.5s, border-bottom 4s;
+  }
+
+  nav ul li a:hover,
+  a.active {
+    background: none;
+    color: #4b67e9;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
   .content-heading {
     font-size: 20px;
     font-weight: bold;
@@ -999,23 +1022,23 @@ select:focus {
     margin: 0 auto;
     margin-top: 80px;
   }
-  
+
   .contact-page-heading {
     font-size: 18px;
     text-align: center;
     margin-bottom: 10px;
   }
-  
+
   .contact-page-form {
     display: flex;
     flex-direction: column;
   }
-  
+
   .contact-page-label {
     font-size: 1rem;
     margin-top: 4px;
   }
-  
+
   input,
   textarea {
     padding: 4px;
@@ -1025,21 +1048,21 @@ select:focus {
     box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
     width: 100%;
   }
-  
+
   input:focus,
   textarea:focus,
   select:focus {
     outline: none;
   }
-  
+
   .btn-send-message {
     margin-top: 30px;
     padding: 10px;
     border: none;
     background-color: #ffffff;
-    color: #4B67E9;
+    color: #4b67e9;
     cursor: pointer;
-    border: 4px solid #4B67E9;
+    border: 4px solid #4b67e9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
@@ -1052,10 +1075,9 @@ select:focus {
     display: block;
     margin: 0 auto;
   }
-  
+
   .btn-send-message:hover {
-    background-color: #4B67E9;
+    background-color: #4b67e9;
     color: #ffffff;
   }
-
 }
