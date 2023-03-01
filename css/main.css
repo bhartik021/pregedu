@@ -1121,8 +1121,8 @@ select:focus {
   }
 
   .accordion-toggle {
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: .6rem;
+    font-weight: 600;
     color: #2d3c4f;
     background: none;
     border: none;
