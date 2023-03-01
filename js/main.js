@@ -1,15 +1,3 @@
-// Nav Link Active JavaScript Starting
-document.querySelectorAll(".nav-links").forEach((link) => {
-  if (link.href === window.location.href) {
-    link.classList.add("active");
-    link.setAttribute("aria-current", "page");
-  } else {
-    link.classList.remove("active");
-    link.setAttribute("aria-current", "page");
-  }
-});
-// Nav Link Active JavaScript Ending
-
 // Random Health Tip Card JavaScript for Random Health Tip Card Page (Inside Explore) Starting
 // Wait for the page to finish loading before running the code
 $(document).ready(function () {
