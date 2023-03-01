@@ -754,6 +754,7 @@ select:focus {
     background-color: #ffffff;
     color: #4B67E9;
     cursor: pointer;
+    border: 4px solid #4B67E9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
@@ -959,6 +960,7 @@ select:focus {
     background-color: #ffffff;
     color: #4B67E9;
     cursor: pointer;
+    border: 4px solid #4B67E9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
@@ -1035,6 +1037,7 @@ select:focus {
     background-color: #ffffff;
     color: #4B67E9;
     cursor: pointer;
+    border: 4px solid #4B67E9;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
