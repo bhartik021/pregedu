@@ -49,10 +49,12 @@ nav ul li a {
   font-size: 17px;
   padding: 7px 13px;
   text-transform: uppercase;
+  transition: color 0.5s, border-bottom 4s;
 }
 
 a.active,a:hover{
   transition: .5s;
+  border-bottom: 1px solid #ffffff;
 }
 
 .checkbtn {
