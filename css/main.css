@@ -1148,7 +1148,7 @@ select:focus {
     height: 280px;
     display: block;
     /* padding: 1rem 0rem; */
-  margin-right: 5rem;
+  margin-right: 4rem;
   }
 
   .buttons-container {
@@ -1162,7 +1162,7 @@ select:focus {
   }
 
   .community-container .row .content h3 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin: 0 2rem 0 2rem;
   }
 
