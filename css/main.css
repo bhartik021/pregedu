@@ -1016,7 +1016,7 @@ select:focus {
     left: 0;
   } */
   .content-heading {
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
   }
 
@@ -1148,7 +1148,7 @@ select:focus {
     height: 280px;
     display: block;
     /* padding: 1rem 0rem; */
-  margin-right: 4rem;
+  /* margin-right: 3rem; */
   }
 
   .buttons-container {
@@ -1156,20 +1156,21 @@ select:focus {
   }
   .community-button {
     width: 250px;
-    margin-bottom: 20px;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    /* margin-bottom: 20px; */
+    /* margin-left: 3.5rem;
+    margin-right: 3.5rem; */
+    margin: 10px 2.5rem;
   }
 
   .community-container .row .content h3 {
-    font-size: 1.5rem;
-    margin: 0 2rem 0 2rem;
+    font-size: 1.4rem;
+    margin: 0 1rem 0 1rem;
   }
 
   .community-container .row .content p {
     font-size: 14px;
-    margin: 0 2rem 0 2rem;
-    font-weight: 600;
+    margin: 0 1rem 0 1rem;
+    font-weight: 500;
     color: dimgray;
   }
 }
