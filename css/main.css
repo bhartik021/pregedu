@@ -609,6 +609,30 @@ select:focus {
     background-color: #4b67e9;
     color: #ffffff;
   }
+
+  .h4-style {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 700;
+  }
+  .p-style {
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 0px 20px 20px 20px;
+    color: dimgrey;
+    font-weight: 400;
+  }
+  
+  .row1-color{
+    background-color: #E7F5FE;
+    height: 280px;
+  }
+  
+  .row2-color{
+    background-color: #ffffff;
+    height: 280px;
+  }
   
 }
 
@@ -747,6 +771,31 @@ select:focus {
     background-color: #4b67e9;
     color: #ffffff;
   }
+
+  .h4-style {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 700;
+  }
+  .p-style {
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 0px 20px 20px 20px;
+    color: dimgrey;
+    font-weight: 400;
+  }
+  
+  .row1-color{
+    background-color: #E7F5FE;
+    height: 520px;
+  }
+  
+  .row2-color{
+    background-color: #ffffff;
+    height: 520px;
+  }
+
 }
 
  /* Media Query for Mobile Devices */
@@ -924,6 +973,30 @@ select:focus {
     max-height: 400px;
     padding: 8px;
     padding-left: 20px;
+  }
+
+  .h4-style {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 700;
+  }
+  .p-style {
+    font-size: 12px;
+    line-height: 1.1;
+    padding: 0px 20px 20px 20px;
+    color: dimgrey;
+    font-weight: 400;
+  }
+  
+  .row1-color{
+    background-color: #E7F5FE;
+    height: 550px;
+  }
+  
+  .row2-color{
+    background-color: #ffffff;
+    height: 550px;
   }
 
 }
