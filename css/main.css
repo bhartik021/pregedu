@@ -1000,3 +1000,30 @@ select:focus {
   }
 
 }
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .h4-style {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 20px;
+    font-weight: 700;
+  }
+  .p-style {
+    font-size: 11px;
+    line-height: 1.1;
+    padding: 0px 20px 20px 20px;
+    color: dimgrey;
+    font-weight: 400;
+  }
+  
+  .row1-color{
+    background-color: #E7F5FE;
+    height: 600px;
+  }
+  
+  .row2-color{
+    background-color: #ffffff;
+    height: 600px;
+  }
+}
