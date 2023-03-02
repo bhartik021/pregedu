@@ -435,129 +435,6 @@ select:focus {
   transform: translateY(-3px);
 }
 
-/* community page css start */
-
-.community-container .row {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 1.5rem;
-  margin-top: 8rem;
-}
-
-.community-container .row .image {
-  padding: 1rem 2rem;
-  margin-left: 10rem;
-}
-
-.community-container .row .content {
-  flex: 1 1 45rem;
-}
-
-.community-container .row .content h3 {
-  font-size: 1.5rem;
-  font-size: 2.5rem;
-}
-
-.community-container .row .content p {
-  font-size: 1.2rem;
-  padding: 1rem 0;
-  line-height: 2;
-  text-align: justify;
-  margin-right: 10rem;
-}
-
-.community-container .row .content .buttons-container {
-  justify-content: left;
-}
-
-.community-container .row .content .buttons-container .community-button {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(0 0 0 / 25%);
-  border-radius: 40px;
-  color: #4b67e9;
-  cursor: pointer;
-  padding: 10px 20px;
-  outline: none;
-  transition: all 0.3s ease-in-out;
-  display: inline-block;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 29px;
-  border: 3px solid #4b67e9;
-  justify-content: left;
-  margin-right: 4rem;
-  height: 70px;
-}
-.community-container .row .content .community-button:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4b67e9;
-  color: #ffffff;
-  transform: translateY(-3px);
-}
-/* community page css ending */
-
-/* start css :start */
-.start-container .row {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  gap: 1.5rem;
-  margin-top: 5rem;
-}
-
-.start-container .row .start-image {
-  padding: 1rem 2rem;
-  margin-left: 10rem;
-}
-
-.start-container .row .content {
-  flex: 1 1 45rem;
-}
-
-.start-container .row .content h3 {
-  font-size: 2.5rem;
-}
-
-.start-container .row .content p {
-  font-size: 1.2rem;
-  padding: 1rem 0;
-  line-height: 2;
-  text-align: justify;
-  margin-right: 10rem;
-}
-.start-container .row .content .buttons-container {
-  justify-content: left;
-}
-
-.start-container .row .content .start-button {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), inset 0px 4px 4px rgb(0 0 0 / 25%);
-  border-radius: 40px;
-  color: #4b67e9;
-  cursor: pointer;
-  padding: 10px 20px;
-  outline: none;
-  transition: all 0.3s ease-in-out;
-  display: inline-block;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 29px;
-  border: 3px solid #4b67e9;
-  justify-content: left;
-  height: 70px;
-}
-
-.start-container .row .content .start-button:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4b67e9;
-  color: #ffffff;
-  transform: translateY(-3px);
-}
-/* start css ending */
-
 /* Media Queries */
 @media screen and (max-width: 952px) {
   label.logo {
@@ -610,8 +487,8 @@ select:focus {
   }
 }
 
-/* Responsive styles for screens larger than 768px */
-@media screen and (max-width: 768px) {
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
   .content-heading {
     font-size: 30px;
     font-weight: bold;
@@ -697,13 +574,60 @@ select:focus {
     border-radius: 40px;
   }
 
+  .accordion {
+    margin: 8px 0;
+  }
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 56px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 52px;
+  }
+
+  .accordion-header:hover {
+    box-shadow: inset 2px 2px 5px #bfc7d4, inset -2px -2px 5px #ffffff;
+  }
+
+  .accordion-toggle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2d3c4f;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    transition: max-height 0.3s ease;
+    color: dimgray;
+  }
+
+  .accordion.active .accordion-body {
+    max-height: 900px;
+    padding: 8px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
   .contact-container {
     background-color: #ffffff;
-    padding: 10px;
+    padding: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    max-width: 400px;
+    max-width: 700px;
     margin: 0 auto;
     margin-top: 80px;
   }
@@ -720,7 +644,7 @@ select:focus {
   }
 
   .contact-page-label {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-top: 10px;
   }
 
@@ -754,9 +678,9 @@ select:focus {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 29px;
-    width: 150px;
-    height: 40px;
+    line-height: 28px;
+    width: 170px;
+    height: 70px;
     display: block;
     margin: 0 auto;
   }
@@ -765,50 +689,18 @@ select:focus {
     background-color: #4b67e9;
     color: #ffffff;
   }
-  /* community  */
-  .row {
-    flex-direction: column;
-  }
-  .content {
-    margin-top: 20px;
-  }
-  .image {
-    margin-bottom: 20px;
-  }
-  .buttons-container {
-    flex-direction: column;
-  }
-  .explore-button {
-    margin-bottom: 10px;
-  }
-  .community-container .row .content {
-    margin-right: 2rem;
-    margin-left: 2rem;
-  }
-  .community-container .row .content h3 {
-    font-size: 1.5rem;
-    margin: 0 0 0 0;
-  }
-  .community-container .row .content p {
-    margin: 0 0 0 0;
-  }
-  .community-container .row .image {
-    padding: 1rem 1rem;
-    margin-left: 10rem;
-  }
+  
 }
 
-/* 767 screen  */
 
-/* Responsive styles for screens smaller than 768px */
-@media screen and (max-width: 767px) {
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
   .content-heading {
     font-size: 34px;
     font-weight: bold;
     padding-top: 0px;
     padding-bottom: 0px;
-
-    /* margin-bottom: 0px; */
   }
 
   .tip-card {
@@ -848,13 +740,13 @@ select:focus {
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
   }
 
   .accordion {
-    margin: 10px 0;
+    margin: 6px 0;
   }
 
   .accordion-header {
@@ -869,7 +761,6 @@ select:focus {
     cursor: pointer;
     transition: all 0.3s ease;
     height: 50px;
-    /*   box-shadow: inset 5px 5px 10px #bfc7d4, inset -5px -5px 10px #ffffff; */
   }
 
   .accordion-header:hover {
@@ -877,7 +768,7 @@ select:focus {
   }
 
   .accordion-toggle {
-    font-size: 1rem;
+    font-size: .8rem;
     font-weight: bold;
     color: #2d3c4f;
     background: none;
@@ -895,9 +786,10 @@ select:focus {
   }
 
   .accordion.active .accordion-body {
-    max-height: 400px;
+    max-height: 900px;
     padding: 8px;
     padding-left: 20px;
+    font-size: 12px;
   }
 
   .contact-container {
@@ -906,7 +798,7 @@ select:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    max-width: 400px;
+    max-width: 450px;
     margin: 0 auto;
     margin-top: 80px;
   }
@@ -969,7 +861,8 @@ select:focus {
     color: #ffffff;
   }
 }
-/* 480 screen  */
+
+ /* Media Query for Mobile Devices */
 @media screen and (max-width: 480px) {
   label.logo {
     color: white;
@@ -1026,15 +919,15 @@ select:focus {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
     margin-top: 80px;
   }
 
   .contact-page-heading {
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
   }
 
   .contact-page-form {
@@ -1050,7 +943,7 @@ select:focus {
   input,
   textarea {
     padding: 4px;
-    margin: 6px 0;
+    margin: 8px 0;
     border-radius: 10px;
     border: none;
     box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
@@ -1064,7 +957,7 @@ select:focus {
   }
 
   .btn-send-message {
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 10px;
     border: none;
     background-color: #ffffff;
@@ -1145,33 +1038,4 @@ select:focus {
     padding-left: 20px;
   }
 
-  .image img {
-    height: 280px;
-    display: block;
-    /* padding: 1rem 0rem; */
-  /* margin-right: 3rem; */
-  }
-
-  .buttons-container {
-    flex-direction: column;
-  }
-  .community-button {
-    width: 250px;
-    /* margin-bottom: 20px; */
-    /* margin-left: 3.5rem;
-    margin-right: 3.5rem; */
-    margin: 10px 3rem;
-  }
-
-  .community-container .row .content h3 {
-    font-size: 1.5rem;
-    margin: 0 1rem 0 1rem;
-  }
-
-  .community-container .row .content p {
-    font-size: 14px;
-    margin: 0 1rem 0 1rem;
-    font-weight: 500;
-    color: dimgray;
-  }
 }
