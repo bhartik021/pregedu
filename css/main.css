@@ -351,29 +351,43 @@ select:focus {
   display: flex;
   flex-direction: row;
   width: 100%;
-  max-width: 1700px;
+  max-width: 1750px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
 .column {
   width: 50%;
   padding: 20px;
   box-sizing: border-box;
 }
-.left-column {
+/* .left-column {
   background-color: #eee;
 }
 .right-column {
   background-color: #f5f5f5;
-}
+} */
 .h4-style {
-  font-size: 18px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 20px;
+  font-weight: 700;
 }
 .p-style {
-  font-size: 15px;
-  line-height: 1.5;
-  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.1;
+  padding: 0px 20px 20px 20px;
+  color: dimgrey;
+  font-weight: 400;
+}
+
+.row1-color{
+  background-color: #E7F5FE;
+  height: 150px;
+}
+
+.row2-color{
+  background-color: #ffffff;
+  height: 150px;
 }
 
 /* Media Queries */
