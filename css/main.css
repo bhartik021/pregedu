@@ -345,94 +345,34 @@ select:focus {
 
 /* Explore Page CSS Ending */
 
-/* Default styles */
-.main-heading-tip-card {
+/* Health Tip Page CSS Starting */
+.container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 50px;
-  text-align: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 20px;
 }
-
-.disclaimer-tip-card {
+.column {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.left-column {
+  background-color: #eee;
+}
+.right-column {
+  background-color: #f5f5f5;
+}
+h4 {
   font-size: 18px;
-  color: red;
-  margin-top: 50px;
+  margin-bottom: 10px;
 }
-
-.tip-card-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.tip-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.tip-card-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* background-color: #f0f0f0; */
-  background-color: #ffffff;
-  padding: 30px;
-  /* border-radius: 20px;
-  box-shadow: 10px 10px 20px #bcbcbc, -10px -10px 20px #ffffff; */
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 8px;
-  max-width: 600px;
-}
-
-.tip-card-heading {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 40px;
-}
-
-#tip-text {
-  font-size: 18px;
-  margin-bottom: 30px;
-  margin-top: 40px;
-  /* justify-content: center; */
-  text-align: center;
-}
-
-#tip-button {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 40px;
-  color: #4b67e9;
-  cursor: pointer;
-  padding: 10px 20px;
-  outline: none;
-  transition: all 0.3s ease-in-out;
-  display: inline-block;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 29px;
-  border: 2px solid #4b67e9;
-  display: block;
-  margin: 0 30px auto;
-  background: transparent;
-  margin-bottom: 40px;
-}
-
-#tip-button:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4b67e9;
-  color: #ffffff;
-  transform: translateY(-3px);
+p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 8px;
 }
 
 /* Media Queries */
@@ -537,41 +477,6 @@ select:focus {
 
   .explore-button {
     margin-top: 1rem;
-  }
-
-  .disclaimer-tip-card {
-    font-size: 18px;
-    margin-bottom: 0px;
-  }
-
-  .tip-card {
-    padding: 50px;
-  }
-
-  .tip-card-content {
-    padding: 30px;
-    max-width: 800px;
-  }
-
-  .tip-card-heading {
-    font-size: 36px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-  }
-
-  #tip-text {
-    font-size: 24px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-  }
-
-  #tip-button {
-    font-size: 20px;
-    padding: 12px 24px;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 40px;
   }
 
   .accordion {
@@ -697,43 +602,10 @@ select:focus {
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
   .content-heading {
-    font-size: 34px;
+    font-size: 30px;
     font-weight: bold;
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-
-  .tip-card {
-    padding: 30px;
-  }
-
-  .tip-card-content {
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px #bcbcbc, -5px -5px 10px #ffffff;
-    max-width: 400px;
-  }
-
-  .disclaimer-tip-card {
-    font-size: 16px;
-  }
-
-  .tip-card-heading {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-
-  #tip-text {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  #tip-button {
-    font-size: 14px;
-    padding: 8px 16px;
-    border-radius: 40px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .accordion-container {
@@ -911,6 +783,7 @@ select:focus {
   .content-heading {
     font-size: 26px;
     font-weight: bold;
+    text-align: center;
   }
 
   .contact-container {
