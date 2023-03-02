@@ -1005,7 +1005,7 @@ select:focus {
 @media (min-width: 320px) and (max-width: 480px) {
   .h4-style {
     margin-top: 10px;
-    font-size: 14px;
+    font-size: 13px;
     padding: 20px;
     font-weight: 700;
   }
