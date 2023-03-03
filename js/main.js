@@ -22,6 +22,10 @@
 // });
 // Random Health Tip Card JavaScript for Random Health Tip Card Page (Inside Explore) Ending
 
+// window.addEventListener("load", () => {
+//   document.getElementById("loading").style.display = "none";
+// });
+
 //SMTP JS
 function sendEmail() {
   var name = $("#name").val();
