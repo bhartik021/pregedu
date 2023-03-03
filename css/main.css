@@ -484,33 +484,32 @@ select:focus {
   height: 150px;
 }
 
-/* Health Test Page */
-#part-1 {
+/* Health Test Page CSS Starting*/
+
+.health-test-image {
   float:left;
   margin-right: 20px;
   max-width: 100%;
-  margin-top: 6%;
   margin-left: 3%;
 }
 
-aside {
+.health-test-content {
   margin-top: 6%;
   margin-left: 150px;
   margin-right: 3%;
 }
 
-aside h1 {
+div h1 {
   font-size: 36px;
   font-weight: 700;
 }
 
-aside p {
+div p {
   margin-top: 10px;
   font-size: 18px;
   line-height: 1.9rem;
   color: dimgray;
   font-weight: 500;
-  justify-content: center;
 }
 
 .check-risk-button {
@@ -569,6 +568,8 @@ aside p {
   color: #ffffff;
   transform: translateY(-3px);
 }
+
+/* Health Test Page CSS Ending */
 
 /* Media Queries */
 @media screen and (max-width: 952px) {
@@ -813,6 +814,7 @@ aside p {
     background-color: #ffffff;
     height: 280px;
   }
+
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
@@ -972,6 +974,7 @@ aside p {
     background-color: #ffffff;
     height: 520px;
   }
+
 }
 
 /* Media Query for Mobile Devices */
