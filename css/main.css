@@ -1115,6 +1115,7 @@ select:focus {
     height: 40px;
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .check-risk-button:hover {
@@ -1144,6 +1145,7 @@ select:focus {
     height: 40px;
     margin-left: 2rem;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .nutrition-test-button:hover {
@@ -1410,6 +1412,7 @@ select:focus {
     height: 40px;
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
   }
 
   .check-risk-button:hover {
@@ -1439,6 +1442,7 @@ select:focus {
     height: 40px;
     margin-left: 2rem;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .nutrition-test-button:hover {
