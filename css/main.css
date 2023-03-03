@@ -487,7 +487,7 @@ select:focus {
 /* Health Test Page CSS Starting*/
 
 .health-test-image {
-  float:left;
+  float: left;
   margin-right: 20px;
   max-width: 100%;
   margin-left: 3%;
@@ -499,12 +499,12 @@ select:focus {
   margin-right: 3%;
 }
 
-div h1 {
+.health-test-h-content {
   font-size: 36px;
   font-weight: 700;
 }
 
-div p {
+.health-test-p-content {
   margin-top: 10px;
   font-size: 18px;
   line-height: 1.9rem;
@@ -817,91 +817,90 @@ div p {
 
   /* Health Test Page CSS Starting*/
 
-.health-test-image {
-  float:left;
-  margin-right: 10px;
-  max-width: 100%;
-  margin-left: 3%;
-}
+  .health-test-image {
+    float: left;
+    margin-right: 10px;
+    max-width: 100%;
+    margin-left: 3%;
+  }
 
-.health-test-content {
-  margin-top: 6%;
-  margin-left: 120px;
-  margin-right: 3%;
-}
+  .health-test-content {
+    margin-top: 6%;
+    margin-left: 120px;
+    margin-right: 3%;
+  }
 
-div h1 {
-  font-size: 26px;
-  font-weight: 700;
-}
+  .health-test-h-content {
+    font-size: 26px;
+    font-weight: 700;
+  }
 
-div p {
-  margin-top: 10px;
-  font-size: 10px;
-  line-height: 1.6rem;
-  color: dimgray;
-  font-weight: 500;
-}
+  .health-test-p-content {
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.6rem;
+    color: dimgray;
+    font-weight: 500;
+  }
 
-.check-risk-button {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 40px;
-  color: #4b67e9;
-  cursor: pointer;
-  padding: 10px 20px;
-  outline: none;
-  transition: all 0.3s ease-in-out;
-  display: inline-block;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  border: 2px solid #4b67e9;
-  width: 200px;
-  height: 50px;
-  margin-top: 20px;
-}
+  .check-risk-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px solid #4b67e9;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+  }
 
-.check-risk-button:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4b67e9;
-  color: #ffffff;
-  transform: translateY(-3px);
-}
+  .check-risk-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
 
-.nutrition-test-button {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 40px;
-  color: #4b67e9;
-  cursor: pointer;
-  padding: 10px 20px;
-  outline: none;
-  transition: all 0.3s ease-in-out;
-  display: inline-block;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  border: 2px solid #4b67e9;
-  width: 200px;
-  height: 50px;
-  margin-left: 2rem;
-  margin-top: 20px;
-}
+  .nutrition-test-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px solid #4b67e9;
+    width: 200px;
+    height: 50px;
+    margin-left: 2rem;
+    margin-top: 20px;
+  }
 
-.nutrition-test-button:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4b67e9;
-  color: #ffffff;
-  transform: translateY(-3px);
-}
+  .nutrition-test-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
 
   /* Health Test Page CSS Ending*/
-
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
@@ -1062,101 +1061,100 @@ div p {
     height: 520px;
   }
 
-    /* Health Test Page CSS Starting*/
+  /* Health Test Page CSS Starting*/
 
-.health-test-image {
-  margin-top: 20px;
-  float:none;
-  margin-right: 0;
-  height: 300px;
-  /* max-width: 100%; */
-  /* margin-left: 3%; */
-  margin-bottom: 0px;
-}
+  .health-test-image {
+    margin-top: 20px;
+    float: none;
+    margin-right: 0;
+    height: 300px;
+    /* max-width: 100%; */
+    /* margin-left: 3%; */
+    margin-bottom: 0px;
+  }
 
-.health-test-content {
-  /* margin-top: 6%; */
-  margin-left: 0;
-  /* margin-right: 3%; */
-}
+  .health-test-content {
+    /* margin-top: 6%; */
+    margin-left: 0;
+    /* margin-right: 3%; */
+  }
 
-div h1 {
-  font-size: 26px;
-  font-weight: 700;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+  .health-test-h-content {
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-div p {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 10px;
-  font-size: 10px;
-  line-height: 1.6rem;
-  color: dimgray;
-  font-weight: 500;
-}
+  .health-test-p-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.6rem;
+    color: dimgray;
+    font-weight: 500;
+  }
 
-.check-risk-button {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 40px;
-  color: #4b67e9;
-  cursor: pointer;
-  padding: 10px 20px;
-  outline: none;
-  transition: all 0.3s ease-in-out;
-  display: inline-block;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  border: 2px solid #4b67e9;
-  width: 170px;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
+  .check-risk-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #4b67e9;
+    width: 170px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
 
-.check-risk-button:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4b67e9;
-  color: #ffffff;
-  transform: translateY(-3px);
-}
+  .check-risk-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
 
-.nutrition-test-button {
-  background-color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 40px;
-  color: #4b67e9;
-  cursor: pointer;
-  padding: 10px 20px;
-  outline: none;
-  transition: all 0.3s ease-in-out;
-  display: inline-block;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  border: 2px solid #4b67e9;
-  width: 170px;
-  height: 40px;
-  margin-left: 2rem;
-  margin-top: 20px;
-}
+  .nutrition-test-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #4b67e9;
+    width: 170px;
+    height: 40px;
+    margin-left: 2rem;
+    margin-top: 20px;
+  }
 
-.nutrition-test-button:hover {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #4b67e9;
-  color: #ffffff;
-  transform: translateY(-3px);
-}
-    
-/* Health Test Page CSS Ending*/
+  .nutrition-test-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
 
+  /* Health Test Page CSS Ending*/
 }
 
 /* Media Query for Mobile Devices */
@@ -1362,28 +1360,28 @@ div p {
 
   .health-test-image {
     margin-top: 20px;
-    float:none;
+    float: none;
     margin-right: 0;
     height: 300px;
     /* max-width: 100%; */
     /* margin-left: 3%; */
     margin-bottom: 0px;
   }
-  
+
   .health-test-content {
     /* margin-top: 6%; */
     margin-left: 0;
     /* margin-right: 3%; */
   }
-  
-  div h1 {
+
+  .health-test-h-content {
     font-size: 26px;
     font-weight: 700;
     padding-left: 20px;
     padding-right: 20px;
   }
-  
-  div p {
+
+  .health-test-p-content {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 10px;
@@ -1392,7 +1390,7 @@ div p {
     color: dimgray;
     font-weight: 600;
   }
-  
+
   .check-risk-button {
     background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
@@ -1413,7 +1411,7 @@ div p {
     margin-top: 20px;
     margin-left: 20px;
   }
-  
+
   .check-risk-button:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1421,7 +1419,7 @@ div p {
     color: #ffffff;
     transform: translateY(-3px);
   }
-  
+
   .nutrition-test-button {
     background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
@@ -1442,7 +1440,7 @@ div p {
     margin-left: 2rem;
     margin-top: 20px;
   }
-  
+
   .nutrition-test-button:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1450,7 +1448,6 @@ div p {
     color: #ffffff;
     transform: translateY(-3px);
   }
-
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -1476,32 +1473,32 @@ div p {
   .row2-color {
     background-color: #ffffff;
     height: 600px;
-  } 
+  }
 
   .health-test-image {
     margin-top: 20px;
-    float:none;
+    float: none;
     margin-right: 0;
     height: 300px;
     /* max-width: 100%; */
     /* margin-left: 3%; */
     margin-bottom: 0px;
   }
-  
+
   .health-test-content {
     /* margin-top: 6%; */
     margin-left: 0;
     /* margin-right: 3%; */
   }
-  
-  div h1 {
+
+  .health-test-h-content {
     font-size: 24px;
     font-weight: 700;
     padding-left: 20px;
     padding-right: 20px;
   }
-  
-  div p {
+
+  .health-test-p-content {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 10px;
@@ -1530,8 +1527,9 @@ div p {
     height: 40px;
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
   }
-  
+
   .check-risk-button:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1539,7 +1537,7 @@ div p {
     color: #ffffff;
     transform: translateY(-3px);
   }
-  
+
   .nutrition-test-button {
     background-color: #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
@@ -1559,8 +1557,9 @@ div p {
     height: 40px;
     margin-left: 1rem;
     margin-top: 20px;
+    margin-bottom: 20px;
   }
-  
+
   .nutrition-test-button:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
       inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1568,5 +1567,4 @@ div p {
     color: #ffffff;
     transform: translateY(-3px);
   }
-
 }
