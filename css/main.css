@@ -1478,4 +1478,95 @@ div p {
     height: 600px;
   } 
 
+  .health-test-image {
+    margin-top: 20px;
+    float:none;
+    margin-right: 0;
+    height: 300px;
+    /* max-width: 100%; */
+    /* margin-left: 3%; */
+    margin-bottom: 0px;
+  }
+  
+  .health-test-content {
+    /* margin-top: 6%; */
+    margin-left: 0;
+    /* margin-right: 3%; */
+  }
+  
+  div h1 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  div p {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.6rem;
+    color: dimgray;
+    font-weight: 600;
+  }
+
+  .check-risk-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    border: 2px solid #4b67e9;
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .check-risk-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+  
+  .nutrition-test-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    border: 2px solid #4b67e9;
+    width: 140px;
+    height: 40px;
+    margin-left: 1rem;
+    margin-top: 20px;
+  }
+  
+  .nutrition-test-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
 }
