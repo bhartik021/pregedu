@@ -660,7 +660,7 @@ select:focus {
 }
 
 .blog-section-heading2 {
-  font-size: 26px;
+  font-size: 20px;
   margin-bottom: 1%;
 }
 
@@ -682,7 +682,7 @@ ul.blog-subtopic-list-style {
   list-style: disc;
   margin: 3%;
   color: dimgray;
-  line-height: 1.4rem;
+  line-height: 1.5rem;
   margin-bottom: 3%;
   font-weight: 500;
 }
