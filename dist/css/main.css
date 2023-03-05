@@ -648,7 +648,7 @@ select:focus {
 }
 .col1 {
   flex-basis: 25%;
-  background-color: #f2f2f2;
+  background-color: #f8f9fa;
 }
 .col2 {
   flex-basis: 60%;
@@ -656,7 +656,7 @@ select:focus {
 }
 .col3 {
   flex-basis: 15%;
-  background-color: #f2f2f2;
+  background-color: #f8f9fa;
 }
 
 .blog-section-heading2 {
@@ -669,7 +669,7 @@ select:focus {
   color: dimgray;
   line-height: 1.5rem;
   margin-bottom: 3%;
-  font-weight: 500;
+  font-weight: 500; 
 }
 
 ul.table-of-content-list-style {
