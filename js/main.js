@@ -59,5 +59,6 @@ function sendEmail() {
 }
 
 // Google Translate JS
-
-    
+function loadGoogleTranslate() {
+  new google.translate.TranslateElement("google_element");
+}
