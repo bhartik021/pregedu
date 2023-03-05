@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  list-style: none;
+  /* list-style: none; */
 }
 /* Universal Selector CSS Ending*/
 
@@ -580,7 +580,6 @@ select:focus {
 .image-row {
   display: flex;
   justify-content: center;
-  
 }
 
 .image-row img {
@@ -638,6 +637,55 @@ select:focus {
   transform: translateY(-3px);
 }
 
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.col {
+  padding: 3%;
+}
+.col1 {
+  flex-basis: 25%;
+  background-color: #f2f2f2;
+}
+.col2 {
+  flex-basis: 60%;
+  background-color: #ffffff;
+}
+.col3 {
+  flex-basis: 15%;
+  background-color: #f2f2f2;
+}
+
+.blog-section-heading2 {
+  font-size: 26px;
+  margin-bottom: 1%;
+}
+
+.blog-section-paragraph {
+  font-size: 16px;
+  color: dimgray;
+  line-height: 1.5rem;
+  margin-bottom: 3%;
+  font-weight: 500;
+}
+
+ul.table-of-content-list-style {
+  list-style: none;
+  margin: 2%;
+  line-height: 2rem;
+}
+
+ul.blog-subtopic-list-style {
+  list-style: disc;
+  margin: 3%;
+  color: dimgray;
+  line-height: 1.4rem;
+  margin-bottom: 3%;
+  font-weight: 500;
+}
 
 /* Health Test Page CSS Ending */
 

@@ -57,3 +57,7 @@ function sendEmail() {
     }
   });
 }
+
+// Google Translate JS
+
+    
