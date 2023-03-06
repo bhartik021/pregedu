@@ -1403,7 +1403,7 @@ ul.blog-subtopic-list-style {
   .table-of-content-heading {
     font-size: 18px;
     margin-bottom: 1%;
-    margin-top: 5%;
+    margin-top: 6%;
   }
 
   .blog-section-heading2 {
@@ -1415,7 +1415,7 @@ ul.blog-subtopic-list-style {
     font-size: 12px;
     color: dimgray;
     line-height: 1.4rem;
-    margin-bottom: 6%;
+    margin-bottom: 3%;
     font-weight: 500;
   }
 
@@ -1428,7 +1428,7 @@ ul.blog-subtopic-list-style {
 
   ul.blog-subtopic-list-style {
     list-style: disc;
-    margin: 6%;
+    margin: 3%;
     color: dimgray;
     line-height: 1.4rem;
     margin-bottom: 4%;
@@ -1784,13 +1784,14 @@ ul.blog-subtopic-list-style {
   .blog-section-heading2 {
     font-size: 16px;
     margin-bottom: 1%;
+    margin-bottom: 4%;
   }
 
   .blog-section-paragraph {
     font-size: 12px;
     color: dimgray;
     line-height: 1.4rem;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
     font-weight: 500;
   }
 
@@ -1798,7 +1799,7 @@ ul.blog-subtopic-list-style {
     list-style: none;
     margin: 4%;
     line-height: 2rem;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   ul.blog-subtopic-list-style {
@@ -1806,13 +1807,13 @@ ul.blog-subtopic-list-style {
     margin: 4%;
     color: dimgray;
     line-height: 1.4rem;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
     font-weight: 500;
     font-size: 12px;
   }
 
   .blog-section-heading4 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
 }
@@ -1996,7 +1997,7 @@ ul.blog-subtopic-list-style {
     list-style: none;
     margin: 4%;
     line-height: 2rem;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   ul.blog-subtopic-list-style {
@@ -2004,12 +2005,12 @@ ul.blog-subtopic-list-style {
     margin: 4%;
     color: dimgray;
     line-height: 1.4rem;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
     font-weight: 500;
     font-size: 12px;
   }
 
   .blog-section-heading4 {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
