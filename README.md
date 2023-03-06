@@ -59,12 +59,14 @@ root
  ```                               
 
 ## Problem Statement
+
 Pregnant women face a variety of challenges that can affect their health and the health of their developing baby. These challenges can range from physical discomforts such as morning sickness and fatigue to more serious health issues such as gestational diabetes and pre-eclampsia. In addition, pregnant women may also face emotional and psychological challenges such as anxiety, depression, and stress.
 
 There are also external factors that can impact pregnant women, such as access to quality healthcare, social support, and adequate nutrition. These factors can have a significant impact on the health of both the mother and baby.
 
 ## Our Solution
-the lack of accessible, comprehensive, and sustainable pregnancy education for expecting mothers. Many women may not have access to reliable resources or may not know what steps to take to have a healthy and sustainable pregnancy. PregEdu aims to bridge this gap by providing a platform where women can access expert resources, connect with other expecting mothers, and receive support throughout their pregnancy journey. PregEdu aims to empower women with the knowledge and resources they need to have a healthy and sustainable pregnancy, which ultimately leads to better health outcomes for both mother and child.
+
+The lack of accessible, comprehensive, and sustainable pregnancy education for expecting mothers. Many women may not have access to reliable resources or may not know what steps to take to have a healthy and sustainable pregnancy. PregEdu aims to bridge this gap by providing a platform where women can access expert resources, connect with other expecting mothers, and receive support throughout their pregnancy journey. PregEdu aims to empower women with the knowledge and resources they need to have a healthy and sustainable pregnancy, which ultimately leads to better health outcomes for both mother and child.
 
 PregEdu provides a range of features to help expecting mothers throughout their pregnancy journey, including:
 
