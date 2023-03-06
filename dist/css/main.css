@@ -260,6 +260,68 @@ a:hover {
 
 /* Landing Page Card CSS Ending*/
 
+/* chatbot css starting */
+.floating-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #4b67e9;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+  inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-button i {
+  font-size: 20px;
+}
+
+.floating-button:hover {
+  background-color: #ffffff;
+  color: #4b67e9;
+  border: 4px #4b67e9 solid;
+}
+
+/* chatbot container styles */
+.chatbot-container {
+  position: fixed;
+  bottom: 120px;
+  right: 50px;
+  width: 450px;
+  height: 630px;
+  z-index: 999;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* close button styles */
+.chatbot-container button.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* chatbot iframe styles */
+.chatbot-container iframe {
+  height: 100%;
+  width: 100%;
+}
+
+/* chatbot css ending */
+
 /* FAQ Page CSS Starting */
 .accordion-container {
   display: flex;
@@ -767,6 +829,32 @@ ul.blog-subtopic-list-style {
     font-weight: bold;
     /* margin-bottom: 0px; */
   }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 10px;
+  }
+
+  /* chatbot media query */
+
+    .chatbot {
+      width: 90%;
+      height: 70%;
+      bottom: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+  
+  /* styles for chatbot iframe */
+  .chatbot iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
 
   .contact-container {
     padding: 30px;
@@ -1453,6 +1541,15 @@ ul.blog-subtopic-list-style {
 
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 480px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 10px;
+  }
+
   label.logo {
     color: white;
     font-size: 26px;
