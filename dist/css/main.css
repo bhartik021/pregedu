@@ -655,6 +655,14 @@ select:focus {
   background-color: #ffffff;
 }
 
+.read-time {
+  font-style: italic;
+  margin: 24px 16px;
+  margin-left: 0px;
+  font-weight: bold;
+  color: #636363;
+}
+
 .left-border-text::before {
   content: "|";
   display: inline-block;

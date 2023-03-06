@@ -34,3 +34,14 @@ function sendEmail() {
 function loadGoogleTranslate() {
   new google.translate.TranslateElement("google_element");
 }
+
+// Reading Time JS
+// Calculate Read Time Function
+function calculateReadingTime() {
+  const text = document.getElementById("article").innerText;
+  const wpm = 225;
+  const words = text.trim().split(/\s+/).length;
+  const time = Math.ceil(words / wpm);
+  document.getElementById("time").innerText = time;
+}
+calculateReadingTime();
