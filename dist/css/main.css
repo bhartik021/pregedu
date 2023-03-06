@@ -976,13 +976,13 @@ ul.blog-subtopic-list-style {
     margin-left: 0px;
     font-weight: bold;
     color: #636363;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .left-border-text::before {
     content: "|";
     display: inline-block;
-    width: 5px;
+    width: 6px;
     height: 100%;
     background-color: black;
     margin-right: 10px;
