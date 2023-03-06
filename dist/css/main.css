@@ -1374,6 +1374,8 @@ ul.blog-subtopic-list-style {
   .col1 {
     flex-basis: 100%;
     background-color: #f8f9fa;
+    margin-bottom: 1.5rem;
+    padding: 5%;
   }
   .col2 {
     flex-basis: 100%;
@@ -1386,6 +1388,7 @@ ul.blog-subtopic-list-style {
     margin-left: 0px;
     font-weight: bold;
     color: #636363;
+    font-size: 12px;
   }
 
   .left-border-text::before {
@@ -1405,14 +1408,14 @@ ul.blog-subtopic-list-style {
 
   .blog-section-heading2 {
     font-size: 18px;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
   }
 
   .blog-section-paragraph {
-    font-size: 14px;
+    font-size: 12px;
     color: dimgray;
     line-height: 1.4rem;
-    margin-bottom: 5%;
+    margin-bottom: 6%;
     font-weight: 500;
   }
 
@@ -1420,16 +1423,21 @@ ul.blog-subtopic-list-style {
     list-style: none;
     margin: 4%;
     line-height: 2rem;
+    font-size: 14px;
   }
 
   ul.blog-subtopic-list-style {
     list-style: disc;
-    margin: 4%;
+    margin: 6%;
     color: dimgray;
     line-height: 1.4rem;
     margin-bottom: 4%;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
+  }
+
+  .blog-section-heading4 {
+    font-size: 13px;
   }
 
   /* Health Test Page CSS Ending*/
