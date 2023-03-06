@@ -182,7 +182,7 @@ a:hover {
 /* Landing Page Card CSS Starting*/
 
 .container-cards-section {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -855,7 +855,12 @@ ul.blog-subtopic-list-style {
     height: 100%;
   }
   
+  .chatbot-container {
+    right: 0px;
+  
+  }
 
+  /* chatbot query ending */
   .contact-container {
     padding: 30px;
     border-radius: 30px;
@@ -1212,6 +1217,14 @@ ul.blog-subtopic-list-style {
     font-weight: bold;
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 10px;
   }
 
   .accordion-container {
