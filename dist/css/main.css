@@ -651,12 +651,24 @@ select:focus {
   background-color: #f8f9fa;
 }
 .col2 {
-  flex-basis: 60%;
+  flex-basis: 75%;
   background-color: #ffffff;
 }
-.col3 {
-  flex-basis: 15%;
-  background-color: #f8f9fa;
+
+.left-border-text::before {
+  content: "|";
+  display: inline-block;
+  width: 5px;
+  height: 100%;
+  background-color: black;
+  margin-right: 10px;
+}
+
+
+.table-of-content-heading {
+  font-size: 20px;
+  margin-bottom: 1%;
+  margin-top: 5%;
 }
 
 .blog-section-heading2 {
