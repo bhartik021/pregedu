@@ -976,6 +976,7 @@ ul.blog-subtopic-list-style {
     margin-left: 0px;
     font-weight: bold;
     color: #636363;
+    font-size: 14px;
   }
 
   .left-border-text::before {
@@ -988,18 +989,18 @@ ul.blog-subtopic-list-style {
   }
 
   .table-of-content-heading {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 1%;
     margin-top: 5%;
   }
 
   .blog-section-heading2 {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 1%;
   }
 
   .blog-section-paragraph {
-    font-size: 16px;
+    font-size: 14px;
     color: dimgray;
     line-height: 1.5rem;
     margin-bottom: 3%;
@@ -1010,6 +1011,7 @@ ul.blog-subtopic-list-style {
     list-style: none;
     margin: 2%;
     line-height: 2rem;
+    font-size: 14px;
   }
 
   ul.blog-subtopic-list-style {
@@ -1017,8 +1019,12 @@ ul.blog-subtopic-list-style {
     margin: 3%;
     color: dimgray;
     line-height: 1.5rem;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
     font-weight: 500;
+  }
+
+  .blog-section-heading4 {
+    font-size: 14px;
   }
 
   /* Health Test Page CSS Starting*/
