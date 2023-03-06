@@ -982,7 +982,7 @@ ul.blog-subtopic-list-style {
   .left-border-text::before {
     content: "|";
     display: inline-block;
-    width: 6px;
+    width: 8px;
     height: 100%;
     background-color: black;
     margin-right: 10px;
