@@ -42,17 +42,18 @@ root
      |_____join-the-community.png
      |_____learn-about-the-journey.png
      |_____logo.png
-|____css
-     |_____main.css
-|____js
-     |_____main.js
-|____README.md
+|____dist
+     |_____css
+           |_____main.css
+     |____js
+           |_____main.js
 |____community.html
 |____contact.html
-|____explore.html
 |____faq.html
-|____health-tip.html
 |____index.html
+|____jorney.html
+|____LICENCE
+|____README.md
 |____start.html
 
  ```                               
@@ -99,14 +100,14 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 ### Technologies Used
 
 * **Frontend** - HTML, CSS, JavaScript, JQuery
-* **Database** - Firestore
-* **Database Querying** - NoSQL
+<!-- * **Database** - Firestore -->
+<!-- * **Database Querying** - NoSQL -->
 * **DevOps** - GitHub
 * **Developer Tooling** - ESLint, Prettier
 * **Services** - SMTPJS
 * **Design Tool** - Figma
 * **Project Management** - Notion
-* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, Google Search
+* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate
 
 ## Future plans
 
