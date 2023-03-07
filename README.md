@@ -44,9 +44,9 @@ root
      |_____logo.png
 |____dist
      |_____css
-           |_____main.css
-     |____js
-           |_____main.js
+           |______main.css
+     |_____js
+           |______main.js
 |____community.html
 |____contact.html
 |____faq.html
