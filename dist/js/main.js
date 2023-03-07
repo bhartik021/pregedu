@@ -45,3 +45,32 @@ function calculateReadingTime() {
   document.getElementById("time").innerText = time;
 }
 calculateReadingTime();
+
+// Function to open the chatbot
+function openChat() {
+  // create chatbot container
+  var chatbotContainer = document.createElement('div');
+  chatbotContainer.classList.add('chatbot-container');
+  
+  // create close button
+  var closeButton = document.createElement('button');
+  closeButton.innerHTML = '&times;';
+  closeButton.classList.add('close-button');
+  closeButton.addEventListener('click', function() {
+    chatbotContainer.style.display = 'none';
+  });
+  
+  // create chatbot iframe
+  var chatbotIframe = document.createElement('iframe');
+  chatbotIframe.setAttribute('src', 'https://console.dialogflow.com/api-client/demo/embedded/ca15b9b8-4dcc-45b8-a32a-74170736b9af');
+  
+  // append close button and chatbot iframe to chatbot container
+  chatbotContainer.appendChild(closeButton);
+  chatbotContainer.appendChild(chatbotIframe);
+  
+  // append chatbot container to page body
+  document.body.appendChild(chatbotContainer);
+}
+
+
+
