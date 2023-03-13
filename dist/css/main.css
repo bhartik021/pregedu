@@ -710,7 +710,7 @@ select:focus {
 }
 .col1 {
   flex-basis: 25%;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 .col2 {
   flex-basis: 75%;
@@ -1056,7 +1056,7 @@ ul.blog-subtopic-list-style {
   }
   .col1 {
     flex-basis: 100%;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
   }
   .col2 {
     flex-basis: 100%;
@@ -1482,7 +1482,7 @@ ul.blog-subtopic-list-style {
   }
   .col1 {
     flex-basis: 100%;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     margin-bottom: 1.5rem;
     padding: 5%;
   }
@@ -1866,7 +1866,7 @@ ul.blog-subtopic-list-style {
   } */
   .col1 {
     flex-basis: 100%;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 6%;
     margin-bottom: 2rem;
   }
@@ -2065,7 +2065,7 @@ ul.blog-subtopic-list-style {
   } */
   .col1 {
     flex-basis: 100%;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 6%;
     margin-bottom: 1.5rem;
   }
