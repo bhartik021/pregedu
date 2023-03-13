@@ -650,7 +650,7 @@ select:focus {
   margin-right: 4rem;
   margin-left: 4rem;
   width: 200px;
-  height: 150px;
+  height: 170px;
   transform-style: preserve-3d;
   transition: transform 10s ease-in-out;
 }
