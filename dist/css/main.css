@@ -706,15 +706,18 @@ select:focus {
   margin-right: 3rem;
 }
 .col {
-  padding: 3%;
+  /* padding: 3%; */
+  /* padding-right: 10%; */
+  padding-left: 10%;
 }
 .col1 {
   flex-basis: 25%;
-  background-color: #f8f9fa;
+  background-color: #ffffff;
 }
 .col2 {
-  flex-basis: 75%;
+  flex-basis: 70%;
   background-color: #ffffff;
+  padding-right: 10%;
 }
 
 .read-time {
@@ -723,6 +726,7 @@ select:focus {
   margin-left: 0px;
   font-weight: bold;
   color: #636363;
+  font-size: 14px;
 }
 
 .left-border-text::before {
@@ -735,21 +739,23 @@ select:focus {
 }
 
 .table-of-content-heading {
-  font-size: 20px;
+  font-size: 14px;
   margin-bottom: 1%;
   margin-top: 5%;
+  color: rgb(76, 76, 76);
 }
 
 .blog-section-heading2 {
   font-size: 20px;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
+  color: rgb(76, 76, 76);
 }
 
 .blog-section-paragraph {
   font-size: 16px;
   color: dimgray;
-  line-height: 1.5rem;
-  margin-bottom: 3%;
+  line-height: 1.8rem;
+  margin-bottom: 4%;
   font-weight: 500;
 }
 
@@ -757,15 +763,21 @@ ul.table-of-content-list-style {
   list-style: none;
   margin: 2%;
   line-height: 2rem;
+  font-size: 14px;
 }
 
 ul.blog-subtopic-list-style {
   list-style: disc;
-  margin: 3%;
+  margin-top: 2%;
+  margin-bottom: 5%;
   color: dimgray;
-  line-height: 1.5rem;
-  margin-bottom: 3%;
+  line-height: 1.8rem;
+  margin-left: 4%;
   font-weight: 500;
+}
+
+.blog-section-heading4 {
+  color: rgb(76, 76, 76);
 }
 
 /* Health Test Page CSS Ending */
@@ -1056,7 +1068,7 @@ ul.blog-subtopic-list-style {
   }
   .col1 {
     flex-basis: 100%;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
   }
   .col2 {
     flex-basis: 100%;
@@ -1483,7 +1495,7 @@ ul.blog-subtopic-list-style {
   }
   .col1 {
     flex-basis: 100%;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     margin-bottom: 1.5rem;
     padding: 5%;
   }
@@ -1867,7 +1879,7 @@ ul.blog-subtopic-list-style {
   } */
   .col1 {
     flex-basis: 100%;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 6%;
     margin-bottom: 2rem;
   }
@@ -2066,7 +2078,7 @@ ul.blog-subtopic-list-style {
   } */
   .col1 {
     flex-basis: 100%;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     padding: 6%;
     margin-bottom: 1.5rem;
   }
