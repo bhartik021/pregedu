@@ -986,10 +986,10 @@ ul.blog-subtopic-list-style {
     flex-direction: column;
   }
 
-  .contact-page-label {
+  /* .contact-page-label {
     font-size: 1.5rem;
     margin-top: 10px;
-  }
+  } */
 
   input,
   textarea {
@@ -1008,7 +1008,7 @@ ul.blog-subtopic-list-style {
   }
 
   .btn-send-message {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 10px;
     border: none;
     background-color: #ffffff;
@@ -1155,6 +1155,7 @@ ul.blog-subtopic-list-style {
   }
 
   .health-test-p-content {
+    text-align: center;
     margin-top: 10px;
     font-size: 10px;
     line-height: 1.6rem;
