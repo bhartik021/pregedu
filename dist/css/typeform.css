@@ -161,6 +161,24 @@ button:focus {
     color: #333333;
 } */
 
+button:hover,
+button:focus {
+    background-color: #a7b5f4;
+    color: #333333;
+    outline: none;
+}
+
+/* input[type="radio"]:checked + label::before {
+    background-color: #2196F3;
+    border-color: #2196F3;
+    margin: 100%;
+} */
+
+/* input[type="radio"] {
+    margin-right: 50%;
+    padding-top: 30px;
+} */
+
 select {
     width: 240px;
     font-size: 18px;
@@ -168,13 +186,6 @@ select {
     padding: 5px 20px;
     background-color: transparent;
     color: #4b67e9;
-}
-
-button:hover,
-button:focus {
-    background-color: #a7b5f4;
-    color: #333333;
-    outline: none;
 }
 
 select.multiple {
