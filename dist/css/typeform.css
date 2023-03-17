@@ -41,7 +41,8 @@ div.container {
 }
 
 h1 {
-    color: #4b67e9
+    color: #4b67e9;
+    font-size: 40px;
 }
 
 /* form design */
@@ -61,6 +62,11 @@ label {
 
 label.is-visible {
     display: block;
+}
+
+label.label-heading {
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 label.label-heading p {
@@ -149,11 +155,11 @@ button {
     transition: all 0.4s;
 }
 
-button:hover,
+/* button:hover,
 button:focus {
     background-color: #4b67e9;
     color: #333333;
-}
+} */
 
 select {
     width: 240px;
@@ -167,7 +173,7 @@ select {
 button:hover,
 button:focus {
     background-color: #a7b5f4;
-    color: #acb7e6;
+    color: #333333;
     outline: none;
 }
 
