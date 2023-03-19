@@ -174,10 +174,10 @@ button:focus {
     margin: 100%;
 } */
 
-/* input[type="radio"] {
+input[type="radio"] {
     margin-right: 50%;
-    padding-top: 30px;
-} */
+    /* padding-top: 30px; */
+}
 
 select {
     width: 240px;
