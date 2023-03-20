@@ -869,6 +869,7 @@ th {
   height: 4rem;
   width: 600px;
   background-color: #d5efff;
+  font-size: 18px;
 }
 
 tr {
@@ -880,6 +881,7 @@ td {
   justify-content: center;
   line-height: 2rem;
   padding: 1.5rem;
+  font-size: 14px;
 }
 
 
