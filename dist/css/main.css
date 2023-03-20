@@ -860,6 +860,20 @@ ul.blog-subtopic-list-style {
   left: 35%;
 }
 
+table {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+tr {
+  width: 600px;
+}
+
+th {
+  height: 4rem;
+  width: 600px;
+}
+
 /* Health Test Page CSS Ending */
 
 /* Media Queries */

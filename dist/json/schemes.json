@@ -1,0 +1,214 @@
+{
+    "schemes": [
+      {
+        "schemeTitle": "Pradhan Mantri Matru Vandana Yojana",
+        "description": "A conditional cash transfer scheme for pregnant and lactating women to provide financial assistance for their health and nutrition needs.",
+        "country": "India",
+        "url": "https://pmmvy.gov.in/"
+      },
+      {
+        "schemeTitle": "Medicaid",
+        "description": "A joint federal and state program that provides health coverage for low-income individuals, including pregnant women.",
+        "country": "United States",
+        "url": "https://www.medicaid.gov/"
+      },
+      {
+        "schemeTitle": "Healthy Start",
+        "description": "A scheme that provides vouchers for pregnant women and families on low incomes to buy healthy food, vitamin supplements, and free milk.",
+        "country": "United Kingdom",
+        "url": "https://www.healthystart.nhs.uk/"
+      },
+      {
+        "schemeTitle": "Canada Prenatal Nutrition Program",
+        "description": "A program that provides funding to community organizations to offer support and education on healthy eating, food preparation, and lifestyle choices to pregnant women facing social and economic challenges.",
+        "country": "Canada",
+        "url": "https://www.canada.ca/en/public-health/services/health-promotion/childhood-adolescence/pregnancy-prenatal-care/canada-prenatal-nutrition-program.html"
+      },
+      {
+        "schemeTitle": "Maternity Payment",
+        "description": "A one-off payment to help with the cost of having a baby for eligible pregnant women.",
+        "country": "Australia",
+        "url": "https://www.servicesaustralia.gov.au/individuals/services/centrelink/maternity-payment"
+      },
+      {
+        "schemeTitle": "Prospera Program",
+        "description": "A social welfare program that provides financial assistance to low-income pregnant women for maternal and child health care, food, and education.",
+        "country": "Mexico",
+        "url": "https://www.prospera.gob.mx/"
+      },
+      {
+        "schemeTitle": "Bolsa Família",
+        "description": "A conditional cash transfer program that provides financial assistance to pregnant and breastfeeding women living in poverty.",
+        "country": "Brazil",
+        "url": "https://www.gov.br/cidadania/pt-br/acoes-e-programas/bolsa-familia"
+      },
+      {
+        "schemeTitle": "Child Support Grant",
+        "description": "A grant that provides financial assistance to low-income pregnant women and families with children under the age of 18.",
+        "country": "South Africa",
+        "url": "https://www.sassa.gov.za/"
+      },
+      {
+        "schemeTitle": "National Health Insurance Scheme",
+        "description": "A health insurance program that provides access to affordable healthcare services for pregnant women and families in Nigeria.",
+        "country": "Nigeria",
+        "url": "https://www.nhis.gov.ng/"
+      },
+      {
+        "schemeTitle": "Linda Mama",
+        "description": "A free maternal healthcare program that provides antenatal care, delivery, and postnatal care services to pregnant women in Kenya.",
+        "country": "Kenya",
+        "url": "https://www.health.go.ke/programmes/linda-mama/"
+      },
+      {
+        "schemeTitle": "Maternal, Newborn and Child Health Programme",
+        "description": "A government initiative that provides financial assistance and access to maternal and child health care services to pregnant women and families in Bangladesh.",
+        "country": "Bangladesh",
+        "url": "https://www.mohfw.gov.bd/index.php?option=com_content&view=article&id=1632&Itemid=1095&lang=en"
+      },
+      {
+        "schemeTitle": "Sehat Sahulat Program",
+        "description": "A health insurance program that provides free healthcare services, including maternity care, to low-income pregnant women and families in Pakistan.",
+        "country": "Pakistan",
+        "url": "https://www.sehatsahulat.com.pk/"
+      },
+      {
+        "schemeTitle": "Pantawid Pamilyang Pilipino Program",
+        "description": "A conditional cash transfer program that provides financial assistance to pregnant women and families with children under the age of 18 living in poverty.",
+        "country": "Philippines",
+        "url": "https://pantawid.dswd.gov.ph/"
+      },
+      {
+        "schemeTitle": "Universal Coverage Scheme",
+        "description": "A health insurance program that provides access to affordable healthcare services, including maternity care, to all citizens and legal residents in Thailand.",
+        "country": "Thailand",
+        "url": "https://uc.nhso.go.th/"
+      },
+      {
+        "schemeTitle": "Maternity Allowance",
+        "description": "A cash benefit that provides financial assistance to pregnant women who are members of Japan's social security system.",
+        "country": "Japan",
+        "url": "https://www.japantimes.co.jp/news/2020/10/15/national/japan-maternity-allowance/"
+      },
+      {
+        "schemeTitle": "National Health Insurance Program",
+        "description": "A health insurance program that provides access to affordable healthcare services, including maternity care, to all citizens and legal residents in South Korea.",
+        "country": "South Korea",
+        "url": "https://www.nhis.or.kr/static/html/wbd/g/a/wbdga0401.html"
+      },
+      {
+        "schemeTitle": "Rural Cooperative Medical Scheme",
+        "description": "A health insurance program that provides access to affordable healthcare services, including maternity care, to rural residents in China.",
+        "country": "China",
+        "url": "https://www.china-briefing.com/news/the-rural-cooperative-medical-scheme-in-china-2019-update/"
+      },
+      {
+        "schemeTitle": "Maternity Protection Act",
+        "description": "A law that provides employment protection, paid maternity leave, and access to maternity benefits for pregnant women and new mothers in Germany.",
+        "country": "Russia",
+        "url": "https://www.bmfsfj.de/en/topics/family/maternity-protection/2078"
+      },
+      {
+        "schemeTitle": "Universal Health Care System",
+        "description": "A health care program that provides access to affordable maternity care services to all citizens and legal residents in Spain.",
+        "country": "Spain",
+        "url": "https://www.mscbs.gob.es/en/profesionales/saludPublica/ccayes/alertasActual/nuevoSistemaSanitario.htm"
+      },
+      {
+        "schemeTitle": "Family Allowance",
+        "description": "A cash benefit that provides financial assistance to low-income pregnant women and families with children under the age of 18 in Italy.",
+        "country": "Italy",
+        "url": "https://www.inps.it/en/"
+      },
+      {
+        "schemeTitle": "Maternity Allowance",
+        "description": "A cash benefit that provides financial assistance to pregnant women and new mothers in Italy.",
+        "country": "Italy",
+        "url": "https://www.inps.it/nuovoportaleinps/default.aspx?itemdir=56227"
+      },
+      {
+        "schemeTitle": "Social Solidarity Income",
+        "description": "A social welfare program that provides financial assistance to low-income pregnant women and families in Greece.",
+        "country": "Greece",
+        "url": "https://www.kepros.gr/en/social-solidarity-income/"
+      },
+      {
+        "schemeTitle": "Maternity Allowance",
+        "description": "A cash benefit that provides financial assistance to pregnant women and new mothers in Greece.",
+        "country": "Greece",
+        "url": "https://www.mof.gov.gr/en/taxisnet/ergo/tokpat/tokpat-gia-miteres/"
+      },
+      {
+        "schemeTitle": "Maternity Leave",
+        "description": "A paid leave program that provides job protection and maternity benefits to pregnant women in Turkey.",
+        "country": "Turkey",
+        "url": "https://www.eurofound.europa.eu/observatories/eurwork/comparative-information/country-profiles/turkey/leave"
+      },
+      {
+        "schemeTitle": "Takaful and Karama Program",
+        "description": "A social welfare program that provides financial assistance to low-income pregnant women and families in Egypt.",
+        "country": "Egypt",
+        "url": "https://www.socialprotection.org/discover/programme/takaful-and-karama-program-egypt"
+      },
+      {
+        "schemeTitle": "Health Insurance Program",
+        "description": "A health insurance program that provides access to affordable maternity care services to all citizens and legal residents in Saudi Arabia.",
+        "country": "Saudi Arabia",
+        "url": "https://www.cchi.gov.sa/en/web/guest/home"
+      },
+      {
+        "schemeTitle": "Maternity Leave",
+        "description": "A paid leave program that provides job protection and maternity benefits to pregnant women in the UAE.",
+        "country": "United Arab Emirates",
+        "url": "https://u.ae/en/information-and-services/social-affairs/maternity-leave"
+      },
+      {
+        "schemeTitle": "National Health Insurance Law",
+        "description": "A law that provides access to affordable maternity care services to all citizens and legal residents in Israel.",
+        "country": "Israel",
+        "url": "https://www.health.gov.il/English/Topics/HealthInsurance/Pages/NationalHealthInsurance.aspx"
+      },
+      {
+        "schemeTitle": "Parental Allowance",
+        "description": "A cash benefit that provides financial assistance to parents, including pregnant women and new mothers, in Portugal.",
+        "country": "Portugal",
+        "url": "https://eures.anespo.pt/en/parental-allowance"
+      },
+      {
+        "schemeTitle": "Maternity Leave",
+        "description": "A policy that provides employment protection and paid leave to pregnant women and new mothers in Belgium.",
+        "country": "Belgium",
+        "url": "https://www.belgium.be/en/family/leave/maternity_leave"
+      },
+      {
+        "schemeTitle": "Maternity Benefit Act",
+        "description": "A law that provides employment protection, paid maternity leave, and access to maternity benefits for pregnant women and new mothers in the Netherlands.",
+        "country": "Netherlands",
+        "url": "https://www.government.nl/topics/maternity-benefit-act"
+      },
+      {
+        "schemeTitle": "Maternity Insurance",
+        "description": "A health insurance program that provides access to maternity care and other healthcare services to pregnant women and families in Switzerland.",
+        "country": "Switzerland",
+        "url": "https://www.ch.ch/en/health-insurance-maternity-leave/"
+      },
+      {
+        "schemeTitle": "Maternity/Paternity Leave",
+        "description": "A policy that provides employment protection and paid leave to pregnant women and new parents in Denmark.",
+        "country": "Denmark",
+        "url": "https://www.workindenmark.dk/Living-in-Denmark/Work-Life-Balance/Parental-Leave"
+      },
+      {
+        "schemeTitle": "Maternity/Paternity Leave",
+        "description": "A cash benefit that provides financial assistance to pregnant women and new parents in Norway.",
+        "country": "Norway",
+        "url": "https://www.nav.no/en/Home/Benefits+and+services/Relatert+informasjon/maternity-paternity-and-parental-leave"
+      },
+      {
+        "schemeTitle": "Parental Benefit",
+        "description": "A cash benefit that provides financial assistance to parents, including pregnant women and new mothers, in Sweden.",
+        "country": "Sweden",
+        "url": "https://www.forsakringskassan.se/privatpers/forsakringar/foraldrapenning"
+      }
+    ]
+  }
