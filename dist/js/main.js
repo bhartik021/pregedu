@@ -72,23 +72,7 @@ function openChat() {
   document.body.appendChild(chatbotContainer);
 }
 
-
-// var status = document.getElementById("recommendation-heading-id");
-// function fcolor() { 
-//     if (status === 'Submitted') {
-//       document.getElementById("centerbox1").style.backgroundColor = '#99C262';
-//     }
-//     else if (status === 'Pending')
-//     {
-//       document.getElementById("centerbox1").style.backgroundColor = '#F8D347';
-//     }  
-//     else if (status === 'Warning')  
-//     {
-//       document.getElementById("centerbox1").style.backgroundColor = '#FF6C60';
-//     }
-//   };
-
-
+//Table JS
 function myTableFunction() {
   document.getElementById("table").style.borderCollapse = "collapse";
 }
