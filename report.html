@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <!-- All Meta Information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Pregnancy Guide Website" />
+    <meta
+      name="keywords"
+      content="PregEdu, Pregnancy Guide Web App, Pregnancy Blogs, Pregnancy Cycle, Pregnancy Report Check"
+    />
+    <meta
+      name="author"
+      content="Bharti Kumari, Diya Vijay, Shubhanshu Sharma"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>PregEdu</title>
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+
+    <!-- Google Font Style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Icon -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome Icon -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="dist/css/main.css" />
+
+    <!-- External JS -->
+    <script src="dist/js/main.js" async></script>
+
+    <!-- Head Closing -->
+  </head>
+
+  <body>
+    <!-- Main Body  -->
+
+    <!-- Header -->
+    <header>
+      <!-- Navbar Starts-->
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">PregEdu</label>
+        <ul class="nav-item">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="faq.html">FAQ</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Navbar Closing-->
+    </header>
+    <!-- Header Closing -->
+
+    <!-- Main Starting-->
+    <main class="main-heading">
+      <h1 class="content-heading">Report</h1>
+    </main>
+
+    <section>
+      <div class="report-text-value-container">
+        <p id="recommendation-heading-id" class="report-text">
+            Alert! Visit your doctor as soon as possible. Your health report is.
+          </p>
+    
+          <p class="report-risk-value">Low</p>
+      </div>
+    </section>
+
+    <section>
+        <div class="recommendation-container">
+            <h1 class="recommendation-heading">Recommendation:</h1>
+          <p class="recommendation-paragraph">
+            A creative mind looking to solve user’s problems in a way that they feel
+            easy to find what they are looking for in the fast-growing digital world
+            with simple but effective solutions and to bring efficiency according to
+            the business demands
+          </p>
+        </div>
+    </section>
+
+    <section>
+     <div class="recommendation-button-container">
+        <div class="recommendation-button-center">
+        <button
+        onclick="window.location.href = 'test.html';"
+        class="hospital-near-me-button"
+      >
+        Hospital near me
+      </button>
+      <button
+        onclick="window.location.href = 'nutrition-test.html';"
+        class="nutrition-test-button"
+      >
+        Medical Store
+      </button>
+        </div>
+     </div>
+    </section>
+
+    <script>
+        //Color Change
+document.getElementById("recommendation-heading-id").style.color = "#F36600";
+    </script>
+
+    <!-- Body Closing   -->
+  </body>
+
+  <!-- HTML Closing  -->
+</html>
