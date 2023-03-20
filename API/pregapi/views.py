@@ -1,17 +1,20 @@
 import pickle as pic
 import numpy as np
-from django.http import JsonResponse, HttpResponse
+from django.http import JsonResponse
 from django.shortcuts import render
 from rest_framework.decorators import api_view
 import pandas as pd
 import numpy as np
 import pandas as pd
 import os
+# import seaborn as sns
+
+
 import xgboost
-
-
-def home(request):
-    return HttpResponse("Home")
+# from sklearn.model_selection import StratifiedKFold
+# from sklearn.preprocessing import MinMaxScaler
+# import tensorflow as tf
+# from tensorflow.keras.models import Sequential
 
 
 def make_prediction(age, sbp, dbp, bs, bodytemp, heartrate):
@@ -32,19 +35,20 @@ def make_prediction(age, sbp, dbp, bs, bodytemp, heartrate):
         return "high risk"
 
 
-@api_view(['GET'])
+@api_view(['POST'])
 def getresult(request):
     try:
-        if request.method == 'GET':
-            age = request.query_params.get('Age')
-            LBP = request.query_params.get('SystolicBP')
-            HBP = request.query_params.get('DiastolicBP')
-            BS = request.query_params.get('BS')
-            Bodytemp = request.query_params.get('BodyTemp')
-            Heartrate = request.query_params.get('HeartRate')
-            return JsonResponse({
-                "risklevel": make_prediction(age, LBP, HBP, BS, Bodytemp, Heartrate)
-            }, safe=False)
+        required_params = ['Age', 'SystolicBP',
+                           'DiastolicBP', 'BS', 'BodyTemp', 'HeartRate']
+        if all(param in request.data for param in required_params):
+            age = request.data['Age']
+            LBP = request.data['SystolicBP']
+            HBP = request.data['DiastolicBP']
+            BS = request.data['BS']
+            Bodytemp = request.data['BodyTemp']
+            Heartrate = request.data['HeartRate']
+            return JsonResponse({"risklevel": make_prediction(age, LBP, HBP, BS, Bodytemp, Heartrate)})
+        else:
+            return JsonResponse({"error": "Missing required parameter(s)"}, status=400)
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=400)
-    JsonResponse()

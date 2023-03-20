@@ -32,6 +32,18 @@
                         <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('age','isdiabetes','ageinput')"></i>
                     </div> -->
                 </label>
+        <label id="temp" >
+            <label class="label-heading" for="temperature">What's your body temperature?</label>
+            <input id="tempinput" name="temperature" type="range" min="98" max="103" step="0.1" placeholder="Body temperature in Celsius"
+                required />
+        
+            <div class="nav-btn-div">
+                <button id="tempbtn" type="button" class="nav-button" value="next">OK <i class="fa fa-check"
+                        aria-hidden="true"></i></button>
+                Press <strong>Enter ↵</strong>
+            </div>
+        </label>
+
                 <label id="isdiabetes">
                     <label class="label-heading">Have you ever been told by doctor that you have diabetes?</label>
                     <input type="radio" name="isdiabetes" value="yes" id="isdiabetes-yes" required checked />
@@ -98,7 +110,7 @@
                 </label>
                 <label id="symp">
                     <label class="label-heading" for="pickbs">Have you experienced dizziness or lightheadedness during
-                        your pregnancy?This question is required.</label>
+                        your pregnancy</label>
 
                     <br>
                     <input type="radio" name="isheadache" value="yes" id="isheadache-yes" required checked />
@@ -117,7 +129,7 @@
                     </div> -->
                 </label>
                 <label id="isbp">
-                    <label class="label-heading" for="pickbs">Have you been diagnosed with high blood pressure during
+                    <label class="label-heading" for="pickbs">Have you been diagnosed with blood pressure during
                         your pregnancy</label>
 
                     <br>
@@ -218,7 +230,7 @@
                     <input type="radio" name="isheartrate-no" value="no" id="isheartrate-no" required />
                     <label class="label-heading" for="isheartrate-no">No</label>
                     <div class="nav-btn-div">
-                    <button type="submit" class="nav-button" value="submit">Submit</button>
+                    <button  id="submitbtnheartsymp" type="submit" class="nav-button" value="submit">Submit</button>
                     </div>
                     <!-- <div class="nav-btn-div">
                         <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
@@ -253,7 +265,7 @@
                     <input type="range" id="heartrate" name="heartrate" min="6" max="19" value="1" required />
                     <br>
                     <div class="nav-btn-div">
-                <button type="submit" class="nav-button" value="submit">Submit</button>
+                <button id="submitbtnheartrateknown" type="submit" class="nav-button" value="submit">Submit</button>
                     </div>
                     <!-- <div class="nav-btn-div">
                         <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
