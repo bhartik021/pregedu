@@ -830,7 +830,6 @@ ul.blog-subtopic-list-style {
 
 .report-risk-value {
   font-size: 48px;
-  font-style: italic;
   text-align: center;
   font-weight: 600;
   margin-top: 5%;
@@ -839,7 +838,7 @@ ul.blog-subtopic-list-style {
 .recommendation-container {
   margin-left: 12rem;
   margin-right: 12rem;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .recommendation-heading {
@@ -852,7 +851,7 @@ ul.blog-subtopic-list-style {
 
 .recommendation-button-container {
   position: relative;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .recommendation-button-center {
