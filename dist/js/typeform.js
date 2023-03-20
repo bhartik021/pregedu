@@ -153,14 +153,14 @@ function getresult(obj) {
 
   const options = {
     method: "POST",
-    url: "http://2d44-117-250-3-86.ngrok.io/api/getresult",
+    url: "http://a554-223-188-136-230.ngrok.io/api/getresult",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(data),
   };
 
-  fetch("  http://2de2-117-250-3-86.ngrok.io/api/getresult", options)
+  fetch("http://2de2-117-250-3-86.ngrok.io/api/getresult", options)
     .then((response) => response.json())
     .then((response) => {
       sessionStorage.setItem("risklevel", response.risklevel);
