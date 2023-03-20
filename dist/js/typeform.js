@@ -153,7 +153,7 @@ function getresult(obj) {
 
   const options = {
     method: "POST",
-    url: "http://0ed6-117-250-3-86.ngrok.io/api/getresult",
+    url: "http://2d44-117-250-3-86.ngrok.io/api/getresult",
     headers: {
       "Content-Type": "application/json",
     },
