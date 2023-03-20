@@ -865,13 +865,38 @@ table {
   margin-right: 3rem;
 }
 
-tr {
-  width: 600px;
-}
-
 th {
   height: 4rem;
   width: 600px;
+  background-color: #d5efff;
+}
+
+tr {
+  background-color: #e6f1f7;
+}
+
+td {
+  text-align: center;
+  justify-content: center;
+  line-height: 2rem;
+  padding: 1.5rem;
+}
+
+
+td:nth-child(1) {
+  width: 30%;
+}
+
+td:nth-child(2) {
+  width: 50%;
+}
+
+td:nth-child(3) {
+  width: 20%;
+}
+
+td:nth-child(4) {
+  width: 10%;
 }
 
 /* Health Test Page CSS Ending */

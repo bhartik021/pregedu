@@ -95,7 +95,7 @@
       }
 
       function createTable(data) {
-        var table = "<table border=1>";
+        var table = "<table border=0>";
         table += `<tr>
                   <th>Scheme Title</th>
                   <th>Description</th>
@@ -112,6 +112,7 @@
           tr += `<td>${data.schemes[i].url}</td>`;
           
           tr += "</tr>";
+
         }
         table += tr + "</table>";
 

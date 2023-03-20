@@ -89,3 +89,6 @@ function openChat() {
 //   };
 
 
+function myTableFunction() {
+  document.getElementById("table").style.borderCollapse = "collapse";
+}
