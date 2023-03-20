@@ -92,7 +92,7 @@ document.getElementById("sbpsympbtn").onclick = function () {
 };
 // is heart rate known
 document.getElementById("isheartrateknownbtn").onclick = function () {
-  alert("yes");
+  // alert("yes");
   var btn = document.getElementById("isheartrateknown-yes").checked;
   if (btn) {
     next("isheartrateknown", "pickheartrate", "isheartrateknown-yes");
