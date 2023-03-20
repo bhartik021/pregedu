@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Application Form</title>
 
-    <link rel="stylesheet" href="./css/main2.css">
+    <link rel="stylesheet" href="./css/typeform.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="./js/typeform.js" async></script>
@@ -32,17 +32,20 @@
                         <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('age','isdiabetes','ageinput')"></i>
                     </div> -->
                 </label>
-        <label id="temp" >
-            <label class="label-heading" for="temperature">What's your body temperature?</label>
-            <input id="tempinput" name="temperature" type="range" min="98" max="103" step="0.1" placeholder="Body temperature in Celsius"
-                required />
-        
-            <div class="nav-btn-div">
-                <button id="tempbtn" type="button" class="nav-button" value="next">OK <i class="fa fa-check"
-                        aria-hidden="true"></i></button>
-                Press <strong>Enter ↵</strong>
-            </div>
-        </label>
+                <label id="temp">
+                    <label class="label-heading" for="temperature">What's your body temperature?</label>
+                    <input id="tempinput" name="temperature" type="range" min="98" max="103" step="0.1"
+                        placeholder="Body temperature in Celsius" oninput="this.nextElementSibling.value = this.value"
+                        required />
+                    <output>24</output>
+
+
+                    <div class="nav-btn-div">
+                        <button id="tempbtn" type="button" class="nav-button" value="next">OK <i class="fa fa-check"
+                                aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                </label>
 
                 <label id="isdiabetes">
                     <label class="label-heading">Have you ever been told by doctor that you have diabetes?</label>
@@ -65,7 +68,9 @@
                 <label id="pickbs">
                     <label class="label-heading" for="pickbs">Pick Your Blood Sugar level</label>
 
-                    <input type="range" id="bslevel" name="bslevel" min="6" max="19" value="1" required />
+                    <input type="range" id="bslevel" name="bslevel" min="6" max="19" value="1" required
+                        oninput="this.nextElementSibling.value = this.value" />
+                    <output>18</output>
                     <br>
                     <div class="nav-btn-div">
                         <button id="pickbsbtn" type="button" class="nav-button" value="next"
@@ -158,11 +163,13 @@
                 <label id="picksbp">
                     <label class="label-heading" for="picksbp">Pick YourSystolic blood pressure level</label>
                     <label for="quantity">Systolic blood pressure Level</label>
-                    <input type="range" id="sbplevel" name="sbplevel" min="6" max="19" value="1" required />
+                    <input type="range" id="sbplevel" name="sbplevel" min="6" max="19" value="1" required
+                        oninput="this.nextElementSibling.value = this.value" />
+                    <output>9</output>
                     <br>
                     <div class="nav-btn-div">
-                        <button id="picksbpbtn" type="button" class="nav-button" value="next" onclick="next('phone','age')">OK <i
-                                class="fa fa-check" aria-hidden="true"></i></button>
+                        <button id="picksbpbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
                         Press <strong>Enter ↵</strong>
                     </div>
                     <!-- <div class="nav-btn-div">
@@ -173,11 +180,13 @@
                 <label id="pickdbp">
                     <label class="label-heading" for="pickdbp">Pick Your Diastolic blood pressure (mm Hg) level</label>
                     <label for="quantity">Diastolic blood pressure (mm Hg) Level</label>
-                    <input type="range" id="dbplevel" name="dbplevel" min="6" max="19" value="1" required />
+                    <input type="range" id="dbplevel" name="dbplevel" min="6" max="19" value="1" required
+                        oninput="this.nextElementSibling.value = this.value" />
+                    <output>24</output>
                     <br>
                     <div class="nav-btn-div">
-                        <button id="pickdbpbtn" type="button" class="nav-button" value="next" onclick="next('phone','age')">OK <i
-                                class="fa fa-check" aria-hidden="true"></i></button>
+                        <button id="pickdbpbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
                         Press <strong>Enter ↵</strong>
                     </div>
                     <!-- <div class="nav-btn-div">
@@ -203,8 +212,8 @@
                     <label class="label-heading" for="issbp-no">No</label>
 
                     <div class="nav-btn-div">
-                        <button id="sbpsympbtn" type="button" class="nav-button" value="next" onclick="next('phone','age')">OK <i
-                                class="fa fa-check" aria-hidden="true"></i></button>
+                        <button id="sbpsympbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
                         Press <strong>Enter ↵</strong>
                     </div>
                     <!-- <div class="nav-btn-div">
@@ -230,7 +239,7 @@
                     <input type="radio" name="isheartrate-no" value="no" id="isheartrate-no" required />
                     <label class="label-heading" for="isheartrate-no">No</label>
                     <div class="nav-btn-div">
-                    <button  id="submitbtnheartsymp" type="submit" class="nav-button" value="submit">Submit</button>
+                        <button id="submitbtnheartsymp" type="submit" class="nav-button" value="submit">Submit</button>
                     </div>
                     <!-- <div class="nav-btn-div">
                         <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
@@ -243,13 +252,14 @@
                 <label id="isheartrateknown">
                     <label class="label-heading" for="heartrateknown">Do you know your heart rate</label>
                     <br>
-                    <input type="radio" name="isheartrateknown" value="yes" id="isheartrateknown-yes" required checked />
+                    <input type="radio" name="isheartrateknown" value="yes" id="isheartrateknown-yes" required
+                        checked />
                     <label class="label-heading" for="isheartrate-yes">Yes</label>
                     <input type="radio" name="isheartrateknown" value="no" id="isheartrateknown-no" required />
                     <label class="label-heading" for="isheartrate-no">No</label>
                     <div class="nav-btn-div">
-                        <button id="isheartrateknownbtn" type="button" class="nav-button" value="next" onclick="next('phone','age')">OK <i
-                                class="fa fa-check" aria-hidden="true"></i></button>
+                        <button id="isheartrateknownbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
                         Press <strong>Enter ↵</strong>
                     </div>
                     <!-- <div class="nav-btn-div">
@@ -262,10 +272,13 @@
                 <label id="pickheartrate">
                     <label class="label-heading" for="picksbp">Pick Heart rate level</label>
                     <label for="quantity">Heart rate </label>
-                    <input type="range" id="heartrate" name="heartrate" min="6" max="19" value="1" required />
+                    <input type="range" id="heartrate" name="heartrate" min="6" max="19" value="1" required
+                        oninput="this.nextElementSibling.value = this.value" />
+                    <output>10</output>
                     <br>
                     <div class="nav-btn-div">
-                <button id="submitbtnheartrateknown" type="submit" class="nav-button" value="submit">Submit</button>
+                        <button id="submitbtnheartrateknown" type="submit" class="nav-button"
+                            value="submit">Submit</button>
                     </div>
                     <!-- <div class="nav-btn-div">
                         <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>

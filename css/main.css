@@ -275,7 +275,7 @@ a:hover {
   color: #fff;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   z-index: 999;
   display: flex;
   justify-content: center;
@@ -722,7 +722,6 @@ select:focus {
   flex-basis: 25%;
   background-color: #ffffff;
 }
-
 .col2 {
   flex-basis: 70%;
   background-color: #ffffff;
@@ -789,6 +788,92 @@ ul.blog-subtopic-list-style {
   color: rgb(76, 76, 76);
 }
 
+.hospital-near-me-button {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: #4b67e9;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  border: 4px solid #4b67e9;
+  width: 270px;
+  height: 83px;
+  margin-left: 2rem;
+  margin-top: 20px;
+}
+
+.hospital-near-me-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #4b67e9;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.report-text-value-container {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.report-text {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.report-risk-value {
+  font-size: 48px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 5%;
+}
+
+.recommendation-container {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-top: 3%;
+}
+
+.recommendation-heading {
+  font-size: 30px;
+}
+
+.recommendation-paragraph {
+  font-size: 24px;
+}
+
+.recommendation-button-container {
+  position: relative;
+  margin-top: 3%;
+}
+
+.recommendation-button-center {
+  margin: 0;
+  position: absolute;
+  left: 35%;
+}
+
+table {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+tr {
+  width: 600px;
+}
+
+th {
+  height: 4rem;
+  width: 600px;
+}
+
 /* Health Test Page CSS Ending */
 
 /* Media Queries */
@@ -851,7 +936,24 @@ ul.blog-subtopic-list-style {
     font-weight: bold;
     /* margin-bottom: 0px; */
   }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 10px;
+  }
+  /* chatbot media query */
 
+    .chatbot {
+      width: 90%;
+      height: 70%;
+      bottom: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
   .card-container {
     display: flex;
     flex-direction: column;
@@ -872,16 +974,17 @@ ul.blog-subtopic-list-style {
     transform: translateX(-50%);
   }
 
-
   /* styles for chatbot iframe */
   .chatbot iframe {
     width: 100%;
     height: 100%;
   }
-
+  
   .chatbot-container {
     right: 0px;
-
+  }
+  .chatbot-container {
+    right: 0px;
   }
 
   /* chatbot query ending */
@@ -1247,6 +1350,14 @@ ul.blog-subtopic-list-style {
     padding-top: 0px;
     padding-bottom: 0px;
   }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 10px;
+  }
 
   .card-container {
     display: flex;
@@ -1509,18 +1620,20 @@ ul.blog-subtopic-list-style {
     margin-left: 3rem;
     margin-right: 3rem;
   }
-
   .col {
     padding: 3%;
   }
 
+  .col {
+    padding: 3%;
+  }
   .col1 {
     flex-basis: 100%;
     background-color: #ffffff;
     margin-bottom: 1.5rem;
     padding: 5%;
   }
-
+  
   .col2 {
     flex-basis: 100%;
     background-color: #ffffff;
@@ -1594,7 +1707,6 @@ ul.blog-subtopic-list-style {
     flex-direction: column;
     align-items: center;
   }
-
   .card {
     margin: 10px;
   }
@@ -2101,7 +2213,6 @@ ul.blog-subtopic-list-style {
     margin-left: 2rem;
     margin-right: 2rem;
   }
-
   /* .col {
     padding: 3%;
   } */
