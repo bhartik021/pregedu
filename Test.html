@@ -66,6 +66,60 @@
             <label class="label-heading" for="isdiabetes-no"
               >No, I have not been diagnosed with diabetes</label
             >
+          </label>
+          <label id="temp">
+            <label class="label-heading" for="temperature"
+              >What's your body temperature?</label
+            >
+            <input
+              id="tempinput"
+              name="temperature"
+              type="range"
+              min="98"
+              max="103"
+              step="0.1"
+              placeholder="Body temperature in Celsius"
+              required
+            />
+
+            <div class="nav-btn-div">
+              <button
+                id="tempbtn"
+                type="button"
+                class="nav-button"
+                value="next"
+              >
+                OK <i class="fa fa-check" aria-hidden="true"></i>
+              </button>
+              Press <strong>Enter ↵</strong>
+            </div>
+          </label>
+
+          <label id="isdiabetes">
+            <label class="label-heading"
+              >Have you ever been told by doctor that you have diabetes?</label
+            >
+            <input
+              type="radio"
+              name="isdiabetes"
+              value="yes"
+              id="isdiabetes-yes"
+              required
+              checked
+            />
+            <label class="label-heading" for="isdiabetes-yes"
+              >Yes, I have been diagnosed with diabetes</label
+            >
+            <input
+              type="radio"
+              name="isdiabetes"
+              value="no"
+              id="isdiabetes-no"
+              required
+            />
+            <label class="label-heading" for="isdiabetes-no"
+              >No, I have not been diagnosed with diabetes</label
+            >
 
             <br />
             <div class="nav-btn-div">
@@ -207,6 +261,53 @@
           <label id="isbp">
             <label class="label-heading" for="pickbs"
               >Have you been diagnosed with high blood pressure during your
+              pregnancy</label
+            >
+          </label>
+          <label id="symp">
+            <label class="label-heading" for="pickbs"
+              >Have you experienced dizziness or lightheadedness during your
+              pregnancy</label
+            >
+
+            <br />
+            <input
+              type="radio"
+              name="isheadache"
+              value="yes"
+              id="isheadache-yes"
+              required
+              checked
+            />
+            <label class="label-heading" for="isheadache-yes">Yes</label>
+            <input
+              type="radio"
+              name="isheadache"
+              value="no"
+              id="isheadache-no"
+              required
+            />
+            <label class="label-heading" for="isheadache-no">No</label>
+
+            <div class="nav-btn-div">
+              <button
+                id="sympbtn"
+                type="button"
+                class="nav-button"
+                value="next"
+              >
+                OK <i class="fa fa-check" aria-hidden="true"></i>
+              </button>
+              Press <strong>Enter ↵</strong>
+            </div>
+            <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+          </label>
+          <label id="isbp">
+            <label class="label-heading" for="pickbs"
+              >Have you been diagnosed with blood pressure during your
               pregnancy</label
             >
 
@@ -392,6 +493,30 @@
               </button>
             </div>
             <!-- <div class="nav-btn-div">
+=======
+
+
+                </label>
+                <label id="heartratesymp">
+                    <label class="label-heading" for="pickbs">Have you noticed any changes in your heart rate during
+                        your pregnancy or experienced any of the following symptoms
+                        during your pregnancy?</label>
+                    <ul>
+                        <li>Racing or pounding heart</li>
+                        <li>Shortness of breath</li>
+                        <li>Dizziness or lightheadedness</li>
+                        <li>Fainting</li>
+                    </ul>
+                    <br>
+                    <input type="radio" name="isheartrate" value="yes" id="isheartrate-yes" required checked />
+                    <label class="label-heading" for="isheartrate-yes">Yes</label>
+                    <input type="radio" name="isheartrate-no" value="no" id="isheartrate-no" required />
+                    <label class="label-heading" for="isheartrate-no">No</label>
+                    <div class="nav-btn-div">
+                    <button  id="submitbtnheartsymp" type="submit" class="nav-button" value="submit">Submit</button>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+>>>>>>> feature-ML
                         <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
                         <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
                     </div> -->
@@ -457,6 +582,20 @@
               </button>
             </div>
             <!-- <div class="nav-btn-div">
+=======
+
+
+                </label>
+                <label id="pickheartrate">
+                    <label class="label-heading" for="picksbp">Pick Heart rate level</label>
+                    <label for="quantity">Heart rate </label>
+                    <input type="range" id="heartrate" name="heartrate" min="6" max="19" value="1" required />
+                    <br>
+                    <div class="nav-btn-div">
+                <button id="submitbtnheartrateknown" type="submit" class="nav-button" value="submit">Submit</button>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+>>>>>>> feature-ML
                         <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
                         <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
                     </div> -->
