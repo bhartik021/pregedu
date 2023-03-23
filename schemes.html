@@ -85,10 +85,29 @@
     <!-- Main Starting-->
     <main class="main-heading">
       <h1 class="content-heading">Government Schemes</h1>
+      <label for="filter">Filter by Country:</label>
+      <input
+        class="filterInput"
+        type="text"
+        id="filter"
+        placeholder="Enter a country name..."
+      />
+      <button class="filteringButton" onclick="filterTable()">Filter</button>
     </main>
     <!-- Main Closing-->
 
     <!-- <button onload="showTable()">Show Schemes</button> -->
+
+    <!-- <div class="filterButtonContainer">
+      <label for="filter">Filter by Country:</label>
+      <input
+        class="filterInput"
+        type="text"
+        id="filter"
+        placeholder="Enter a country name..."
+      />
+      <button class="filteringButton" onclick="filterTable()">Filter</button>
+    </div> -->
 
     <script>
       function showTable() {
@@ -100,22 +119,22 @@
       function createTable(data) {
         var table = "<table border=0>";
         table += `<tr>
-                  <th>Scheme Title</th>
-                  <th>Description</th>
-                  <th>Country</th>
-                  <th>Url</th>
-                </tr>`;
-        
+          <th style="width: 30%;">Scheme Title</th>
+          <th style="width: 50%;">Description</th>
+          <th style="width: 10%;">Country</th>
+          <th style="width: 10%;">Url</th>
+        </tr>`;
+
         var tr = "";
         for (let i = 0; i < data.schemes.length; i++) {
           tr += "<tr>";
-          tr += `<td>${data.schemes[i].schemeTitle}</td>`;
-          tr += `<td>${data.schemes[i].description}</td>`;
-          tr += `<td>${data.schemes[i].country}</td>`;
-          tr += `<td>${data.schemes[i].url}</td>`;
-          
-          tr += "</tr>";
 
+          tr += `<td>${data.schemes[i].schemeTitle}</td>`;
+          tr += `<td style="width: 50%;">${data.schemes[i].description}</td>`;
+          tr += `<td>${data.schemes[i].country}</td>`;
+          tr += `<td style="width: 10%;"><a href="${data.schemes[i].url}">${data.schemes[i].url}</a></td>`;
+
+          tr += "</tr>";
         }
         table += tr + "</table>";
 

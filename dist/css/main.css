@@ -867,7 +867,6 @@ table {
 
 th {
   height: 4rem;
-  width: 600px;
   background-color: #d5efff;
   font-size: 18px;
 }
@@ -884,21 +883,37 @@ td {
   font-size: 14px;
 }
 
-
-td:nth-child(1) {
-  width: 30%;
+.filteringButton {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: #4b67e9;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: 2px solid #4b67e9;
+  width: 150px;
+  height: 42px;
+  margin-left: 2rem;
+  margin-top: 20px;
 }
 
-td:nth-child(2) {
-  width: 50%;
+.filterInput {
+  width: 300px;
 }
 
-td:nth-child(3) {
-  width: 20%;
-}
-
-td:nth-child(4) {
-  width: 10%;
+.filteringButton:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #4b67e9;
+  color: #ffffff;
+  transform: translateY(-3px);
 }
 
 /* Health Test Page CSS Ending */
