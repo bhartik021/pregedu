@@ -112,11 +112,11 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 * **Developer Tooling** - ESLint, Prettier
 * **Services** - SMTPJS
 * **Design Tool** - Figma
-* **Project Management** - Notion, Kanban
+* **Project Management Tools** - Notion, Kanban
 * **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, google search
 
 ## Workflows
-![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-25-T2058](https://user-images.githubusercontent.com/75694208/227741554-c5b1e31b-1a94-4ccb-9b1e-aa6d3e652956.png)
+![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-25-T2102](https://user-images.githubusercontent.com/75694208/227741752-0f1647b2-339f-414d-8fe7-33b35aa3f830.png)
 
 
 ## Future plans
