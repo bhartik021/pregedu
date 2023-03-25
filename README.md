@@ -120,7 +120,7 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 * **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, google search
 
 ## Workflows
-![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-25-T2113](https://user-images.githubusercontent.com/75694208/227742312-061d4db5-f1ee-46a3-8ae7-2f0d3d701e37.png)
+![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-25-T2149](https://user-images.githubusercontent.com/75694208/227743907-6fdfd469-f1c7-42c8-8152-7a90ede66ad8.png)
 
 
 ## Future plans
