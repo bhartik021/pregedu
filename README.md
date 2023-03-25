@@ -48,6 +48,7 @@ root
      |_____js
            |______main.js
            |______typeform.js
+           |______report.js
      |_____json
            |______schemes.json
 |____LICENCE
@@ -63,6 +64,7 @@ root
 |____start.html
 
  ```                               
+
 
 ## Problem Statement
 
@@ -82,6 +84,7 @@ PregEdu provides a range of features to help expecting mothers throughout their 
 
 * ***Community:*** A platform where expecting mothers can connect with each other, share their experiences and knowledge, and receive support throughout their pregnancy journey. Providing a community platform for pregnant women to connect, share information, and offer support can promote SDG 5 - Gender Equality - by creating a safe and inclusive space for women to exchange knowledge and experiences, and SDG 17 - Partnerships for the Goals - by fostering collaboration and partnership between women, healthcare providers, and other organizations to promote sustainable development.
  Add a custom footer
+
 
 ## Target Audience
 The target audience of PregEdu is expecting mothers who are seeking comprehensive, sustainable, and accessible pregnancy education. This includes:
@@ -105,6 +108,7 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 
 ***Accessibility:*** PregEdu is committed to making pregnancy education accessible to all expecting mothers, regardless of their socio-economic background or location. This is achieved through the use of digital platforms, such as the PregEdu app, which can be accessed from anywhere in the world.
 
+
 ### Technologies Used
 
 * **Frontend** - HTML, CSS, JavaScript, JQuery
@@ -116,7 +120,7 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 * **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, google search
 
 ## Workflows
-![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-25-T2102](https://user-images.githubusercontent.com/75694208/227741752-0f1647b2-339f-414d-8fe7-33b35aa3f830.png)
+![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-25-T2113](https://user-images.githubusercontent.com/75694208/227742312-061d4db5-f1ee-46a3-8ae7-2f0d3d701e37.png)
 
 
 ## Future plans
