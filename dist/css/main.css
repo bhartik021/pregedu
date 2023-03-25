@@ -1,0 +1,2330 @@
+/* Universal Selector CSS Starting*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  /* list-style: none; */
+}
+
+/* Universal Selector CSS Ending*/
+
+/* Body CSS Starting*/
+body {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Body CSS Ending */
+
+/* Preloader CSS */
+/* .spinnerContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4b67e9;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+/* Navbar CSS Starting*/
+nav {
+  background-color: #4b67e9;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+label.logo {
+  color: white;
+  font-size: 36px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: 700;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 26px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: #ffffff;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+  transition: color 0.5s, border-bottom 4s;
+}
+
+a.active,
+a:hover {
+  transition: 0.5s;
+  border-bottom: 1px solid #ffffff;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #ffffff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* Navbar CSS Ending*/
+
+.main-heading {
+  padding: 50px;
+  text-align: center;
+}
+
+.content-heading {
+  font-size: 36px;
+  font-weight: bold;
+  /* margin-bottom: 0px; */
+}
+
+/* Landing Page Card CSS Starting*/
+
+.container-cards-section {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: auto; */
+  /* padding: auto; */
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  /* width: 30%;
+    height: 300px; */
+  width: 376px;
+  height: 376px;
+  padding: 50px;
+  /* margin-bottom: 30px; */
+  position: relative;
+  margin: 0 30px;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card-footer {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.card-button {
+  position: absolute;
+  width: 211px;
+  height: 83px;
+  bottom: -140px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  color: #4b67e9;
+  padding: 10px 20px;
+  border: 4px solid #4b67e9;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.card-button:hover {
+  background-color: #4b67e9;
+  color: #ffffff;
+}
+
+/* Landing Page Card CSS Ending*/
+
+/* chatbot css starting */
+.floating-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #4b67e9;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+  inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.floating-button i {
+  font-size: 20px;
+}
+
+.floating-button:hover {
+  background-color: #ffffff;
+  color: #4b67e9;
+  border: 4px #4b67e9 solid;
+}
+
+/* chatbot container styles */
+.chatbot-container {
+  position: fixed;
+  bottom: 120px;
+  right: 50px;
+  width: 450px;
+  height: 630px;
+  z-index: 999;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* close button styles */
+.chatbot-container button.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* chatbot iframe styles */
+.chatbot-container iframe {
+  height: 100%;
+  width: 100%;
+}
+
+/* chatbot css ending */
+
+/* FAQ Page CSS Starting */
+.accordion-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.accordion {
+  margin: 10px 0;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 56px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /*   box-shadow: inset 5px 5px 10px #bfc7d4, inset -5px -5px 10px #ffffff; */
+}
+
+.accordion-header:hover {
+  box-shadow: inset 2px 2px 5px #bfc7d4, inset -2px -2px 5px #ffffff;
+}
+
+.accordion-toggle {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #2d3c4f;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 10px;
+  transition: max-height 0.3s ease;
+  color: dimgray;
+}
+
+.accordion.active .accordion-body {
+  max-height: 500px;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+/* FAQ Page CSS Ending */
+
+/* Contact Page CSS Starting */
+.contact-container {
+  background-color: #ffffff;
+  padding: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.contact-page-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-page-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-page-label {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+  width: 100%;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.btn-send-message {
+  margin-top: 30px;
+  padding: 10px;
+  border: none;
+  background-color: #ffffff;
+  color: #4b67e9;
+  cursor: pointer;
+  border: 4px solid #4b67e9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  width: 250px;
+  height: 83px;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-send-message:hover {
+  background-color: #4b67e9;
+  color: #ffffff;
+}
+
+/* Contact Page CSS Ending */
+
+/* Explore Page CSS Starting */
+.learning-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore-button {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: #4b67e9;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  border: 4px solid #4b67e9;
+  width: 300px;
+  height: 83px;
+  margin-left: 2rem;
+}
+
+.explore-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #4b67e9;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.explore-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+/* Explore Page CSS Ending */
+
+/* Health Tip Page CSS Starting */
+.health-tip-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1750px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.column {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* .left-column {
+  background-color: #eee;
+}
+.right-column {
+  background-color: #f5f5f5;
+} */
+.h4-style {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.p-style {
+  font-size: 14px;
+  line-height: 1.1;
+  padding: 0px 20px 20px 20px;
+  color: dimgrey;
+  font-weight: 400;
+}
+
+.row1-color {
+  background-color: #e7f5fe;
+  height: 150px;
+}
+
+.row2-color {
+  background-color: #ffffff;
+  height: 150px;
+}
+
+/* Health Test Page CSS Starting*/
+
+.health-test-image {
+  float: left;
+  margin-right: 20px;
+  max-width: 100%;
+  margin-left: 3%;
+}
+
+.health-test-content {
+  margin-top: 6%;
+  margin-left: 150px;
+  margin-right: 3%;
+}
+
+.health-test-h-content {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.health-test-p-content {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 1.9rem;
+  color: dimgray;
+  font-weight: 500;
+}
+
+.check-risk-button {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: #4b67e9;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  border: 4px solid #4b67e9;
+  width: 250px;
+  height: 83px;
+  margin-top: 20px;
+}
+
+.check-risk-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #4b67e9;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.nutrition-test-button {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: #4b67e9;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  border: 4px solid #4b67e9;
+  width: 250px;
+  height: 83px;
+  margin-left: 2rem;
+  margin-top: 20px;
+}
+
+.nutrition-test-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #4b67e9;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+#first-five-month {
+  margin-top: 10px;
+}
+
+#last-five-month {
+  margin-top: 70px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+}
+
+.image-row img {
+  width: 100px;
+  height: 100px;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  width: 200px;
+  height: 170px;
+  transform-style: preserve-3d;
+  transition: transform 10s ease-in-out;
+}
+
+.image-row img:hover {
+  transform: rotateZ(360deg) scale(1);
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* .button-row button {
+  margin-right: 10px;
+} */
+
+.month-button {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: #4b67e9;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  border: 4px solid #4b67e9;
+  width: 200px;
+  height: 70px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-top: 20px;
+}
+
+.month-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #4b67e9;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.blog-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.col {
+  /* padding: 3%; */
+  /* padding-right: 10%; */
+  padding-left: 10%;
+}
+
+.col1 {
+  flex-basis: 25%;
+  background-color: #ffffff;
+}
+.col2 {
+  flex-basis: 70%;
+  background-color: #ffffff;
+  padding-right: 10%;
+}
+
+.read-time {
+  font-style: italic;
+  margin: 24px 16px;
+  margin-left: 0px;
+  font-weight: bold;
+  color: #636363;
+  font-size: 14px;
+}
+
+.left-border-text::before {
+  content: "|";
+  display: inline-block;
+  width: 5px;
+  height: 100%;
+  background-color: black;
+  margin-right: 10px;
+}
+
+.table-of-content-heading {
+  font-size: 14px;
+  margin-bottom: 1%;
+  margin-top: 5%;
+  color: rgb(76, 76, 76);
+}
+
+.blog-section-heading2 {
+  font-size: 20px;
+  margin-bottom: 2%;
+  color: rgb(76, 76, 76);
+}
+
+.blog-section-paragraph {
+  font-size: 16px;
+  color: dimgray;
+  line-height: 1.8rem;
+  margin-bottom: 4%;
+  font-weight: 500;
+}
+
+ul.table-of-content-list-style {
+  list-style: none;
+  margin: 2%;
+  line-height: 2rem;
+  font-size: 14px;
+}
+
+ul.blog-subtopic-list-style {
+  list-style: disc;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: dimgray;
+  line-height: 1.8rem;
+  margin-left: 4%;
+  font-weight: 500;
+}
+
+.blog-section-heading4 {
+  color: rgb(76, 76, 76);
+}
+
+.hospital-near-me-button {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: #4b67e9;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  border: 4px solid #4b67e9;
+  width: 270px;
+  height: 83px;
+  margin-left: 2rem;
+  margin-top: 20px;
+}
+
+.hospital-near-me-button:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #4b67e9;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+.report-text-value-container {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.report-text {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.report-risk-value {
+  font-size: 48px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 5%;
+}
+
+.recommendation-container {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-top: 3%;
+}
+
+.recommendation-heading {
+  font-size: 30px;
+}
+
+.recommendation-paragraph {
+  font-size: 24px;
+}
+
+.recommendation-button-container {
+  position: relative;
+  margin-top: 3%;
+}
+
+.recommendation-button-center {
+  margin: 0;
+  position: absolute;
+  left: 35%;
+}
+
+table {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+th {
+  height: 4rem;
+  background-color: #d5efff;
+  font-size: 18px;
+}
+
+tr {
+  background-color: #f2f8fb;
+}
+
+td {
+  text-align: center;
+  justify-content: center;
+  line-height: 2rem;
+  padding: 1.5rem;
+  font-size: 14px;
+}
+
+.filteringButton {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  color: #4b67e9;
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: 2px solid #4b67e9;
+  width: 150px;
+  height: 42px;
+  margin-left: 2rem;
+  margin-top: 20px;
+}
+
+.filterInput {
+  width: 300px;
+}
+
+.filteringButton:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #4b67e9;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+/* Health Test Page CSS Ending */
+
+/* Media Queries */
+@media screen and (max-width: 952px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+    transition: color 0.5s, border-bottom 4s;
+  }
+}
+
+@media screen and (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  .nav-item {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+    transition: color 0.5s, border-bottom 4s;
+  }
+
+  nav ul li a:hover,
+  a.active {
+    background: none;
+    color: #4b67e9;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content-heading {
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-bottom: 0px; */
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 10px;
+  }
+  /* chatbot media query */
+
+    .chatbot {
+      width: 90%;
+      height: 70%;
+      bottom: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  /* chatbot media query */
+
+  .chatbot {
+    width: 90%;
+    height: 70%;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* styles for chatbot iframe */
+  .chatbot iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .chatbot-container {
+    right: 0px;
+  }
+  .chatbot-container {
+    right: 0px;
+  }
+
+  /* chatbot query ending */
+  .contact-container {
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px #d9d9d9, -10px -10px 30px #ffffff;
+  }
+
+  .contact-page-heading {
+    font-size: 2rem;
+  }
+
+  input,
+  textarea {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  .btn-send-message {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .learning-container {
+    flex-direction: column;
+  }
+
+  .explore-button {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+
+  .explore-button {
+    margin-top: 1rem;
+  }
+
+  .accordion {
+    margin: 8px 0;
+  }
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 56px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 52px;
+  }
+
+  .accordion-header:hover {
+    box-shadow: inset 2px 2px 5px #bfc7d4, inset -2px -2px 5px #ffffff;
+  }
+
+  .accordion-toggle {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2d3c4f;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    transition: max-height 0.3s ease;
+    color: dimgray;
+  }
+
+  .accordion.active .accordion-body {
+    max-height: 900px;
+    padding: 8px;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  .contact-container {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .contact-page-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .contact-page-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .contact-page-label {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  } */
+
+  input,
+  textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+    width: 100%;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+
+  .btn-send-message {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: #4b67e9;
+    cursor: pointer;
+    border: 4px solid #4b67e9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    width: 170px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .btn-send-message:hover {
+    background-color: #4b67e9;
+    color: #ffffff;
+  }
+
+  .h4-style {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 700;
+  }
+
+  .p-style {
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 0px 20px 20px 20px;
+    color: dimgrey;
+    font-weight: 400;
+  }
+
+  .row1-color {
+    background-color: #e7f5fe;
+    height: 280px;
+  }
+
+  .row2-color {
+    background-color: #ffffff;
+    height: 280px;
+  }
+
+  .blog-container {
+    display: column;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .col {
+    padding: 3%;
+  }
+
+  .col1 {
+    flex-basis: 100%;
+    background-color: #ffffff;
+  }
+
+  .col2 {
+    flex-basis: 100%;
+    background-color: #ffffff;
+  }
+
+  .read-time {
+    font-style: italic;
+    margin: 24px 16px;
+    margin-left: 0px;
+    font-weight: bold;
+    color: #636363;
+    font-size: 12px;
+  }
+
+  .left-border-text::before {
+    content: "|";
+    display: inline-block;
+    width: 8px;
+    height: 100%;
+    background-color: black;
+    margin-right: 10px;
+  }
+
+  .table-of-content-heading {
+    font-size: 18px;
+    margin-bottom: 1%;
+    margin-top: 5%;
+  }
+
+  .blog-section-heading2 {
+    font-size: 18px;
+    margin-bottom: 1%;
+    margin-top: 4%;
+  }
+
+  .blog-section-paragraph {
+    font-size: 14px;
+    color: dimgray;
+    line-height: 1.5rem;
+    margin-bottom: 3%;
+    font-weight: 500;
+  }
+
+  ul.table-of-content-list-style {
+    list-style: none;
+    margin: 2%;
+    line-height: 2rem;
+    font-size: 14px;
+  }
+
+  ul.blog-subtopic-list-style {
+    list-style: disc;
+    margin: 3%;
+    color: dimgray;
+    line-height: 1.5rem;
+    margin-bottom: 4%;
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .blog-section-heading4 {
+    font-size: 14px;
+  }
+
+  /* Health Test Page CSS Starting*/
+
+  .health-test-image {
+    float: left;
+    margin-right: 10px;
+    max-width: 100%;
+    margin-left: 3%;
+  }
+
+  .health-test-content {
+    margin-top: 6%;
+    margin-left: 120px;
+    margin-right: 3%;
+  }
+
+  .health-test-h-content {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  .health-test-p-content {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.6rem;
+    color: dimgray;
+    font-weight: 500;
+  }
+
+  .check-risk-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px solid #4b67e9;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .check-risk-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
+  .nutrition-test-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border: 2px solid #4b67e9;
+    width: 200px;
+    height: 50px;
+    margin-left: 2rem;
+    margin-top: 20px;
+  }
+
+  .nutrition-test-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
+  /* Health Test Page CSS Ending*/
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .content-heading {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 10px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  .accordion-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .accordion {
+    margin: 6px 0;
+  }
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 56px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 50px;
+  }
+
+  .accordion-header:hover {
+    box-shadow: inset 2px 2px 5px #bfc7d4, inset -2px -2px 5px #ffffff;
+  }
+
+  .accordion-toggle {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #2d3c4f;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    transition: max-height 0.3s ease;
+    color: dimgray;
+  }
+
+  .accordion.active .accordion-body {
+    max-height: 900px;
+    padding: 8px;
+    padding-left: 20px;
+    font-size: 12px;
+  }
+
+  .contact-container {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .contact-page-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .contact-page-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-page-label {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+    width: 100%;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+
+  .btn-send-message {
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: #4b67e9;
+    cursor: pointer;
+    border: 4px solid #4b67e9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 29px;
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .btn-send-message:hover {
+    background-color: #4b67e9;
+    color: #ffffff;
+  }
+
+  .h4-style {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 700;
+  }
+
+  .p-style {
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 0px 20px 20px 20px;
+    color: dimgrey;
+    font-weight: 400;
+  }
+
+  .row1-color {
+    background-color: #e7f5fe;
+    height: 520px;
+  }
+
+  .row2-color {
+    background-color: #ffffff;
+    height: 520px;
+  }
+
+  /* Health Test Page CSS Starting*/
+
+  .health-test-image {
+    margin-top: 20px;
+    float: none;
+    margin-right: 0;
+    height: 300px;
+    /* max-width: 100%; */
+    /* margin-left: 3%; */
+    margin-bottom: 0px;
+  }
+
+  .health-test-content {
+    /* margin-top: 6%; */
+    margin-left: 0;
+    /* margin-right: 3%; */
+  }
+
+  .health-test-h-content {
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .health-test-p-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.6rem;
+    color: dimgray;
+    font-weight: 500;
+  }
+
+  .check-risk-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #4b67e9;
+    width: 170px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .check-risk-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
+  .nutrition-test-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #4b67e9;
+    width: 170px;
+    height: 40px;
+    margin-left: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .nutrition-test-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
+  .blog-container {
+    display: column;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .col {
+    padding: 3%;
+  }
+
+  .col {
+    padding: 3%;
+  }
+  .col1 {
+    flex-basis: 100%;
+    background-color: #ffffff;
+    margin-bottom: 1.5rem;
+    padding: 5%;
+  }
+  
+  .col2 {
+    flex-basis: 100%;
+    background-color: #ffffff;
+  }
+
+  .read-time {
+    font-style: italic;
+    margin: 24px 16px;
+    margin-left: 0px;
+    font-weight: bold;
+    color: #636363;
+    font-size: 12px;
+  }
+
+  .left-border-text::before {
+    content: "|";
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background-color: black;
+    margin-right: 10px;
+  }
+
+  .table-of-content-heading {
+    font-size: 18px;
+    margin-bottom: 1%;
+    margin-top: 6%;
+  }
+
+  .blog-section-heading2 {
+    font-size: 18px;
+    margin-bottom: 2%;
+  }
+
+  .blog-section-paragraph {
+    font-size: 12px;
+    color: dimgray;
+    line-height: 1.4rem;
+    margin-bottom: 3%;
+    font-weight: 500;
+  }
+
+  ul.table-of-content-list-style {
+    list-style: none;
+    margin: 4%;
+    line-height: 2rem;
+    font-size: 14px;
+  }
+
+  ul.blog-subtopic-list-style {
+    list-style: disc;
+    margin: 3%;
+    color: dimgray;
+    line-height: 1.4rem;
+    margin-bottom: 4%;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .blog-section-heading4 {
+    font-size: 13px;
+  }
+
+  /* Health Test Page CSS Ending*/
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    margin: 10px;
+  }
+
+  label.logo {
+    color: white;
+    font-size: 26px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: 700;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  .nav-item {
+    position: fixed;
+    width: 50%;
+    height: 100vh;
+    top: 80px;
+    /* left: -100%; */
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+    transition: color 0.5s, border-bottom 4s;
+  }
+
+  nav ul li a:hover,
+  a.active {
+    background: none;
+    color: #4b67e9;
+  }
+
+  /* #check:checked ~ ul {
+    left: 0;
+  } */
+  .content-heading {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .contact-container {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .contact-page-heading {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+
+  .contact-page-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-page-label {
+    font-size: 1rem;
+    margin-top: 4px;
+  }
+
+  input,
+  textarea {
+    padding: 4px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+    width: 100%;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+  }
+
+  .btn-send-message {
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    color: #4b67e9;
+    cursor: pointer;
+    border: 2px solid #4b67e9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    width: 130px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .btn-send-message:hover {
+    background-color: #4b67e9;
+    color: #ffffff;
+  }
+
+  .accordion-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .accordion {
+    margin: 10px 0;
+  }
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 56px;
+    padding: 26px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 60px;
+  }
+
+  .accordion-header:hover {
+    box-shadow: inset 2px 2px 5px #bfc7d4, inset -2px -2px 5px #ffffff;
+  }
+
+  .accordion-toggle {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #2d3c4f;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    transition: max-height 0.3s ease;
+    color: dimgray;
+    font-size: 10px;
+  }
+
+  .accordion.active .accordion-body {
+    max-height: 400px;
+    padding: 8px;
+    padding-left: 20px;
+  }
+
+  .h4-style {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 700;
+  }
+
+  .p-style {
+    font-size: 12px;
+    line-height: 1.1;
+    padding: 0px 20px 20px 20px;
+    color: dimgrey;
+    font-weight: 400;
+  }
+
+  .row1-color {
+    background-color: #e7f5fe;
+    height: 550px;
+  }
+
+  .row2-color {
+    background-color: #ffffff;
+    height: 550px;
+  }
+
+  .health-test-image {
+    margin-top: 20px;
+    float: none;
+    margin-right: 0;
+    height: 300px;
+    /* max-width: 100%; */
+    /* margin-left: 3%; */
+    margin-bottom: 0px;
+  }
+
+  .health-test-content {
+    /* margin-top: 6%; */
+    margin-left: 0;
+    /* margin-right: 3%; */
+  }
+
+  .health-test-h-content {
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .health-test-p-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.6rem;
+    color: dimgray;
+    font-weight: 600;
+  }
+
+  .check-risk-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #4b67e9;
+    width: 170px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .check-risk-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
+  .nutrition-test-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: 2px solid #4b67e9;
+    width: 170px;
+    height: 40px;
+    margin-left: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .nutrition-test-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
+  .blog-container {
+    display: column;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  /* .col {
+    padding: 3%;
+  } */
+  .col1 {
+    flex-basis: 100%;
+    background-color: #ffffff;
+    padding: 6%;
+    margin-bottom: 2rem;
+  }
+
+  .col2 {
+    flex-basis: 100%;
+    background-color: #ffffff;
+  }
+
+  .read-time {
+    font-style: italic;
+    margin: 24px 16px;
+    margin-left: 0px;
+    font-weight: bold;
+    color: #636363;
+    font-size: 12px;
+  }
+
+  .left-border-text::before {
+    content: "|";
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background-color: black;
+    margin-right: 10px;
+  }
+
+  .table-of-content-heading {
+    font-size: 16px;
+    margin-bottom: 1%;
+    margin-top: 5%;
+  }
+
+  .blog-section-heading2 {
+    font-size: 16px;
+    margin-bottom: 1%;
+    margin-bottom: 4%;
+  }
+
+  .blog-section-paragraph {
+    font-size: 12px;
+    color: dimgray;
+    line-height: 1.4rem;
+    margin-bottom: 6%;
+    font-weight: 500;
+  }
+
+  ul.table-of-content-list-style {
+    list-style: none;
+    margin: 4%;
+    line-height: 2rem;
+    font-size: 12px;
+  }
+
+  ul.blog-subtopic-list-style {
+    list-style: disc;
+    margin: 4%;
+    color: dimgray;
+    line-height: 1.4rem;
+    margin-bottom: 5%;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .blog-section-heading4 {
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .h4-style {
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 20px;
+    font-weight: 700;
+  }
+
+  .p-style {
+    font-size: 11px;
+    line-height: 1.1;
+    padding: 0px 20px 20px 20px;
+    color: dimgrey;
+    font-weight: 400;
+  }
+
+  .row1-color {
+    background-color: #e7f5fe;
+    height: 600px;
+  }
+
+  .row2-color {
+    background-color: #ffffff;
+    height: 600px;
+  }
+
+  .health-test-image {
+    margin-top: 20px;
+    float: none;
+    margin-right: 0;
+    height: 300px;
+    /* max-width: 100%; */
+    /* margin-left: 3%; */
+    margin-bottom: 0px;
+  }
+
+  .health-test-content {
+    /* margin-top: 6%; */
+    margin-left: 0;
+    /* margin-right: 3%; */
+  }
+
+  .health-test-h-content {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .health-test-p-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+    line-height: 1.6rem;
+    color: dimgray;
+    font-weight: 600;
+  }
+
+  .check-risk-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    border: 2px solid #4b67e9;
+    width: 140px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .check-risk-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
+  .nutrition-test-button {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: #4b67e9;
+    cursor: pointer;
+    padding: 10px 20px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    border: 2px solid #4b67e9;
+    width: 140px;
+    height: 40px;
+    margin-left: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .nutrition-test-button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+      inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #4b67e9;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+
+  .blog-container {
+    display: column;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  /* .col {
+    padding: 3%;
+  } */
+  .col1 {
+    flex-basis: 100%;
+    background-color: #ffffff;
+    padding: 6%;
+    margin-bottom: 1.5rem;
+  }
+
+  .col2 {
+    flex-basis: 100%;
+    background-color: #ffffff;
+  }
+
+  .read-time {
+    font-style: italic;
+    margin: 24px 16px;
+    margin-left: 0px;
+    font-weight: bold;
+    color: #636363;
+    font-size: 12px;
+  }
+
+  .left-border-text::before {
+    content: "|";
+    display: inline-block;
+    width: 5px;
+    height: 100%;
+    background-color: black;
+    margin-right: 10px;
+  }
+
+  .table-of-content-heading {
+    font-size: 16px;
+    margin-bottom: 1%;
+    margin-top: 5%;
+  }
+
+  .blog-section-heading2 {
+    font-size: 16px;
+    margin-bottom: 1%;
+  }
+
+  .blog-section-paragraph {
+    font-size: 12px;
+    color: dimgray;
+    line-height: 1.4rem;
+    margin-bottom: 5%;
+    font-weight: 500;
+  }
+
+  ul.table-of-content-list-style {
+    list-style: none;
+    margin: 4%;
+    line-height: 2rem;
+    font-size: 12px;
+  }
+
+  ul.blog-subtopic-list-style {
+    list-style: disc;
+    margin: 4%;
+    color: dimgray;
+    line-height: 1.4rem;
+    margin-bottom: 6%;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .blog-section-heading4 {
+    font-size: 12px;
+  }
+}

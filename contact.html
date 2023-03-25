@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <!-- All Meta Information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Pregnancy Guide Website" />
+    <meta
+      name="keywords"
+      content="PregEdu, Pregnancy Guide Web App, Pregnancy Blogs, Pregnancy Cycle, Pregnancy Report Check"
+    />
+    <meta
+      name="author"
+      content="Bharti Kumari, Diya Vijay, Shubhanshu Sharma, Siddhartha Sethi"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>PregEdu</title>
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+
+    <!-- Google Font Style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Icon -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome Icon -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="dist/css/main.css" />
+
+    <!-- External JS -->
+    <script src="dist/js/main.js"></script>
+
+    <!-- Head Closing -->
+  </head>
+
+  <body>
+    <!-- Main Body  -->
+
+    <!-- Header -->
+    <header>
+      <!-- Navbar Starts-->
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo active">PregEdu</label>
+        <ul class="nav-item">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="schemes.html">Schemes</a>
+          </li>
+          <li>
+            <a href="faq.html">FAQ</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Navbar Closing-->
+    </header>
+    <!-- Header Closing -->
+    <section>
+      <div class="contact-container">
+        <h1 class="contact-page-heading">Contact Us</h1>
+        <form
+          onSubmit="sendEmail(); reset(); return false;"
+          method="POST"
+          class="contact-page-form"
+        >
+          <!-- <label for="name" class="contact-page-label">Name:</label> -->
+          <input placeholder="Name" type="text" id="name" name="name" required />
+          <!-- <label for="email">Email:</label> -->
+          <input placeholder="Email" type="email" id="email" name="email" required />
+          <!-- <label for="subject">Subject:</label> -->
+          <input placeholder="Subject" type="text" id="subject" name="subject" required />
+          <!-- <label for="message">Message:</label> -->
+          <textarea placeholder="Write your message here..." id="message" name="message" rows="5" required></textarea>
+          <button class="btn-send-message" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- SMTP Script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- Body Closing   -->
+  </body>
+
+  <!-- HTML Closing  -->
+</html>

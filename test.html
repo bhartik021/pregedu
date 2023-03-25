@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+
+    <link rel="stylesheet" href="./dist/css/typeform.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="./dist/js/typeform.js" async></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Application Form</h1>
+
+        <section>
+            <form>
+                <label id="age" class="is-visible">
+                    <label class="label-heading" for="name">What's your Age?</label>
+                    <input id="ageinput" name="name" type="number" placeholder="Age" required />
+
+                    <div class="nav-btn-div">
+                        <button id="agebtn" type="button" class="nav-button" value="next">OK <i class="fa fa-check"
+                                aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('age','isdiabetes','ageinput')"></i>
+                    </div> -->
+                </label>
+                <label id="temp">
+                    <label class="label-heading" for="temperature">What's your body temperature?</label>
+                    <input id="tempinput" name="temperature" type="range" min="98" max="103" step="0.1"
+                        placeholder="Body temperature in Celsius" oninput="this.nextElementSibling.value = this.value"
+                        required />
+                    <output>24</output>
+
+
+                    <div class="nav-btn-div">
+                        <button id="tempbtn" type="button" class="nav-button" value="next">OK <i class="fa fa-check"
+                                aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                </label>
+
+                <label id="isdiabetes">
+                    <label class="label-heading">Have you ever been told by doctor that you have diabetes?</label>
+                    <input type="radio" name="isdiabetes" value="yes" id="isdiabetes-yes" required checked />
+                    <label class="label-heading" for="isdiabetes-yes">Yes, I have been diagnosed with diabetes</label>
+                    <input type="radio" name="isdiabetes" value="no" id="isdiabetes-no" required />
+                    <label class="label-heading" for="isdiabetes-no">No, I have not been diagnosed with diabetes</label>
+
+                    <br>
+                    <div class="nav-btn-div">
+                        <button id="isdiabetesbtn" type="button" class="nav-button" value="next"
+                            onclick="next('isdiabetes','pickbs')">OK</button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('isdiabetes','age')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('isdiabetes','')"></i>
+                    </div> -->
+                </label>
+                <label id="pickbs">
+                    <label class="label-heading" for="pickbs">Pick Your Blood Sugar level</label>
+
+                    <input type="range" id="bslevel" name="bslevel" min="6" max="19" value="1" required
+                        oninput="this.nextElementSibling.value = this.value" />
+                    <output>18</output>
+                    <br>
+                    <div class="nav-btn-div">
+                        <button id="pickbsbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+                </label>
+                <label id="diabetessymp">
+                    <label class="label-heading" for="pickbs">
+                        Have you experienced any of the following symptoms during
+                        your
+                        pregnancy?
+                        <ul>
+                            <li>Increased thirst</li>
+                            <li>Frequent urination</li>
+                            <li>Fatigue</li>
+                            <li>Blurred vision</li>
+                            <li>Slow healing of cuts or bruises</li>
+                        </ul>
+                    </label>
+                    <br>
+                    <input type="radio" name="isdiabetessymp" value="yes" id="isdiabetessymp-yes" checked />
+                    <label class="label-heading" for="isdiabetessymp-yes">Yes</label>
+                    <input type="radio" name="isdiabetessymp" value="no" id="isdiabetessymp-no" />
+                    <label class="label-heading" for="isdiabetessymp-no">No</label>
+
+                    <div class="nav-btn-div">
+                        <button id="diabetessympbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+
+
+                </label>
+                <label id="symp">
+                    <label class="label-heading" for="pickbs">Have you experienced dizziness or lightheadedness during
+                        your pregnancy</label>
+
+                    <br>
+                    <input type="radio" name="isheadache" value="yes" id="isheadache-yes" required checked />
+                    <label class="label-heading" for="isheadache-yes">Yes</label>
+                    <input type="radio" name="isheadache" value="no" id="isheadache-no" required />
+                    <label class="label-heading" for="isheadache-no">No</label>
+
+                    <div class="nav-btn-div">
+                        <button id="sympbtn" type="button" class="nav-button" value="next">OK <i class="fa fa-check"
+                                aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+                </label>
+                <label id="isbp">
+                    <label class="label-heading" for="pickbs">Have you been diagnosed with blood pressure during
+                        your pregnancy</label>
+
+                    <br>
+                    <input type="radio" name="isbp" value="yes" id="isbp-yes" required checked />
+                    <label class="label-heading" for="isbp-yes">Yes</label>
+                    <input type="radio" name="isbp" value="no" id="isbp-no" required />
+                    <label class="label-heading" for="isbp-no">No</label>
+
+
+                    <div class="nav-btn-div">
+                        <button id="isbpbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+
+
+
+
+
+                </label>
+
+                <label id="picksbp">
+                    <label class="label-heading" for="picksbp">Pick YourSystolic blood pressure level</label>
+                    <label for="quantity">Systolic blood pressure Level</label>
+                    <input type="range" id="sbplevel" name="sbplevel" min="6" max="19" value="1" required
+                        oninput="this.nextElementSibling.value = this.value" />
+                    <output>9</output>
+                    <br>
+                    <div class="nav-btn-div">
+                        <button id="picksbpbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+                </label>
+                <label id="pickdbp">
+                    <label class="label-heading" for="pickdbp">Pick Your Diastolic blood pressure (mm Hg) level</label>
+                    <label for="quantity">Diastolic blood pressure (mm Hg) Level</label>
+                    <input type="range" id="dbplevel" name="dbplevel" min="6" max="19" value="1" required
+                        oninput="this.nextElementSibling.value = this.value" />
+                    <output>24</output>
+                    <br>
+                    <div class="nav-btn-div">
+                        <button id="pickdbpbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+                </label>
+
+                <label id="sbpsymp">
+                    <label class="label-heading" for="pickbs">Have you experienced any of the following symptoms during
+                        your pregnancy?</label>
+                    <ul>
+                        <li>Headaches</li>
+                        <li>Visual disturbances, such as seeing spots or flashing lights</li>
+                        <li>Abdominal pain</li>
+                        <li>Shortness of breath</li>
+                        <li>Swelling of the hands, feet, or face</li>
+                    </ul>
+                    <br>
+                    <input type="radio" name="issbp" value="yes" id="issbp-yes" required checked />
+                    <label class="label-heading" for="issbp-yes">Yes</label>
+                    <input type="radio" name="issbp" value="no" id="issbp-no" required />
+                    <label class="label-heading" for="issbp-no">No</label>
+
+                    <div class="nav-btn-div">
+                        <button id="sbpsympbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+
+
+                </label>
+                <label id="heartratesymp">
+                    <label class="label-heading" for="pickbs">Have you noticed any changes in your heart rate during
+                        your pregnancy or experienced any of the following symptoms
+                        during your pregnancy?</label>
+                    <ul>
+                        <li>Racing or pounding heart</li>
+                        <li>Shortness of breath</li>
+                        <li>Dizziness or lightheadedness</li>
+                        <li>Fainting</li>
+                    </ul>
+                    <br>
+                    <input type="radio" name="isheartrate" value="yes" id="isheartrate-yes" required checked />
+                    <label class="label-heading" for="isheartrate-yes">Yes</label>
+                    <input type="radio" name="isheartrate-no" value="no" id="isheartrate-no" required />
+                    <label class="label-heading" for="isheartrate-no">No</label>
+                    <div class="nav-btn-div">
+                        <button id="submitbtnheartsymp" type="submit" class="nav-button" value="submit">Submit</button>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+
+
+                </label>
+                <!-- check for if heart rate is known -->
+                <label id="isheartrateknown">
+                    <label class="label-heading" for="heartrateknown">Do you know your heart rate</label>
+                    <br>
+                    <input type="radio" name="isheartrateknown" value="yes" id="isheartrateknown-yes" required
+                        checked />
+                    <label class="label-heading" for="isheartrate-yes">Yes</label>
+                    <input type="radio" name="isheartrateknown" value="no" id="isheartrateknown-no" required />
+                    <label class="label-heading" for="isheartrate-no">No</label>
+                    <div class="nav-btn-div">
+                        <button id="isheartrateknownbtn" type="button" class="nav-button" value="next"
+                            onclick="next('phone','age')">OK <i class="fa fa-check" aria-hidden="true"></i></button>
+                        Press <strong>Enter ↵</strong>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+
+
+                </label>
+                <label id="pickheartrate">
+                    <label class="label-heading" for="picksbp">Pick Heart rate level</label>
+                    <label for="quantity">Heart rate </label>
+                    <input type="range" id="heartrate" name="heartrate" min="6" max="19" value="1" required
+                        oninput="this.nextElementSibling.value = this.value" />
+                    <output>10</output>
+                    <br>
+                    <div class="nav-btn-div">
+                        <button id="submitbtnheartrateknown" type="submit" class="nav-button"
+                            value="submit">Submit</button>
+                    </div>
+                    <!-- <div class="nav-btn-div">
+                        <i class="fa fa-arrow-up" style="font-size:24px" onclick="previous('phone', 'email')"></i>
+                        <i class="fa fa-arrow-down" style="font-size:24px" onclick="next('phone','age')"></i>
+                    </div> -->
+                </label>
+
+                <p id="validate"></p>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

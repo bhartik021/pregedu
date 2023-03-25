@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <!-- All Meta Information -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Pregnancy Guide Website" />
+    <meta
+      name="keywords"
+      content="PregEdu, Pregnancy Guide Web App, Pregnancy Blogs, Pregnancy Cycle, Pregnancy Report Check"
+    />
+    <meta
+      name="author"
+      content="Bharti Kumari, Diya Vijay, Shubhanshu Sharma"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>PregEdu</title>
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+
+    <!-- Google Font Style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Icon -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome Icon -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="dist/css/main.css" />
+
+    <!-- External JS -->
+    <script src="dist/js/main.js" async></script>
+
+    <!-- Head Closing -->
+  </head>
+
+  <body>
+    <!-- Main Body  -->
+
+    <!-- Header -->
+    <header>
+      <!-- Navbar Starts-->
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">PregEdu</label>
+        <ul class="nav-item">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="schemes.html">Schemes</a>
+          </li>
+          <li>
+            <a href="faq.html">FAQ</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Navbar Closing-->
+    </header>
+    <!-- Header Closing -->
+
+    <div>
+      <img
+        class="health-test-image"
+        src="assets/female doctor with stethoscope.png"
+        alt="Health Test"
+      />
+      <div class="health-test-content">
+        <h1 class="health-test-h-content">Health Test</h1>
+        <p class="health-test-p-content">
+          Before starting the Health Check test, we recommend that you take a moment to read the instructions carefully. It's important to provide accurate and truthful answers to the questions and provide detailed symptom information to ensure the most accurate recommendations possible.<br> Health Check feature uses a series of questions and symptom information provided by you to generate personalized recommendations based on your health status. <br>By following the instructions and providing accurate information, you can get the most out of our Health Check feature and take control of your health and well-being.
+        </p>
+        <p style="color:red" class="health-test-p-content">
+          Please keep in mind that our Health Check feature uses machine learning models to generate personalized recommendations, but the accuracy of these recommendations may vary. We advise that you use the results as a general guide and not a replacement for professional medical advice.
+        </p>
+        <button
+          onclick="window.location.href = 'test.html';"
+          class="check-risk-button"
+          
+        >
+          Check Risk
+        </button>
+        <button
+          onclick="window.location.href = 'nutrition-test.html';"
+          class="nutrition-test-button"
+        >
+          Nutrition Test
+        </button>
+      </div>
+    </div>
+    <!-- Body Closing   -->
+  </body>
+
+  <!-- HTML Closing  -->
+</html>
