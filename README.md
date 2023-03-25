@@ -1,8 +1,12 @@
-
 # PregEdu
 
-<details>
-  <summary>Table of Contents</summary>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/87236107/226364340-e673aa52-6950-489b-a5c3-3daec03a1f2f.png" width=10% height=10%>
+    <br />
+  <a href="https://preg-edu.vercel.app/"><strong>Explore the app here »</strong></a>
+</p>
+
+  ## Table of Contents
   <ol>
      <li>
       <a href="#project-structure">Project Structure</a>
@@ -12,11 +16,6 @@
     </li>
     <li>
       <a href="#our-solution">Our Solution</a>
-      <ul>
-        <li><a href="#">Pregnancy Month Blogs</a></li>
-        <li><a href="#">Health Check</a></li>
-        <li><a href="#">Community</a></li>
-      </ul>
     </li>
     <li>
       <a href="#target-audience">Target Audience</a>
@@ -26,27 +25,34 @@
      <li><a href="#future-plans">Future Plans</a></li>
       <li><a href="#team-members">Team Members</a></li>
   </ol>
-</details>
 
 ## Project Structure
 ```
 root
 |
 |
-|____workflows
+|____workflows/
+|____API/
 |____assets
-     |_____explore.png
+     |_____months-journey/
+     |_____favicon.png
      |_____female doctor with clipboard.png
      |_____female doctor with stethoscope.png
      |_____health-test.png
      |_____join-the-community.png
      |_____learn-about-the-journey.png
-     |_____logo.png
 |____dist
      |_____css
            |______main.css
+           |______typeform.css
      |_____js
            |______main.js
+           |______typeform.js
+     |_____json
+           |______schemes.json
+|____LICENCE
+|____README.md
+|____Test.html
 |____community.html
 |____contact.html
 |____faq.html
@@ -70,11 +76,11 @@ The lack of accessible, comprehensive, and sustainable pregnancy education for e
 
 PregEdu provides a range of features to help expecting mothers throughout their pregnancy journey, including:
 
-***Pregnancy Month Blogs:*** Providing comprehensive and informative blogs about each month of pregnancy can help promote SDG 3 - Good Health and Well-being - by providing pregnant women with the knowledge they need to have a healthy pregnancy and childbirth experience. This can also promote gender equality by empowering women with the resources they need to make informed decisions about their health and the health of their baby.
+* ***Pregnancy Month Blogs:*** Providing comprehensive and informative blogs about each month of pregnancy can help promote SDG 3 - Good Health and Well-being - by providing pregnant women with the knowledge they need to have a healthy pregnancy and childbirth experience. This can also promote gender equality by empowering women with the resources they need to make informed decisions about their health and the health of their baby.
 
-***Health Check:*** A feature that allows users to check their health status and receive recommendations on when to visit a doctor or healthcare professional. It contribute to several of the SDGs, such as SDG 3 - Good Health and Well-being - by promoting early detection and treatment of health conditions during pregnancy, and SDG 17 - Partnerships for the Goals - by promoting collaborative partnerships with healthcare providers and organizations to improve maternal and child health outcomes.
+* ***Health Check:*** A feature that allows users to check their health status and receive recommendations on when to visit a doctor or healthcare professional. It contribute to several of the SDGs, such as SDG 3 - Good Health and Well-being - by promoting early detection and treatment of health conditions during pregnancy, and SDG 17 - Partnerships for the Goals - by promoting collaborative partnerships with healthcare providers and organizations to improve maternal and child health outcomes.
 
-***Community:*** A platform where expecting mothers can connect with each other, share their experiences and knowledge, and receive support throughout their pregnancy journey. Providing a community platform for pregnant women to connect, share information, and offer support can promote SDG 5 - Gender Equality - by creating a safe and inclusive space for women to exchange knowledge and experiences, and SDG 17 - Partnerships for the Goals - by fostering collaboration and partnership between women, healthcare providers, and other organizations to promote sustainable development.
+* ***Community:*** A platform where expecting mothers can connect with each other, share their experiences and knowledge, and receive support throughout their pregnancy journey. Providing a community platform for pregnant women to connect, share information, and offer support can promote SDG 5 - Gender Equality - by creating a safe and inclusive space for women to exchange knowledge and experiences, and SDG 17 - Partnerships for the Goals - by fostering collaboration and partnership between women, healthcare providers, and other organizations to promote sustainable development.
  Add a custom footer
 
 ## Target Audience
@@ -102,16 +108,17 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 ### Technologies Used
 
 * **Frontend** - HTML, CSS, JavaScript, JQuery
-<!-- * **Database** - Firestore -->
-<!-- * **Database Querying** - NoSQL -->
 * **DevOps** - GitHub
 * **Developer Tooling** - ESLint, Prettier
 * **Services** - SMTPJS
 * **Design Tool** - Figma
 * **Project Management** - Notion
-* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate
+* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, google search
 
 ## Future plans
+
+* Nutrition feature which calculates the nutritions taken by and required each day for the pregnant women.
+* Enabling the users to sign in and measure the health progress they've made during the last health test.
 
 ## Team members
 1. [Bharti Kumari](https://github.com/bhartik021)
