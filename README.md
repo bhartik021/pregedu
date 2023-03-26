@@ -68,48 +68,46 @@ root
 
 ## Problem Statement
 
-A guidance app for pregnant lady to significantly reduce the infant mortility rate.
+The infant mortality rate is still high in many developing countries due to a lack of access to prenatal care and education. Pregnant women do not receive adequate guidance on how to care for themselves and their growing fetus, leading to preventable complications and deaths. There is an opportunity to leverage digital tools to provide comprehensive and accessible guidance to expecting mothers, but there is still a lack of such guidance apps in many areas.
 
 ## Our Solution
 
-The lack of accessible, comprehensive, and sustainable pregnancy education for expecting mothers. Many women may not have access to reliable resources or may not know what steps to take to have a healthy and sustainable pregnancy. PregEdu aims to bridge this gap by providing a platform where women can access expert resources, connect with other expecting mothers, and receive support throughout their pregnancy journey. PregEdu aims to empower women with the knowledge and resources they need to have a healthy and sustainable pregnancy, which ultimately leads to better health outcomes for both mother and child.
+PregEdu addresses the lack of accessible pregnancy education by providing a platform with expert resources, a health check feature, and a community for support. It empowers women to have a healthy pregnancy and childbirth, promoting SDGs 3, 5, and 17.
 
 PregEdu provides a range of features to help expecting mothers throughout their pregnancy journey, including:
 
-* ***Pregnancy Month Blogs:*** Providing comprehensive and informative blogs about each month of pregnancy can help promote SDG 3 - Good Health and Well-being - by providing pregnant women with the knowledge they need to have a healthy pregnancy and childbirth experience. This can also promote gender equality by empowering women with the resources they need to make informed decisions about their health and the health of their baby.
+* ***Pregnancy Month Blogs:*** Comprehensive pregnancy blogs empower women with knowledge for healthy pregnancy and childbirth, promoting SDG 3 and gender equality.
 
-* ***Health Check:*** A feature that allows users to check their health status and receive recommendations on when to visit a doctor or healthcare professional. It contribute to several of the SDGs, such as SDG 3 - Good Health and Well-being - by promoting early detection and treatment of health conditions during pregnancy, and SDG 17 - Partnerships for the Goals - by promoting collaborative partnerships with healthcare providers and organizations to improve maternal and child health outcomes.
+* ***Health Check:*** PregEdu's Health Check feature promotes early detection and treatment of health conditions during pregnancy, and collaboration with healthcare providers to improve maternal and child health outcomes covering SDG 3 & 17.
 
-* ***Community:*** A platform where expecting mothers can connect with each other, share their experiences and knowledge, and receive support throughout their pregnancy journey. Providing a community platform for pregnant women to connect, share information, and offer support can promote SDG 5 - Gender Equality - by creating a safe and inclusive space for women to exchange knowledge and experiences, and SDG 17 - Partnerships for the Goals - by fostering collaboration and partnership between women, healthcare providers, and other organizations to promote sustainable development.
- Add a custom footer
+* ***Community:*** Community platform for pregnant women to connect, share information, and offer support promotes SDG 5 - Gender Equality and SDG 17 - Partnerships for the Goals.
+
+* ***Schemes:*** PregEdu also includes a feature that provides information on worldwide schemes available for pregnant women.
+
+* ***Chatbot:*** PregEdu includes an AI chatbot feature powered by Dialogflow to provide instant and personalized support to pregnant women throughout their pregnancy journey.
+
+![Project Flow](https://user-images.githubusercontent.com/87236107/227784182-8d35889a-e922-4660-a85e-316c01fc27bf.png)
 
 
 ## Target Audience
-The target audience of PregEdu is expecting mothers who are seeking comprehensive, sustainable, and accessible pregnancy education. This includes:
-
-* First-time mothers who may feel overwhelmed and unsure about what to expect during pregnancy.
-
-* Expecting mothers who are interested in learning about sustainable and environmentally friendly practices for a healthy pregnancy.
-
-* Mothers who may not have access to reliable healthcare resources and are seeking support and guidance throughout their pregnancy journey.
-
-PregEdu aims to be inclusive and accessible to all expecting mothers, regardless of their background, ethnicity, or socio-economic status. By providing valuable education, resources, and support, PregEdu hopes to empower and improve the health outcomes for all expecting mothers and their children.
-
+PregEdu targets expecting mothers seeking accessible and sustainable pregnancy education, including first-time mothers, those interested in environmentally friendly practices, and those lacking reliable healthcare resources, with the goal of empowering and improving health outcomes for all.
 
 ## Unique points
 
-***Sustainable and eco-friendly focus:*** PregEdu is committed to providing education and resources to expecting mothers about sustainable and environmentally-friendly practices that can improve their health outcomes and reduce their environmental impact.
+***Sustainable and eco-friendly focus:*** PregEdu offers online education and resources to expecting mothers about sustainable and environmentally-friendly practices that can improve their health outcomes and reduce their environmental impact.
 
 ***Comprehensive Education:*** Comprehensive knowledge about every month of pregnancy. This ensures that expecting mothers have access to all the information.
 
 ***Community support:*** PregEdu provides a supportive and inclusive community for expecting mothers to connect with each other, share their experiences and knowledge, and receive support from healthcare professionals.
 
-***Accessibility:*** PregEdu is committed to making pregnancy education accessible to all expecting mothers, regardless of their socio-economic background or location. This is achieved through the use of digital platforms, such as the PregEdu app, which can be accessed from anywhere in the world.
+***Accessibility:*** PregEdu makes pregnancy education accessible to all mothers, regardless of location or socio-economic background, through its digital platform
 
+***Awarness about benefits:*** PregEdu's schemes feature spreads awareness about the benefits available to pregnant women worldwide, helping them access the support they need for a healthy pregnancy and childbirth.
 
 ### Technologies Used
 
 * **Frontend** - HTML, CSS, JavaScript, JQuery
+* **Backend** - Django, Json
 * **DevOps** - GitHub, Vercel, Google Cloud Platform
 * **Developer Tooling** - ESLint, Prettier, git
 * **Services** - SMTPJS
