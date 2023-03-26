@@ -68,9 +68,7 @@ root
 
 ## Problem Statement
 
-Pregnant women face a variety of challenges that can affect their health and the health of their developing baby. These challenges can range from physical discomforts such as morning sickness and fatigue to more serious health issues such as gestational diabetes and pre-eclampsia. In addition, pregnant women may also face emotional and psychological challenges such as anxiety, depression, and stress.
-
-There are also external factors that can impact pregnant women, such as access to quality healthcare, social support, and adequate nutrition. These factors can have a significant impact on the health of both the mother and baby.
+A guidance app for pregnant lady to significantly reduce the infant mortility rate.
 
 ## Our Solution
 
@@ -112,12 +110,12 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 ### Technologies Used
 
 * **Frontend** - HTML, CSS, JavaScript, JQuery
-* **DevOps** - GitHub
-* **Developer Tooling** - ESLint, Prettier
+* **DevOps** - GitHub, Vercel, Google Cloud Platform
+* **Developer Tooling** - ESLint, Prettier, git
 * **Services** - SMTPJS
-* **Design Tool** - Figma
+* **Design Tool** - Figma, StarUML, FigJam
 * **Project Management Tools** - Notion, Kanban
-* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, google search
+* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, Google search, Google groups
 
 ## Workflows (Kanban Board)
 ![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-25-T2149](https://user-images.githubusercontent.com/75694208/227743907-6fdfd469-f1c7-42c8-8152-7a90ede66ad8.png)
@@ -127,6 +125,7 @@ PregEdu aims to be inclusive and accessible to all expecting mothers, regardless
 
 * Nutrition feature which calculates the nutritions taken by and required each day for the pregnant women.
 * Enabling the users to sign in and measure the health progress they've made during the last health test.
+* Making real time chat room feature for more user-friendly experience.
 
 ## Team members
 1. [Bharti Kumari](https://github.com/bhartik021)
