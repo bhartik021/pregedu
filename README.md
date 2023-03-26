@@ -107,7 +107,7 @@ PregEdu targets expecting mothers seeking accessible and sustainable pregnancy e
 ### Technologies Used
 
 * **Frontend** - HTML, CSS, JavaScript, JQuery
-* **Backend** - Django, Json
+* **Backend** - Python, Django, Json
 * **DevOps** - GitHub, Vercel, Google Cloud Platform
 * **Developer Tooling** - ESLint, Prettier, git
 * **Services** - SMTPJS
