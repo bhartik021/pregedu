@@ -20,6 +20,9 @@
     <li>
       <a href="#target-audience">Target Audience</a>
     </li>
+     <li>
+      <a href="#uml">UML</a>
+    </li>
     <li><a href="#unique-points">Unique points</a></li>
     <li><a href="#technologies-used">Technologies Used</a></li>
      <li><a href="#future-plans">Future Plans</a></li>
@@ -90,7 +93,11 @@ PregEdu provides a range of features to help expecting mothers throughout their 
 
 
 ## Target Audience
-PregEdu targets expecting mothers seeking accessible and sustainable pregnancy education, including first-time mothers, those interested in environmentally friendly practices, and those lacking reliable healthcare resources, with the goal of empowering and improving health outcomes for all.
+
+* PregEdu targets expecting mothers seeking accessible and sustainable pregnancy education
+* First-time mothers
+* Mothers interested in environmentally friendly practices during pregnancy
+* Mothers who lack reliable healthcare resources
 
 ### UML
 
@@ -107,6 +114,7 @@ PregEdu targets expecting mothers seeking accessible and sustainable pregnancy e
 #### Entity Relation (ER) Diagram
 
 <img width="1626" alt="ER" src="https://user-images.githubusercontent.com/87236107/228339665-8022f971-1cd5-4617-b8c7-9efed9a529c3.png">
+
 
 ## Unique points
 
@@ -125,26 +133,21 @@ PregEdu targets expecting mothers seeking accessible and sustainable pregnancy e
 * **Frontend** - HTML, CSS, JavaScript, JQuery
 * **Backend** - Python, Django, Json
 * **DevOps** - GitHub, Vercel, Google Cloud Platform
-* **Developer Tooling** - ESLint, Prettier, git
+* **Developer Tooling** - Prettier, git
 * **Services** - SMTPJS
 * **Design Tool** - Figma, StarUML, FigJam
 * **Project Management Tools** - Notion, Kanban
-* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, Google search, Google groups
-
-## Workflows (Kanban Board)
-![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-30-T0857](https://user-images.githubusercontent.com/75694208/228784629-7a74f366-c5b0-44ca-b619-4e0d9dd87790.png)
-
+* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, Google search, Google groups, Google Docs
 
 ## Future plans
 
-* Incorporate visual and video content from WHO in our blog to improve the quality of information provided to our users.
-* Establish 24x7 doctor availability through our platform and partner with hospitals to provide a more comprehensive range of services to our users.
-* Add Indian nuskhe for small problems, which are traditional Indian remedies for minor health issues, to the platform to expand our offerings.
-* Implement a Nutrition feature that calculates the daily nutrition required and taken by pregnant women to help them maintain a healthy diet.
-* Enable users to sign in to track their health progress after taking the health test.
-* Create a real-time chat room feature for a more user-friendly experience and provide an opportunity for users to connect and support each other.
+* Incorporate WHO visual and video content in the blog for better information quality.
+* Establish 24x7 doctor availability and partner with hospitals for more comprehensive services.
+* Add traditional Indian remedies for minor health issues to the platform.
+* Implement a Nutrition feature, health progress tracking, and real-time chat room for a better user experience.
+
 
 ## Team members
 1. [Bharti Kumari](https://github.com/bhartik021)
 2. [Diya Vijay](https://github.com/DiyaVj)
-3. [Shubhanshu Sharma](https://github.com/Shubhanshu156)
+3. [Shubhanshu Sharma](https://github.com/Shubhanshu1566)
