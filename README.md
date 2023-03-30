@@ -92,6 +92,22 @@ PregEdu provides a range of features to help expecting mothers throughout their 
 ## Target Audience
 PregEdu targets expecting mothers seeking accessible and sustainable pregnancy education, including first-time mothers, those interested in environmentally friendly practices, and those lacking reliable healthcare resources, with the goal of empowering and improving health outcomes for all.
 
+### UML
+
+#### Activity Diagram
+![activity diagram](https://user-images.githubusercontent.com/87236107/228335680-5c7c924a-61d6-4b18-a60c-a921157744bd.png)
+
+#### Component Diagram
+![component diagram](https://user-images.githubusercontent.com/87236107/228335724-a6b9f754-95a8-45c3-af79-c561067f71d1.png)
+
+#### Use Case Diagram
+
+<img width="1654" alt="use case" src="https://user-images.githubusercontent.com/87236107/228339646-74625e31-929f-4e78-b10c-cb8527dfa890.png">
+
+#### Entity Relation (ER) Diagram
+
+<img width="1626" alt="ER" src="https://user-images.githubusercontent.com/87236107/228339665-8022f971-1cd5-4617-b8c7-9efed9a529c3.png">
+
 ## Unique points
 
 ***Sustainable and eco-friendly focus:*** PregEdu offers online education and resources to expecting mothers about sustainable and environmentally-friendly practices that can improve their health outcomes and reduce their environmental impact.
