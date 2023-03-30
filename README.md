@@ -137,9 +137,12 @@ PregEdu targets expecting mothers seeking accessible and sustainable pregnancy e
 
 ## Future plans
 
-* Nutrition feature which calculates the nutritions taken by and required each day for the pregnant women.
-* Enabling the users to sign in and measure the health progress they've made during the last health test.
-* Making real time chat room feature for more user-friendly experience.
+* Incorporate visual and video content from WHO in our blog to improve the quality of information provided to our users.
+* Establish 24x7 doctor availability through our platform and partner with hospitals to provide a more comprehensive range of services to our users.
+* Add Indian nuskhe for small problems, which are traditional Indian remedies for minor health issues, to the platform to expand our offerings.
+* Implement a Nutrition feature that calculates the daily nutrition required and taken by pregnant women to help them maintain a healthy diet.
+* Enable users to sign in to track their health progress after taking the health test.
+* Create a real-time chat room feature for a more user-friendly experience and provide an opportunity for users to connect and support each other.
 
 ## Team members
 1. [Bharti Kumari](https://github.com/bhartik021)
