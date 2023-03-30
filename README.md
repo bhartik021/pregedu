@@ -48,6 +48,7 @@ root
      |_____js
            |______main.js
            |______typeform.js
+           |______report.js
      |_____json
            |______schemes.json
 |____LICENCE
@@ -64,63 +65,86 @@ root
 
  ```                               
 
+
 ## Problem Statement
 
-Pregnant women face a variety of challenges that can affect their health and the health of their developing baby. These challenges can range from physical discomforts such as morning sickness and fatigue to more serious health issues such as gestational diabetes and pre-eclampsia. In addition, pregnant women may also face emotional and psychological challenges such as anxiety, depression, and stress.
-
-There are also external factors that can impact pregnant women, such as access to quality healthcare, social support, and adequate nutrition. These factors can have a significant impact on the health of both the mother and baby.
+The infant mortality rate is still high in many developing countries due to a lack of access to prenatal care and education. Pregnant women do not receive adequate guidance on how to care for themselves and their growing fetus, leading to preventable complications and deaths. There is an opportunity to leverage digital tools to provide comprehensive and accessible guidance to expecting mothers, but there is still a lack of such guidance apps in many areas.
 
 ## Our Solution
 
-The lack of accessible, comprehensive, and sustainable pregnancy education for expecting mothers. Many women may not have access to reliable resources or may not know what steps to take to have a healthy and sustainable pregnancy. PregEdu aims to bridge this gap by providing a platform where women can access expert resources, connect with other expecting mothers, and receive support throughout their pregnancy journey. PregEdu aims to empower women with the knowledge and resources they need to have a healthy and sustainable pregnancy, which ultimately leads to better health outcomes for both mother and child.
+PregEdu addresses the lack of accessible pregnancy education by providing a platform with expert resources, a health check feature, and a community for support. It empowers women to have a healthy pregnancy and childbirth, promoting SDGs 3, 5, and 17.
 
 PregEdu provides a range of features to help expecting mothers throughout their pregnancy journey, including:
 
-* ***Pregnancy Month Blogs:*** Providing comprehensive and informative blogs about each month of pregnancy can help promote SDG 3 - Good Health and Well-being - by providing pregnant women with the knowledge they need to have a healthy pregnancy and childbirth experience. This can also promote gender equality by empowering women with the resources they need to make informed decisions about their health and the health of their baby.
+* ***Pregnancy Month Blogs:*** Comprehensive pregnancy blogs empower women with knowledge for healthy pregnancy and childbirth, promoting SDG 3 and gender equality.
 
-* ***Health Check:*** A feature that allows users to check their health status and receive recommendations on when to visit a doctor or healthcare professional. It contribute to several of the SDGs, such as SDG 3 - Good Health and Well-being - by promoting early detection and treatment of health conditions during pregnancy, and SDG 17 - Partnerships for the Goals - by promoting collaborative partnerships with healthcare providers and organizations to improve maternal and child health outcomes.
+* ***Health Check:*** PregEdu's Health Check feature promotes early detection and treatment of health conditions during pregnancy, and collaboration with healthcare providers to improve maternal and child health outcomes covering SDG 3 & 17.
 
-* ***Community:*** A platform where expecting mothers can connect with each other, share their experiences and knowledge, and receive support throughout their pregnancy journey. Providing a community platform for pregnant women to connect, share information, and offer support can promote SDG 5 - Gender Equality - by creating a safe and inclusive space for women to exchange knowledge and experiences, and SDG 17 - Partnerships for the Goals - by fostering collaboration and partnership between women, healthcare providers, and other organizations to promote sustainable development.
- Add a custom footer
+* ***Community:*** Community platform for pregnant women to connect, share information, and offer support promotes SDG 5 - Gender Equality and SDG 17 - Partnerships for the Goals.
+
+* ***Schemes:*** PregEdu also includes a feature that provides information on worldwide schemes available for pregnant women.
+
+* ***Chatbot:*** PregEdu includes an AI chatbot feature powered by Dialogflow to provide instant and personalized support to pregnant women throughout their pregnancy journey.
+
+![Project Flow](https://user-images.githubusercontent.com/87236107/227784182-8d35889a-e922-4660-a85e-316c01fc27bf.png)
+
 
 ## Target Audience
-The target audience of PregEdu is expecting mothers who are seeking comprehensive, sustainable, and accessible pregnancy education. This includes:
+PregEdu targets expecting mothers seeking accessible and sustainable pregnancy education, including first-time mothers, those interested in environmentally friendly practices, and those lacking reliable healthcare resources, with the goal of empowering and improving health outcomes for all.
 
-* First-time mothers who may feel overwhelmed and unsure about what to expect during pregnancy.
+### UML
 
-* Expecting mothers who are interested in learning about sustainable and environmentally friendly practices for a healthy pregnancy.
+#### Activity Diagram
+![activity diagram](https://user-images.githubusercontent.com/87236107/228335680-5c7c924a-61d6-4b18-a60c-a921157744bd.png)
 
-* Mothers who may not have access to reliable healthcare resources and are seeking support and guidance throughout their pregnancy journey.
+#### Component Diagram
+![component diagram](https://user-images.githubusercontent.com/87236107/228335724-a6b9f754-95a8-45c3-af79-c561067f71d1.png)
 
-PregEdu aims to be inclusive and accessible to all expecting mothers, regardless of their background, ethnicity, or socio-economic status. By providing valuable education, resources, and support, PregEdu hopes to empower and improve the health outcomes for all expecting mothers and their children.
+#### Use Case Diagram
 
+<img width="1654" alt="use case" src="https://user-images.githubusercontent.com/87236107/228339646-74625e31-929f-4e78-b10c-cb8527dfa890.png">
+
+#### Entity Relation (ER) Diagram
+
+<img width="1626" alt="ER" src="https://user-images.githubusercontent.com/87236107/228339665-8022f971-1cd5-4617-b8c7-9efed9a529c3.png">
 
 ## Unique points
 
-***Sustainable and eco-friendly focus:*** PregEdu is committed to providing education and resources to expecting mothers about sustainable and environmentally-friendly practices that can improve their health outcomes and reduce their environmental impact.
+***Sustainable and eco-friendly focus:*** PregEdu offers online education and resources to expecting mothers about sustainable and environmentally-friendly practices that can improve their health outcomes and reduce their environmental impact.
 
 ***Comprehensive Education:*** Comprehensive knowledge about every month of pregnancy. This ensures that expecting mothers have access to all the information.
 
 ***Community support:*** PregEdu provides a supportive and inclusive community for expecting mothers to connect with each other, share their experiences and knowledge, and receive support from healthcare professionals.
 
-***Accessibility:*** PregEdu is committed to making pregnancy education accessible to all expecting mothers, regardless of their socio-economic background or location. This is achieved through the use of digital platforms, such as the PregEdu app, which can be accessed from anywhere in the world.
+***Accessibility:*** PregEdu makes pregnancy education accessible to all mothers, regardless of location or socio-economic background, through its digital platform
+
+***Awarness about benefits:*** PregEdu's schemes feature spreads awareness about the benefits available to pregnant women worldwide, helping them access the support they need for a healthy pregnancy and childbirth.
 
 ### Technologies Used
 
 * **Frontend** - HTML, CSS, JavaScript, JQuery
-* **DevOps** - GitHub
-* **Developer Tooling** - ESLint, Prettier
+* **Backend** - Python, Django, Json
+* **DevOps** - GitHub, Vercel, Google Cloud Platform
+* **Developer Tooling** - ESLint, Prettier, git
 * **Services** - SMTPJS
-* **Design Tool** - Figma
-* **Project Management** - Notion
-* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, google search
+* **Design Tool** - Figma, StarUML, FigJam
+* **Project Management Tools** - Notion, Kanban
+* **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, Google search, Google groups
+
+## Workflows (Kanban Board)
+![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-30-T0857](https://user-images.githubusercontent.com/75694208/228784629-7a74f366-c5b0-44ca-b619-4e0d9dd87790.png)
+
 
 ## Future plans
 
-* Nutrition feature which calculates the nutritions taken by and required each day for the pregnant women.
-* Enabling the users to sign in and measure the health progress they've made during the last health test.
+* Incorporate visual and video content from WHO in our blog to improve the quality of information provided to our users.
+* Establish 24x7 doctor availability through our platform and partner with hospitals to provide a more comprehensive range of services to our users.
+* Add Indian nuskhe for small problems, which are traditional Indian remedies for minor health issues, to the platform to expand our offerings.
+* Implement a Nutrition feature that calculates the daily nutrition required and taken by pregnant women to help them maintain a healthy diet.
+* Enable users to sign in to track their health progress after taking the health test.
+* Create a real-time chat room feature for a more user-friendly experience and provide an opportunity for users to connect and support each other.
 
 ## Team members
 1. [Bharti Kumari](https://github.com/bhartik021)
 2. [Diya Vijay](https://github.com/DiyaVj)
-3. [Shubhanshu Sharma](https://github.com/Shubhanshu1566)
+3. [Shubhanshu Sharma](https://github.com/Shubhanshu156)
