@@ -128,4 +128,4 @@ PregEdu targets expecting mothers seeking accessible and sustainable pregnancy e
 ## Team members
 1. [Bharti Kumari](https://github.com/bhartik021)
 2. [Diya Vijay](https://github.com/DiyaVj)
-3. [Shubhanshu Sharma](https://github.com/Shubhanshu1566)
+3. [Shubhanshu Sharma](https://github.com/Shubhanshu156)
