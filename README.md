@@ -116,7 +116,7 @@ PregEdu targets expecting mothers seeking accessible and sustainable pregnancy e
 * **Google Technology** - Google Colab, Kaggle, Google Dialogflow, Google fonts, Google Translate, Google search, Google groups
 
 ## Workflows (Kanban Board)
-![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-25-T2149](https://user-images.githubusercontent.com/75694208/227743907-6fdfd469-f1c7-42c8-8152-7a90ede66ad8.png)
+![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-30-T0857](https://user-images.githubusercontent.com/75694208/228784629-7a74f366-c5b0-44ca-b619-4e0d9dd87790.png)
 
 
 ## Future plans
