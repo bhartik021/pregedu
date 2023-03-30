@@ -153,13 +153,13 @@ function getresult(obj) {
 
 const options = {
   method: "POST",
-  url: "http://34.134.253.166:80/api/getresult",
+  url: "http://35.239.45.225:80/api/getresult",
   headers: {
     "Content-Type": "application/json",
   },
   body: JSON.stringify(data),
 };
-    fetch("http://34.134.253.166:80/api/getresult", options)
+    fetch("http://35.239.45.225:80/api/getresult", options)
       .then((response) => response.json())
       .then((response) => {
         console.log(response.risklevel)
