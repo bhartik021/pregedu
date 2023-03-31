@@ -23,10 +23,21 @@
      <li>
       <a href="#uml">UML</a>
     </li>
-    <li><a href="#unique-points">Unique points</a></li>
-    <li><a href="#technologies-used">Technologies Used</a></li>
-     <li><a href="#future-plans">Future Plans</a></li>
-      <li><a href="#team-members">Team Members</a></li>
+    <li>
+      <a href="#uml">Kanban Board</a>
+    </li>
+    <li>
+      <a href="#unique-points">Unique points</a>
+    </li>
+    <li>
+      <a href="#technologies-used">Technologies Used</a>
+    </li>
+     <li>
+      <a href="#future-plans">Future Plans</a>
+     </li>
+     <li>
+      <a href="#team-members">Team Members</a>
+      </li>
   </ol>
 
 ## Project Structure
