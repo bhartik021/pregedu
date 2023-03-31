@@ -50,21 +50,32 @@ root
            |______typeform.css
      |_____js
            |______main.js
-           |______typeform.js
            |______report.js
+           |______typeform.js
      |_____json
            |______schemes.json
 |____LICENCE
 |____README.md
-|____Test.html
-|____community.html
+|____after-month.html
 |____contact.html
+|____eighth-month.html
 |____faq.html
+|____fifth-month.html
+|____first-month.html
+|____fourth-month.html
 |____index.html
 |____jorney.html
-|____LICENCE
-|____README.md
+|____ninth-month.html
+|____package-lock.json
+|____package.json
+|____report.html
+|____schemes.html
+|____second-month.html
+|____seventh-month.html
+|____sixth-month.html
 |____start.html
+|____test.html
+|____third-month.html
 
  ```                               
 
