@@ -110,7 +110,7 @@ PregEdu provides a range of features to help expecting mothers throughout their 
 * Mothers interested in environmentally friendly practices during pregnancy
 * Mothers who lack reliable healthcare resources
 
-### UML
+## UML
 
 #### Activity Diagram
 ![activity diagram](https://user-images.githubusercontent.com/87236107/228335680-5c7c924a-61d6-4b18-a60c-a921157744bd.png)
@@ -126,6 +126,9 @@ PregEdu provides a range of features to help expecting mothers throughout their 
 
 <img width="1626" alt="ER" src="https://user-images.githubusercontent.com/87236107/228339665-8022f971-1cd5-4617-b8c7-9efed9a529c3.png">
 
+## Kanban Board
+![PregEdu Kanban Tool - Bhartik021 - Kanban Tool-2023-03-31-T1142](https://user-images.githubusercontent.com/75694208/229111387-2135f0b8-7e6a-4d64-95cd-55d1e82b3338.png)
+
 
 ## Unique points
 
@@ -139,7 +142,7 @@ PregEdu provides a range of features to help expecting mothers throughout their 
 
 ***Awarness about benefits:*** PregEdu's schemes feature spreads awareness about the benefits available to pregnant women worldwide, helping them access the support they need for a healthy pregnancy and childbirth.
 
-### Technologies Used
+## Technologies Used
 
 * **Frontend** - HTML, CSS, JavaScript, JQuery
 * **Backend** - Python, Django, Json
@@ -161,4 +164,4 @@ PregEdu provides a range of features to help expecting mothers throughout their 
 ## Team members
 1. [Bharti Kumari](https://github.com/bhartik021)
 2. [Diya Vijay](https://github.com/DiyaVj)
-3. [Shubhanshu Sharma](https://github.com/Shubhanshu1566)
+3. [Shubhanshu Sharma](https://github.com/Shubhanshu156)
